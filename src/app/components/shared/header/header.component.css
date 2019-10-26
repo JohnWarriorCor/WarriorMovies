@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+header .logos .figure {
+    float: center;
+}
+
+header{
+    /* Enable flex mode. */
+    display: flex; 
+    
+    /* Spread out the elements inside the header. */
+    justify-content: space-between;
+
+    /* Align items vertically in the center. */
+    align-items: center;
+    background-color: #8F141B;
+}

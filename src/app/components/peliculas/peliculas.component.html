@@ -1,0 +1,26 @@
+<div class="container letra">
+  <h1 class="animated fadeIn color-personal slide-in-bck-center">{{ pelicula.titulo}}<small> ({{ pelicula.fecha|date:'y' }})</small></h1>
+  <hr style="border: solid 0.2px white;">
+  <div class="row animated fadeIn fast">
+      <div class="col-md-4">
+          <img [src]="pelicula.img" class="img-fluid swing-in-top-fwd" [alt]="pelicula.titulo">
+          <br>
+      </div>
+      <div class="col-md-8">
+          <h3 class="color-personal slide-in-bck-center">{{ pelicula.titulo }}</h3>
+          <hr style="border: solid 0.2px white;">
+          <p class="color-personal text-justify slide-in-bck-center">
+              {{pelicula.sinopsis}}
+          </p>
+          <div class="text-center slide-in-elliptic-top-fwd ">
+            <iframe [src]="pelicula.drive  | domseguro: 'https://drive.google.com/file/d/'" width="100%" height="350"></iframe>
+          </div>
+      </div>
+  </div>
+  <div class="container bounce-in-top" style="margin-top: 50px;">
+    <div class="row text-center justify-content-center" style="margin: 20px;">
+      <button [routerLink]="['/home']" class="btn btn-danger btn-block color-personal" style="width: 50%;">Regresar</button>
+    </div>
+  </div>
+</div>
+<br>
