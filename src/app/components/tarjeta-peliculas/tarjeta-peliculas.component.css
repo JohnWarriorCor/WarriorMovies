@@ -1,0 +1,9 @@
+.my-custom-class .tooltip-inner {
+    background-color: orangered;
+    color: white;
+    text-transform: uppercase;
+    font-size: 125%;
+}
+.my-custom-class .arrow::before {
+    border-top-color: rgb(247, 16, 0);
+}

@@ -257,3 +257,6 @@
             animation-timing-function: ease-out;
   }
 }
+hr{
+        border: solid 0.8px  white;
+}
