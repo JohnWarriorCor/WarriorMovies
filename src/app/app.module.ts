@@ -10,6 +10,7 @@ import { HeaderComponent } from './components/shared/header/header.component';
 import { PeliculasComponent } from './components/peliculas/peliculas.component';
 import { TarjetaPeliculasComponent } from './components/tarjeta-peliculas/tarjeta-peliculas.component';
 import { DomseguroPipe } from './pipes/domseguro.pipe';
+import { NavbarComponent } from './components/shared/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { DomseguroPipe } from './pipes/domseguro.pipe';
     HeaderComponent,
     PeliculasComponent,
     TarjetaPeliculasComponent,
-    DomseguroPipe
+    DomseguroPipe,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
