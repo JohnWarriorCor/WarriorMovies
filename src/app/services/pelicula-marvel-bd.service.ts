@@ -19,83 +19,6 @@ export class PeliculaMarvelBdService {
     },
     {
       idx : 1,
-      titulo: 'thor 2',
-      short: 'thor 2',
-      // tslint:disable-next-line:max-line-length
-      sinopsis: 'Holt fue una vez una estrella de circo, pero se fue a la guerra y cuando regresó, lo había alterado terriblemente. El dueño del circo Max Medici (Danny DeVito) lo contrata para cuidar a Dumbo, un elefante recién nacido cuyas orejas de gran tamaño lo convierten en el hazmerreír de la luchadora compañía de circo. Pero cuando los niños de Holt descubren que Dumbo puede volar, el empresario de lengua plateada VA Vandevere (Michael Keaton) y la artista aérea Colette Marchant (Eva Green) se precipitan para convertir al pequeño elefante en una estrella.',
-      img: 'assets/dumbo.jpg',
-      fecha: '2019-03-29',
-      trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
-      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
-    },
-    {
-      idx : 2,
-      titulo: 'black panther',
-      short: 'black panther',
-      // tslint:disable-next-line:max-line-length
-      sinopsis: 'Holt fue una vez una estrella de circo, pero se fue a la guerra y cuando regresó, lo había alterado terriblemente. El dueño del circo Max Medici (Danny DeVito) lo contrata para cuidar a Dumbo, un elefante recién nacido cuyas orejas de gran tamaño lo convierten en el hazmerreír de la luchadora compañía de circo. Pero cuando los niños de Holt descubren que Dumbo puede volar, el empresario de lengua plateada VA Vandevere (Michael Keaton) y la artista aérea Colette Marchant (Eva Green) se precipitan para convertir al pequeño elefante en una estrella.',
-      img: 'assets/dumbo.jpg',
-      fecha: '2019-03-29',
-      trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
-      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
-    },
-    {
-      idx : 3,
-      titulo: 'iron man 2',
-      short: 'iron man 2',
-      // tslint:disable-next-line:max-line-length
-      sinopsis: 'La historia comienza cuando el detective Harry Goodman desaparece misteriosamente, lo que lleva a su hijo Tim de 21 años a averiguar qué sucedió. Ayudando en la investigación está el antiguo compañero Pokémon de Harry, el Detective Pikachu: un súper detective adorable, hilarante y sabio que es un misterio incluso para sí mismo. Al descubrir que están equipados de manera única para comunicarse entre sí, Tim y Pikachu unen fuerzas en una emocionante aventura para desentrañar el misterio enredado. Persiguiendo pistas por las calles iluminadas con neón de Ryme City, una metrópolis moderna y extensa donde los humanos y los Pokémon viven codo con codo en un mundo hiperrealista de acción en vivo, se encuentran con un elenco diverso de personajes Pokémon y descubren un impactante trama que podría destruir esta coexistencia pacífica y amenazar a todo el universo Pokémon.',
-      img: 'assets/pik.jpg',
-      fecha: '2019-04-10',
-      trailer: '1Tyo-q0exy6iRmwF3uAq9ZPnG_YApEYwq/preview',
-      drive: '1awgJctSr_9EhrHHqrl7Rx7HS6DefR3Yy/preview'
-    },
-    {
-      idx : 4,
-      titulo: 'thor 1',
-      short: 'thor 1',
-      // tslint:disable-next-line:max-line-length
-      sinopsis: 'Woody, Buzz Lightyear y el resto de la pandilla se embarcan en un viaje por carretera con Bonnie y un nuevo juguete llamado Forky. El viaje aventurero se convierte en una reunión inesperada cuando el pequeño desvío de Woody lo lleva a su amigo Bo Peep, perdido hace mucho tiempo. Mientras Woody y Bo discuten los viejos tiempos, pronto comienzan a darse cuenta de que están separados por dos mundos cuando se trata de lo que quieren de la vida como un juguete.',
-      img: 'assets/toy4.jpg',
-      fecha: '2019-06-21',
-      trailer: '1pOAUEYx3QG3bdrRvgSwjDzml9Gc72JYc/preview',
-      drive: '1FdkIicO8Sp8kFkH0sqZN1R2rYjNqxx_d/preview'
-    },
-    {
-      idx : 5,
-      titulo: 'los vengadores 1',
-      short: 'los vengadores',
-      // tslint:disable-next-line:max-line-length
-      sinopsis: 'Holt fue una vez una estrella de circo, pero se fue a la guerra y cuando regresó, lo había alterado terriblemente. El dueño del circo Max Medici (Danny DeVito) lo contrata para cuidar a Dumbo, un elefante recién nacido cuyas orejas de gran tamaño lo convierten en el hazmerreír de la luchadora compañía de circo. Pero cuando los niños de Holt descubren que Dumbo puede volar, el empresario de lengua plateada VA Vandevere (Michael Keaton) y la artista aérea Colette Marchant (Eva Green) se precipitan para convertir al pequeño elefante en una estrella.',
-      img: 'assets/dumbo.jpg',
-      fecha: '2019-03-29',
-      trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
-      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
-    },
-    {
-      idx : 6,
-      titulo: 'iron man 3',
-      short: 'iron man 3',
-      // tslint:disable-next-line:max-line-length
-      sinopsis: 'Holt fue una vez una estrella de circo, pero se fue a la guerra y cuando regresó, lo había alterado terriblemente. El dueño del circo Max Medici (Danny DeVito) lo contrata para cuidar a Dumbo, un elefante recién nacido cuyas orejas de gran tamaño lo convierten en el hazmerreír de la luchadora compañía de circo. Pero cuando los niños de Holt descubren que Dumbo puede volar, el empresario de lengua plateada VA Vandevere (Michael Keaton) y la artista aérea Colette Marchant (Eva Green) se precipitan para convertir al pequeño elefante en una estrella.',
-      img: 'assets/dumbo.jpg',
-      fecha: '2019-03-29',
-      trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
-      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
-    },
-    {
-      idx : 7,
-      titulo: 'capitan américa 2',
-      short: 'capitan américa y el soldado del invierno',
-      // tslint:disable-next-line:max-line-length
-      sinopsis: 'Holt fue una vez una estrella de circo, pero se fue a la guerra y cuando regresó, lo había alterado terriblemente. El dueño del circo Max Medici (Danny DeVito) lo contrata para cuidar a Dumbo, un elefante recién nacido cuyas orejas de gran tamaño lo convierten en el hazmerreír de la luchadora compañía de circo. Pero cuando los niños de Holt descubren que Dumbo puede volar, el empresario de lengua plateada VA Vandevere (Michael Keaton) y la artista aérea Colette Marchant (Eva Green) se precipitan para convertir al pequeño elefante en una estrella.',
-      img: 'assets/dumbo.jpg',
-      fecha: '2019-03-29',
-      trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
-      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
-    },
-    {
-      idx : 8,
       titulo: 'Iron man',
       short: 'iron man',
       // tslint:disable-next-line:max-line-length
@@ -106,73 +29,7 @@ export class PeliculaMarvelBdService {
       drive: '1zV_Eiv1otSiDIrur9uuRGJSdhUEwfIca/preview'
     },
     {
-      idx : 9,
-      titulo: 'guardianes de la galaxia',
-      short: 'guardianes de la galaxia',
-      // tslint:disable-next-line:max-line-length
-      sinopsis: 'Holt fue una vez una estrella de circo, pero se fue a la guerra y cuando regresó, lo había alterado terriblemente. El dueño del circo Max Medici (Danny DeVito) lo contrata para cuidar a Dumbo, un elefante recién nacido cuyas orejas de gran tamaño lo convierten en el hazmerreír de la luchadora compañía de circo. Pero cuando los niños de Holt descubren que Dumbo puede volar, el empresario de lengua plateada VA Vandevere (Michael Keaton) y la artista aérea Colette Marchant (Eva Green) se precipitan para convertir al pequeño elefante en una estrella.',
-      img: 'assets/dumbo.jpg',
-      fecha: '2019-03-29',
-      trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
-      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
-    },
-    {
-      idx : 10,
-      titulo: 'los vengadores 2',
-      short: 'los vengadores la era de ultron',
-      // tslint:disable-next-line:max-line-length
-      sinopsis: 'Holt fue una vez una estrella de circo, pero se fue a la guerra y cuando regresó, lo había alterado terriblemente. El dueño del circo Max Medici (Danny DeVito) lo contrata para cuidar a Dumbo, un elefante recién nacido cuyas orejas de gran tamaño lo convierten en el hazmerreír de la luchadora compañía de circo. Pero cuando los niños de Holt descubren que Dumbo puede volar, el empresario de lengua plateada VA Vandevere (Michael Keaton) y la artista aérea Colette Marchant (Eva Green) se precipitan para convertir al pequeño elefante en una estrella.',
-      img: 'assets/dumbo.jpg',
-      fecha: '2019-03-29',
-      trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
-      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
-    },
-    {
-      idx : 11,
-      titulo: 'ant-man',
-      short: 'ant-man',
-      // tslint:disable-next-line:max-line-length
-      sinopsis: 'Holt fue una vez una estrella de circo, pero se fue a la guerra y cuando regresó, lo había alterado terriblemente. El dueño del circo Max Medici (Danny DeVito) lo contrata para cuidar a Dumbo, un elefante recién nacido cuyas orejas de gran tamaño lo convierten en el hazmerreír de la luchadora compañía de circo. Pero cuando los niños de Holt descubren que Dumbo puede volar, el empresario de lengua plateada VA Vandevere (Michael Keaton) y la artista aérea Colette Marchant (Eva Green) se precipitan para convertir al pequeño elefante en una estrella.',
-      img: 'assets/dumbo.jpg',
-      fecha: '2019-03-29',
-      trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
-      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
-    },
-    {
-      idx : 12,
-      titulo: 'capitan américa 3',
-      short: 'capitan américa civil war',
-      // tslint:disable-next-line:max-line-length
-      sinopsis: 'Holt fue una vez una estrella de circo, pero se fue a la guerra y cuando regresó, lo había alterado terriblemente. El dueño del circo Max Medici (Danny DeVito) lo contrata para cuidar a Dumbo, un elefante recién nacido cuyas orejas de gran tamaño lo convierten en el hazmerreír de la luchadora compañía de circo. Pero cuando los niños de Holt descubren que Dumbo puede volar, el empresario de lengua plateada VA Vandevere (Michael Keaton) y la artista aérea Colette Marchant (Eva Green) se precipitan para convertir al pequeño elefante en una estrella.',
-      img: 'assets/dumbo.jpg',
-      fecha: '2019-03-29',
-      trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
-      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
-    },
-    {
-      idx : 13,
-      titulo: 'spiderman 1',
-      short: 'spiderman home comming',
-      // tslint:disable-next-line:max-line-length
-      sinopsis: 'Holt fue una vez una estrella de circo, pero se fue a la guerra y cuando regresó, lo había alterado terriblemente. El dueño del circo Max Medici (Danny DeVito) lo contrata para cuidar a Dumbo, un elefante recién nacido cuyas orejas de gran tamaño lo convierten en el hazmerreír de la luchadora compañía de circo. Pero cuando los niños de Holt descubren que Dumbo puede volar, el empresario de lengua plateada VA Vandevere (Michael Keaton) y la artista aérea Colette Marchant (Eva Green) se precipitan para convertir al pequeño elefante en una estrella.',
-      img: 'assets/dumbo.jpg',
-      fecha: '2019-03-29',
-      trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
-      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
-    },
-    {
-      idx : 14,
-      titulo: 'doctor strange',
-      short: 'doctor strange',
-      // tslint:disable-next-line:max-line-length
-      sinopsis: 'Holt fue una vez una estrella de circo, pero se fue a la guerra y cuando regresó, lo había alterado terriblemente. El dueño del circo Max Medici (Danny DeVito) lo contrata para cuidar a Dumbo, un elefante recién nacido cuyas orejas de gran tamaño lo convierten en el hazmerreír de la luchadora compañía de circo. Pero cuando los niños de Holt descubren que Dumbo puede volar, el empresario de lengua plateada VA Vandevere (Michael Keaton) y la artista aérea Colette Marchant (Eva Green) se precipitan para convertir al pequeño elefante en una estrella.',
-      img: 'assets/dumbo.jpg',
-      fecha: '2019-03-29',
-      trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
-      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
-    },
-    {
-      idx : 15,
+      idx : 2,
       titulo: 'hulk',
       short: 'El increíble Hulk',
       // tslint:disable-next-line:max-line-length
@@ -183,12 +40,155 @@ export class PeliculaMarvelBdService {
       drive: '1NjP63VFuMrvt1L4TNfqxByAlJkWCcrzD/preview'
     },
     {
+      idx : 3,
+      titulo: 'iron man 2',
+      short: 'iron man 2',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'La historia comienza cuando el detective Harry Goodman desaparece misteriosamente, lo que lleva a su hijo Tim de 21 años a averiguar qué sucedió. Ayudando en la investigación está el antiguo compañero Pokémon de Harry, el Detective Pikachu: un súper detective adorable, hilarante y sabio que es un misterio incluso para sí mismo. Al descubrir que están equipados de manera única para comunicarse entre sí, Tim y Pikachu unen fuerzas en una emocionante aventura para desentrañar el misterio enredado. Persiguiendo pistas por las calles iluminadas con neón de Ryme City, una metrópolis moderna y extensa donde los humanos y los Pokémon viven codo con codo en un mundo hiperrealista de acción en vivo, se encuentran con un elenco diverso de personajes Pokémon y descubren un impactante trama que podría destruir esta coexistencia pacífica y amenazar a todo el universo Pokémon.',
+      img: 'assets/marvel4.jpg',
+      fecha: '2019-04-10',
+      trailer: '1Tyo-q0exy6iRmwF3uAq9ZPnG_YApEYwq/preview',
+      drive: '1G42nyFMT0iAmUJh2mGLwIkPlMyVXJNv9/preview'
+    },
+    {
+      idx : 4,
+      titulo: 'thor 1',
+      short: 'thor 1',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Woody, Buzz Lightyear y el resto de la pandilla se embarcan en un viaje por carretera con Bonnie y un nuevo juguete llamado Forky. El viaje aventurero se convierte en una reunión inesperada cuando el pequeño desvío de Woody lo lleva a su amigo Bo Peep, perdido hace mucho tiempo. Mientras Woody y Bo discuten los viejos tiempos, pronto comienzan a darse cuenta de que están separados por dos mundos cuando se trata de lo que quieren de la vida como un juguete.',
+      img: 'assets/marvel5.jpg',
+      fecha: '2019-06-21',
+      trailer: '1pOAUEYx3QG3bdrRvgSwjDzml9Gc72JYc/preview',
+      drive: '19f1BqlNMe186Hb5CnbkZYZ8KLaRNMMMv/preview'
+    },
+    {
+      idx : 5,
+      titulo: 'los vengadores 1',
+      short: 'los vengadores',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Holt fue una vez una estrella de circo, pero se fue a la guerra y cuando regresó, lo había alterado terriblemente. El dueño del circo Max Medici (Danny DeVito) lo contrata para cuidar a Dumbo, un elefante recién nacido cuyas orejas de gran tamaño lo convierten en el hazmerreír de la luchadora compañía de circo. Pero cuando los niños de Holt descubren que Dumbo puede volar, el empresario de lengua plateada VA Vandevere (Michael Keaton) y la artista aérea Colette Marchant (Eva Green) se precipitan para convertir al pequeño elefante en una estrella.',
+      img: 'assets/marvel6.jpg',
+      fecha: '2019-03-29',
+      trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
+      drive: '1kxQOm61s5fHV7nPdXi9DKbHLGG-XENWm/preview'
+    },
+    {
+      idx : 6,
+      titulo: 'iron man 3',
+      short: 'iron man 3',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Holt fue una vez una estrella de circo, pero se fue a la guerra y cuando regresó, lo había alterado terriblemente. El dueño del circo Max Medici (Danny DeVito) lo contrata para cuidar a Dumbo, un elefante recién nacido cuyas orejas de gran tamaño lo convierten en el hazmerreír de la luchadora compañía de circo. Pero cuando los niños de Holt descubren que Dumbo puede volar, el empresario de lengua plateada VA Vandevere (Michael Keaton) y la artista aérea Colette Marchant (Eva Green) se precipitan para convertir al pequeño elefante en una estrella.',
+      img: 'assets/marvel7.jpg',
+      fecha: '2019-03-29',
+      trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
+      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
+    },
+    {
+      idx : 7,
+      titulo: 'thor 2',
+      short: 'thor 2',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Holt fue una vez una estrella de circo, pero se fue a la guerra y cuando regresó, lo había alterado terriblemente. El dueño del circo Max Medici (Danny DeVito) lo contrata para cuidar a Dumbo, un elefante recién nacido cuyas orejas de gran tamaño lo convierten en el hazmerreír de la luchadora compañía de circo. Pero cuando los niños de Holt descubren que Dumbo puede volar, el empresario de lengua plateada VA Vandevere (Michael Keaton) y la artista aérea Colette Marchant (Eva Green) se precipitan para convertir al pequeño elefante en una estrella.',
+      img: 'assets/marvel8.jpg',
+      fecha: '2019-03-29',
+      trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
+      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
+    },
+    {
+      idx : 8,
+      titulo: 'capitan américa 2',
+      short: 'capitan américa y el soldado del invierno',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Holt fue una vez una estrella de circo, pero se fue a la guerra y cuando regresó, lo había alterado terriblemente. El dueño del circo Max Medici (Danny DeVito) lo contrata para cuidar a Dumbo, un elefante recién nacido cuyas orejas de gran tamaño lo convierten en el hazmerreír de la luchadora compañía de circo. Pero cuando los niños de Holt descubren que Dumbo puede volar, el empresario de lengua plateada VA Vandevere (Michael Keaton) y la artista aérea Colette Marchant (Eva Green) se precipitan para convertir al pequeño elefante en una estrella.',
+      img: 'assets/marvel9.jpg',
+      fecha: '2019-03-29',
+      trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
+      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
+    },
+    {
+      idx : 9,
+      titulo: 'gdg vol1',
+      short: 'guardianes de la galaxia',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Holt fue una vez una estrella de circo, pero se fue a la guerra y cuando regresó, lo había alterado terriblemente. El dueño del circo Max Medici (Danny DeVito) lo contrata para cuidar a Dumbo, un elefante recién nacido cuyas orejas de gran tamaño lo convierten en el hazmerreír de la luchadora compañía de circo. Pero cuando los niños de Holt descubren que Dumbo puede volar, el empresario de lengua plateada VA Vandevere (Michael Keaton) y la artista aérea Colette Marchant (Eva Green) se precipitan para convertir al pequeño elefante en una estrella.',
+      img: 'assets/marvel10.jpg',
+      fecha: '2019-03-29',
+      trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
+      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
+    },
+    {
+      idx : 10,
+      titulo: 'los vengadores 2',
+      short: 'los vengadores la era de ultron',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Holt fue una vez una estrella de circo, pero se fue a la guerra y cuando regresó, lo había alterado terriblemente. El dueño del circo Max Medici (Danny DeVito) lo contrata para cuidar a Dumbo, un elefante recién nacido cuyas orejas de gran tamaño lo convierten en el hazmerreír de la luchadora compañía de circo. Pero cuando los niños de Holt descubren que Dumbo puede volar, el empresario de lengua plateada VA Vandevere (Michael Keaton) y la artista aérea Colette Marchant (Eva Green) se precipitan para convertir al pequeño elefante en una estrella.',
+      img: 'assets/marvel11.jpg',
+      fecha: '2019-03-29',
+      trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
+      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
+    },
+    {
+      idx : 11,
+      titulo: 'ant-man',
+      short: 'ant-man',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Holt fue una vez una estrella de circo, pero se fue a la guerra y cuando regresó, lo había alterado terriblemente. El dueño del circo Max Medici (Danny DeVito) lo contrata para cuidar a Dumbo, un elefante recién nacido cuyas orejas de gran tamaño lo convierten en el hazmerreír de la luchadora compañía de circo. Pero cuando los niños de Holt descubren que Dumbo puede volar, el empresario de lengua plateada VA Vandevere (Michael Keaton) y la artista aérea Colette Marchant (Eva Green) se precipitan para convertir al pequeño elefante en una estrella.',
+      img: 'assets/marvel12.jpg',
+      fecha: '2019-03-29',
+      trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
+      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
+    },
+    {
+      idx : 12,
+      titulo: 'capitan américa 3',
+      short: 'capitan américa civil war',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Holt fue una vez una estrella de circo, pero se fue a la guerra y cuando regresó, lo había alterado terriblemente. El dueño del circo Max Medici (Danny DeVito) lo contrata para cuidar a Dumbo, un elefante recién nacido cuyas orejas de gran tamaño lo convierten en el hazmerreír de la luchadora compañía de circo. Pero cuando los niños de Holt descubren que Dumbo puede volar, el empresario de lengua plateada VA Vandevere (Michael Keaton) y la artista aérea Colette Marchant (Eva Green) se precipitan para convertir al pequeño elefante en una estrella.',
+      img: 'assets/marvel13.jpg',
+      fecha: '2019-03-29',
+      trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
+      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
+    },
+    {
+      idx : 13,
+      titulo: 'spiderman 1',
+      short: 'spiderman home comming',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Holt fue una vez una estrella de circo, pero se fue a la guerra y cuando regresó, lo había alterado terriblemente. El dueño del circo Max Medici (Danny DeVito) lo contrata para cuidar a Dumbo, un elefante recién nacido cuyas orejas de gran tamaño lo convierten en el hazmerreír de la luchadora compañía de circo. Pero cuando los niños de Holt descubren que Dumbo puede volar, el empresario de lengua plateada VA Vandevere (Michael Keaton) y la artista aérea Colette Marchant (Eva Green) se precipitan para convertir al pequeño elefante en una estrella.',
+      img: 'assets/marvel14.jpg',
+      fecha: '2019-03-29',
+      trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
+      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
+    },
+    {
+      idx : 14,
+      titulo: 'black panther',
+      short: 'black panther',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Holt fue una vez una estrella de circo, pero se fue a la guerra y cuando regresó, lo había alterado terriblemente. El dueño del circo Max Medici (Danny DeVito) lo contrata para cuidar a Dumbo, un elefante recién nacido cuyas orejas de gran tamaño lo convierten en el hazmerreír de la luchadora compañía de circo. Pero cuando los niños de Holt descubren que Dumbo puede volar, el empresario de lengua plateada VA Vandevere (Michael Keaton) y la artista aérea Colette Marchant (Eva Green) se precipitan para convertir al pequeño elefante en una estrella.',
+      img: 'assets/marvel15.jpg',
+      fecha: '2019-03-29',
+      trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
+      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
+    },
+    {
+      idx : 15,
+      titulo: 'doctor strange',
+      short: 'doctor strange',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Holt fue una vez una estrella de circo, pero se fue a la guerra y cuando regresó, lo había alterado terriblemente. El dueño del circo Max Medici (Danny DeVito) lo contrata para cuidar a Dumbo, un elefante recién nacido cuyas orejas de gran tamaño lo convierten en el hazmerreír de la luchadora compañía de circo. Pero cuando los niños de Holt descubren que Dumbo puede volar, el empresario de lengua plateada VA Vandevere (Michael Keaton) y la artista aérea Colette Marchant (Eva Green) se precipitan para convertir al pequeño elefante en una estrella.',
+      img: 'assets/marvel16.jpg',
+      fecha: '2019-03-29',
+      trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
+      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
+    },
+    {
       idx : 16,
-      titulo: 'guardianes de la galaxia vol2',
+      titulo: 'gdg vol2',
       short: 'guardianes de la galaxia vol2',
       // tslint:disable-next-line:max-line-length
       sinopsis: 'Holt fue una vez una estrella de circo, pero se fue a la guerra y cuando regresó, lo había alterado terriblemente. El dueño del circo Max Medici (Danny DeVito) lo contrata para cuidar a Dumbo, un elefante recién nacido cuyas orejas de gran tamaño lo convierten en el hazmerreír de la luchadora compañía de circo. Pero cuando los niños de Holt descubren que Dumbo puede volar, el empresario de lengua plateada VA Vandevere (Michael Keaton) y la artista aérea Colette Marchant (Eva Green) se precipitan para convertir al pequeño elefante en una estrella.',
-      img: 'assets/dumbo.jpg',
+      img: 'assets/marvel17.jpg',
       fecha: '2019-03-29',
       trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
       drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
@@ -199,7 +199,7 @@ export class PeliculaMarvelBdService {
       short: 'thor un mundo oscuro',
       // tslint:disable-next-line:max-line-length
       sinopsis: 'Holt fue una vez una estrella de circo, pero se fue a la guerra y cuando regresó, lo había alterado terriblemente. El dueño del circo Max Medici (Danny DeVito) lo contrata para cuidar a Dumbo, un elefante recién nacido cuyas orejas de gran tamaño lo convierten en el hazmerreír de la luchadora compañía de circo. Pero cuando los niños de Holt descubren que Dumbo puede volar, el empresario de lengua plateada VA Vandevere (Michael Keaton) y la artista aérea Colette Marchant (Eva Green) se precipitan para convertir al pequeño elefante en una estrella.',
-      img: 'assets/dumbo.jpg',
+      img: 'assets/marvel18.jpg',
       fecha: '2019-03-29',
       trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
       drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
@@ -210,7 +210,7 @@ export class PeliculaMarvelBdService {
       short: 'ant-man and the wasp',
       // tslint:disable-next-line:max-line-length
       sinopsis: 'Holt fue una vez una estrella de circo, pero se fue a la guerra y cuando regresó, lo había alterado terriblemente. El dueño del circo Max Medici (Danny DeVito) lo contrata para cuidar a Dumbo, un elefante recién nacido cuyas orejas de gran tamaño lo convierten en el hazmerreír de la luchadora compañía de circo. Pero cuando los niños de Holt descubren que Dumbo puede volar, el empresario de lengua plateada VA Vandevere (Michael Keaton) y la artista aérea Colette Marchant (Eva Green) se precipitan para convertir al pequeño elefante en una estrella.',
-      img: 'assets/dumbo.jpg',
+      img: 'assets/marvel19.jpg',
       fecha: '2019-03-29',
       trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
       drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
@@ -221,29 +221,29 @@ export class PeliculaMarvelBdService {
       short: 'avengers infinity war',
       // tslint:disable-next-line:max-line-length
       sinopsis: 'Holt fue una vez una estrella de circo, pero se fue a la guerra y cuando regresó, lo había alterado terriblemente. El dueño del circo Max Medici (Danny DeVito) lo contrata para cuidar a Dumbo, un elefante recién nacido cuyas orejas de gran tamaño lo convierten en el hazmerreír de la luchadora compañía de circo. Pero cuando los niños de Holt descubren que Dumbo puede volar, el empresario de lengua plateada VA Vandevere (Michael Keaton) y la artista aérea Colette Marchant (Eva Green) se precipitan para convertir al pequeño elefante en una estrella.',
-      img: 'assets/dumbo.jpg',
-      fecha: '2019-03-29',
-      trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
-      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
-    },
-    {
-      idx : 19,
-      titulo: 'capitana marvel',
-      short: 'capitana marvel',
-      // tslint:disable-next-line:max-line-length
-      sinopsis: 'Holt fue una vez una estrella de circo, pero se fue a la guerra y cuando regresó, lo había alterado terriblemente. El dueño del circo Max Medici (Danny DeVito) lo contrata para cuidar a Dumbo, un elefante recién nacido cuyas orejas de gran tamaño lo convierten en el hazmerreír de la luchadora compañía de circo. Pero cuando los niños de Holt descubren que Dumbo puede volar, el empresario de lengua plateada VA Vandevere (Michael Keaton) y la artista aérea Colette Marchant (Eva Green) se precipitan para convertir al pequeño elefante en una estrella.',
-      img: 'assets/dumbo.jpg',
+      img: 'assets/marvel20.jpg',
       fecha: '2019-03-29',
       trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
       drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
     },
     {
       idx : 20,
+      titulo: 'capitana marvel',
+      short: 'capitana marvel',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Holt fue una vez una estrella de circo, pero se fue a la guerra y cuando regresó, lo había alterado terriblemente. El dueño del circo Max Medici (Danny DeVito) lo contrata para cuidar a Dumbo, un elefante recién nacido cuyas orejas de gran tamaño lo convierten en el hazmerreír de la luchadora compañía de circo. Pero cuando los niños de Holt descubren que Dumbo puede volar, el empresario de lengua plateada VA Vandevere (Michael Keaton) y la artista aérea Colette Marchant (Eva Green) se precipitan para convertir al pequeño elefante en una estrella.',
+      img: 'assets/marvel21.jpg',
+      fecha: '2019-03-29',
+      trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
+      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
+    },
+    {
+      idx : 21,
       titulo: 'avengers end game',
       short: 'avengers end game',
       // tslint:disable-next-line:max-line-length
       sinopsis: 'Holt fue una vez una estrella de circo, pero se fue a la guerra y cuando regresó, lo había alterado terriblemente. El dueño del circo Max Medici (Danny DeVito) lo contrata para cuidar a Dumbo, un elefante recién nacido cuyas orejas de gran tamaño lo convierten en el hazmerreír de la luchadora compañía de circo. Pero cuando los niños de Holt descubren que Dumbo puede volar, el empresario de lengua plateada VA Vandevere (Michael Keaton) y la artista aérea Colette Marchant (Eva Green) se precipitan para convertir al pequeño elefante en una estrella.',
-      img: 'assets/dumbo.jpg',
+      img: 'assets/marvel22.jpg',
       fecha: '2019-03-29',
       trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
       drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'

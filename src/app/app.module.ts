@@ -14,6 +14,7 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { MarvelTarjetaComponent } from './components/tarjeta-peliculas/marvel-tarjeta.component';
 import { MarvelHomeComponent } from './components/home/marvel-home.component';
 import { MarvelComponent } from './components/peliculas/marvel.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { MarvelComponent } from './components/peliculas/marvel.component';
     BrowserModule,
     AppRoutes,
     NgbModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
