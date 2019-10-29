@@ -4,13 +4,16 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { AppRoutes } from './app.routes';
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { HeaderComponent } from './components/shared/header/header.component';
 import { PeliculasComponent } from './components/peliculas/peliculas.component';
 import { TarjetaPeliculasComponent } from './components/tarjeta-peliculas/tarjeta-peliculas.component';
 import { DomseguroPipe } from './pipes/domseguro.pipe';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
+import { MarvelTarjetaComponent } from './components/tarjeta-peliculas/marvel-tarjeta.component';
+import { MarvelHomeComponent } from './components/home/marvel-home.component';
+import { MarvelComponent } from './components/peliculas/marvel.component';
 
 @NgModule({
   declarations: [
@@ -21,12 +24,15 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
     PeliculasComponent,
     TarjetaPeliculasComponent,
     DomseguroPipe,
-    NavbarComponent
+    NavbarComponent,
+    MarvelTarjetaComponent,
+    MarvelHomeComponent,
+    MarvelComponent
   ],
   imports: [
     BrowserModule,
     AppRoutes,
-    NgbModule
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
