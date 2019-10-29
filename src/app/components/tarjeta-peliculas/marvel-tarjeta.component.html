@@ -5,8 +5,19 @@
     <h4 class="card-title text-uppercase" style="color: orangered;" tooltipClass="my-custom-class" ngbTooltip={{pelicula.short}}>{{ pelicula.titulo }}</h4>
     <h5 class="card-text text-uppercase" style="color: yellow;"><i class="far fa-calendar-alt"></i> {{ pelicula.fecha }}</h5>
     <hr style="border: solid 0.8px white;">
+    <ng-template #content let-modal>
+      <div class="modal-header" style="background-color: #283747;">
+        <h4 class="modal-title">Trailer: {{ pelicula.titulo }}</h4>
+        <button class="botonTrailer" aria-label="Close" (click)="modal.dismiss('Cross click')">
+          <i class="far fa-times-circle"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <iframe width="100%" height="350px" [src]="pelicula.trailer | domseguro: 'https://drive.google.com/file/d/'" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+      </div>
+    </ng-template>
     <h6 style="color: white;" class="text-uppercase"><i class="fas fa-film"></i> Trailer</h6>
-    <iframe width="100%" height="100%" [src]="pelicula.trailer | domseguro: 'https://drive.google.com/file/d/'" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+    <button class="botonTrailer" style="outline: none;border: 0;" (click)="openLg(content)"><i class="fab fa-youtube fa-6x"></i></button>
     <hr style="border: solid 0.8px white;">
     <button (click)="verPelicula2()" type="button" class="btn btn-primary btn-block">
     <i class="fas fa-ticket-alt"></i> Ver pelíucla...

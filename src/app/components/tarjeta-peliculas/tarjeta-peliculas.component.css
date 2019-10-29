@@ -7,3 +7,18 @@
 .my-custom-class .arrow::before {
     border-top-color: rgb(247, 16, 0);
 }
+.botonTrailer{
+    background-color: black;
+    color: rgb(224, 224, 224);
+}
+.botonTrailer:hover{
+    background-color: black;
+    color: white;
+}
+.dark-modal .modal-content {
+    background-color: #292b2c;
+    color: white;
+}
+.dark-modal .close {
+    color: white;
+}
