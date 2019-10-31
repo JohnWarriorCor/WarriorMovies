@@ -19,4 +19,11 @@ export class HomeComponent implements OnInit {
   verPelicula( idx: number ) {
     this.router.navigate(['/pelicula', idx]);
   }
+  buscarPelicula( termino: string ) {
+    // console.log(termino);
+    this.router.navigate( ['/buscarHd', termino] );
+  }
+  up() {
+    window.scroll(0, 0);
+  }
 }

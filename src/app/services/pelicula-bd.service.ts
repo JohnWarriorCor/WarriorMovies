@@ -72,6 +72,28 @@ export class PeliculaBdService {
       trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
       drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
     },
+    {
+      idx : 6,
+      titulo: 'what man want',
+      short: '¿En qué piensan los hombres?',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Los agentes deportivos masculinos encerran a una mujer en su profesión, pero adquiere una ventaja inesperada sobre ellos cuando desarrolla la capacidad de escuchar los pensamientos de los hombres.',
+      img: 'assets/wmw.jpg',
+      fecha: '2019-02-08',
+      trailer: '1o85Oxf7e5acfCPXE_olivddE62IDMUOm/preview',
+      drive: '1z-FMwaa1jDGFE_U-9bcKd_LjGFpww3em/preview'
+    },
+    {
+      idx : 7,
+      titulo: 'A 2 metros de ti',
+      short: 'a dos metros de ti',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Stella, de diecisiete años, pasa la mayor parte de su tiempo en el hospital como paciente con fibrosis quística. Su vida está llena de rutinas, límites y autocontrol, todo lo cual se pone a prueba cuando conoce a Will, un adolescente increíblemente encantador que tiene la misma enfermedad. Hay un coqueteo instantáneo, a través de restricciones que dictan que deben mantener una distancia segura entre ellos. A medida que su conexión se intensifica, también lo hace la tentación de tirar las reglas por la ventana y abrazar esa atracción. El amor no tiene límites',
+      img: 'assets/2mt.jpg',
+      fecha: '2019-09-13',
+      trailer: '1quS6SSS9J8UIGM7KxkpJIW1FuJWQ8hwN/preview',
+      drive: '12GQtvFjGA50Nfw2KJKYLwFWudPgvLOdW/preview'
+    },
   ];
   getPeliculas(): Peliculas[] {
     return this.peliculas;
@@ -79,6 +101,24 @@ export class PeliculaBdService {
 
   getPelicula( idx: string ) {
     return this.peliculas[idx];
+  }
+  buscarPeliculas( termino: string ): Peliculas[] {
+
+    const peliculaArr: Peliculas[] = [];
+    termino = termino.toLowerCase();
+
+    for ( const pelicula of this.peliculas ) {
+
+      const titulo = pelicula.short.toLowerCase();
+
+      if ( titulo.indexOf( termino ) >= 0  ) {
+        peliculaArr.push( pelicula );
+      }
+
+    }
+
+    return peliculaArr;
+
   }
 }
 export interface Peliculas {

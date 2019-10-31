@@ -15,6 +15,12 @@ import { MarvelTarjetaComponent } from './components/tarjeta-peliculas/marvel-ta
 import { MarvelHomeComponent } from './components/home/marvel-home.component';
 import { MarvelComponent } from './components/peliculas/marvel.component';
 import { RouterModule } from '@angular/router';
+import { BuscadorComponent } from './components/buscador/buscador.component';
+import { DvdripHomeComponent } from './components/home/dvdrip-home.component';
+import { DvdripComponent } from './components/peliculas/dvdrip.component';
+import { TarjetaDvdripComponent } from './components/tarjeta-peliculas/tarjeta-dvdrip.component';
+import { BuscadorMarvelComponent } from './components/buscador/buscador-marvel.component';
+import { BuscadorDVDComponent } from './components/buscador/buscador-dvd.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +34,13 @@ import { RouterModule } from '@angular/router';
     NavbarComponent,
     MarvelTarjetaComponent,
     MarvelHomeComponent,
-    MarvelComponent
+    MarvelComponent,
+    BuscadorComponent,
+    DvdripHomeComponent,
+    DvdripComponent,
+    TarjetaDvdripComponent,
+    BuscadorMarvelComponent,
+    BuscadorDVDComponent
   ],
   imports: [
     BrowserModule,

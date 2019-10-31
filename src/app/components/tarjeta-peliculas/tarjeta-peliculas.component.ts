@@ -20,6 +20,6 @@ export class TarjetaPeliculasComponent {
     this.router.navigate(['/pelicula', this.index]);
   }
   openLg(content) {
-    this.modalService.open(content, { size: 'lg', windowClass: 'dark-modal' });
+    this.modalService.open(content, { size: 'lg', windowClass: 'dark-modal', centered: true });
   }
 }

@@ -3,12 +3,12 @@ import { Router } from '@angular/router';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
-  selector: 'app-marvel-tarjeta',
-  templateUrl: './marvel-tarjeta.component.html',
-  styleUrls: ['./marvel-tarjeta.component.css'],
+  selector: 'app-tarjeta-dvdrip',
+  templateUrl: './tarjeta-dvdrip.component.html',
+  styleUrls: ['./tarjeta-dvdrip.component.css'],
   encapsulation: ViewEncapsulation.None
 })
-export class MarvelTarjetaComponent {
+export class TarjetaDvdripComponent {
   closeResult: string;
   @Input() pelicula: any = {};
   @Input() index: number;
@@ -21,7 +21,7 @@ export class MarvelTarjetaComponent {
     this.modalService.open(content, { size: 'lg', windowClass: 'dark-modal', centered: true });
   }
   verPelicula() {
-    this.router.navigate(['/marvel', this.index]);
+    this.router.navigate(['/dvd', this.index]);
   }
 
 }

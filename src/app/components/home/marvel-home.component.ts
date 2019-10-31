@@ -24,5 +24,11 @@ export class MarvelHomeComponent implements OnInit {
   verPelicula( idx: number ) {
     this.router.navigate(['/peliculaMarvel', idx]);
   }
-
+  buscarPelicula( termino: string ) {
+    // console.log(termino);
+    this.router.navigate( ['/buscarMarvel', termino] );
+  }
+  up() {
+    window.scroll(0, 0);
+  }
 }

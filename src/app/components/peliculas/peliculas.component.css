@@ -260,3 +260,13 @@
 hr {
    border: solid 0.8px  white;
 }
+.irArriba{
+  display: inline-block;
+  padding: 20px;
+  background-color: #024959;
+  color: #fff;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}

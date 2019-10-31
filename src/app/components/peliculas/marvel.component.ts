@@ -16,5 +16,8 @@ export class MarvelComponent {
       this.pelicula = this.peliculaService.getPelicula(params.id);
     });
   }
+  up() {
+    window.scroll(0, 0);
+  }
 
 }

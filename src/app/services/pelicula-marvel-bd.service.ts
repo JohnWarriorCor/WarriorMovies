@@ -81,7 +81,7 @@ export class PeliculaMarvelBdService {
       img: 'assets/marvel7.jpg',
       fecha: '2019-03-29',
       trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
-      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
+      drive: '1YcCP2C3jkNSLFi2K6orTM7HSbpFAXGMQ/preview'
     },
     {
       idx : 7,
@@ -92,7 +92,7 @@ export class PeliculaMarvelBdService {
       img: 'assets/marvel8.jpg',
       fecha: '2019-03-29',
       trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
-      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
+      drive: '1_tMrmoGmu5mfvbemO16iybg9m4aqYdGG/preview'
     },
     {
       idx : 8,
@@ -103,7 +103,7 @@ export class PeliculaMarvelBdService {
       img: 'assets/marvel9.jpg',
       fecha: '2019-03-29',
       trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
-      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
+      drive: '1se-ua1jczOrLwzLNRWvRThlj-ogqS9YB/preview'
     },
     {
       idx : 9,
@@ -114,7 +114,7 @@ export class PeliculaMarvelBdService {
       img: 'assets/marvel10.jpg',
       fecha: '2019-03-29',
       trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
-      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
+      drive: '1zfPhTdTrNlshm8cXbrqI2Nc-oVPM9wdA/preview'
     },
     {
       idx : 10,
@@ -125,7 +125,7 @@ export class PeliculaMarvelBdService {
       img: 'assets/marvel11.jpg',
       fecha: '2019-03-29',
       trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
-      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
+      drive: '19VjBHK9l7Ar0ji577rX6_NDel9CEO0T_/preview'
     },
     {
       idx : 11,
@@ -136,7 +136,7 @@ export class PeliculaMarvelBdService {
       img: 'assets/marvel12.jpg',
       fecha: '2019-03-29',
       trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
-      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
+      drive: '1JsB09gJEVnVa-J8CmMZKbWAA7vrRi4kc/preview'
     },
     {
       idx : 12,
@@ -147,7 +147,7 @@ export class PeliculaMarvelBdService {
       img: 'assets/marvel13.jpg',
       fecha: '2019-03-29',
       trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
-      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
+      drive: '18wuiTXsAP56AxaYgp0t_VGfyYlI7TKFl/preview'
     },
     {
       idx : 13,
@@ -158,7 +158,7 @@ export class PeliculaMarvelBdService {
       img: 'assets/marvel14.jpg',
       fecha: '2019-03-29',
       trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
-      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
+      drive: ''
     },
     {
       idx : 14,
@@ -169,7 +169,7 @@ export class PeliculaMarvelBdService {
       img: 'assets/marvel15.jpg',
       fecha: '2019-03-29',
       trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
-      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
+      drive: '1n74BWybyav2j5ss9t31Ja3FVsz9jgfiM/preview'
     },
     {
       idx : 15,
@@ -180,7 +180,7 @@ export class PeliculaMarvelBdService {
       img: 'assets/marvel16.jpg',
       fecha: '2019-03-29',
       trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
-      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
+      drive: '1SLsaTgX8-sAkZ9X8sxS-mdneLg1fQAnn/preview'
     },
     {
       idx : 16,
@@ -191,7 +191,7 @@ export class PeliculaMarvelBdService {
       img: 'assets/marvel17.jpg',
       fecha: '2019-03-29',
       trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
-      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
+      drive: ''
     },
     {
       idx : 17,
@@ -213,7 +213,7 @@ export class PeliculaMarvelBdService {
       img: 'assets/marvel19.jpg',
       fecha: '2019-03-29',
       trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
-      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
+      drive: '14WMYYj0T4JYCPkdTYV48cvvRt16ADDk6/preview'
     },
     {
       idx : 19,
@@ -224,7 +224,7 @@ export class PeliculaMarvelBdService {
       img: 'assets/marvel20.jpg',
       fecha: '2019-03-29',
       trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
-      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
+      drive: '1LyVOcImRuAut34OpAQNkCcjXav8taW8V/preview'
     },
     {
       idx : 20,
@@ -235,7 +235,7 @@ export class PeliculaMarvelBdService {
       img: 'assets/marvel21.jpg',
       fecha: '2019-03-29',
       trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
-      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
+      drive: '1X8mhNT10iCVCKA3Y892t6jEDE47TNyIg/preview'
     },
     {
       idx : 21,
@@ -246,7 +246,7 @@ export class PeliculaMarvelBdService {
       img: 'assets/marvel22.jpg',
       fecha: '2019-03-29',
       trailer: '1CWBvODiDoii-LRrivIBwi29H74eJK3Ew/preview',
-      drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
+      drive: '12qHDxuOSMvTke45KARDYo8FNkOOA6Kup/preview'
     },
   ];
   getPeliculas(): Peliculas[] {
@@ -255,6 +255,24 @@ export class PeliculaMarvelBdService {
 
   getPelicula( idx: string ) {
     return this.peliculas[idx];
+  }
+  buscarPeliculas( termino: string ): Peliculas[] {
+
+    const peliculaArr: Peliculas[] = [];
+    termino = termino.toLowerCase();
+
+    for ( const pelicula of this.peliculas ) {
+
+      const titulo = pelicula.short.toLowerCase();
+
+      if ( titulo.indexOf( termino ) >= 0  ) {
+        peliculaArr.push( pelicula );
+      }
+
+    }
+
+    return peliculaArr;
+
   }
 }
 export interface Peliculas {
