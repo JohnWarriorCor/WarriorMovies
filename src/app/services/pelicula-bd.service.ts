@@ -94,6 +94,72 @@ export class PeliculaBdService {
       trailer: '1quS6SSS9J8UIGM7KxkpJIW1FuJWQ8hwN/preview',
       drive: '12GQtvFjGA50Nfw2KJKYLwFWudPgvLOdW/preview'
     },
+    {
+      idx : 8,
+      titulo: 'Deadpool',
+      short: 'Deadpool',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Esta es la historia de origen del ex operativo de las Fuerzas Especiales convertido en mercenario Wade Wilson, quien luego de ser sometido a un experimento deshonesto que lo deja con poderes curativos acelerados, adopta el alter ego Deadpool. Armado con sus nuevas habilidades y un sentido del humor oscuro y retorcido, Deadpool persigue al hombre que casi destruye su vida.',
+      img: 'assets/dp1.jpg',
+      fecha: '2016-02-19',
+      trailer: '1quS6SSS9J8UIGM7KxkpJIW1FuJWQ8hwN/preview',
+      drive: '1ngzMlMK8yzuteBS4vJ8oy2gMV34TctdT/preview'
+    },
+    {
+      idx : 9,
+      titulo: 'Deadpool 2',
+      short: 'Deadpool 2',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Después de perder a Vanessa (Morena Baccarin), el amor de su vida, el mercenario que rompe la cuarta pared, Wade Wilson, también conocido como Deadpool (Ryan Reynolds), debe reunir un equipo y proteger a un joven mutante, Russell Collins, también conocido como Firefist (Julian Dennison) de Cable (Josh Brolin), un cyborg peligroso y sin sentido del futuro, y también debe aprender la lección más importante de todas: ser parte de una familia nuevamente.',
+      img: 'assets/dp2.jpg',
+      fecha: '2018-05-18',
+      trailer: '1quS6SSS9J8UIGM7KxkpJIW1FuJWQ8hwN/preview',
+      drive: '1DmSaOFV0hQKQnIzM9h4IFXQt1cTV0loy/preview'
+    },
+    {
+      idx : 10,
+      titulo: 'coco',
+      short: 'coco',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'A pesar de la desconcertante prohibición de música de su familia durante generaciones, Miguel sueña con convertirse en un músico consumado como su ídolo, Ernesto de la Cruz. Desesperado por demostrar su talento, Miguel se encuentra en la impresionante y colorida Tierra de los Muertos siguiendo una misteriosa cadena de eventos. En el camino, conoce al encantador embaucador Héctor, y juntos, emprenden un viaje extraordinario para descubrir la verdadera historia detrás de la historia familiar de Miguel.',
+      img: 'assets/coco.jpg',
+      fecha: '2017-12-01',
+      trailer: '1quS6SSS9J8UIGM7KxkpJIW1FuJWQ8hwN/preview',
+      drive: '1DBfPRW52x7llVeaneYEoBC6TdwKnwg5A/preview'
+    },
+    {
+      idx : 11,
+      titulo: 'Overboard',
+      short: 'Un mar de enredos',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Kate Sullivan es una madre soltera de tres hijas que trabaja en dos trabajos mientras estudia para ser enfermera. Le asignan limpiar alfombras en un yate propiedad del playboy mimado y arrogante Leonardo (Leo) Montenegro. Leo hace comentarios groseros hacia Kate y la despide sin paga cuando se niega a traerle comida. Cuando Kate grita su comportamiento, Leo la empuja fuera del bote junto con su equipo de limpieza. Mientras tanto, en México, las hermanas Magdalena y Sofía de Leo atienden a su padre enfermo. Furioso cuando Leo es anunciado como su sucesor para dirigir la empresa familiar, Magda decide visitarlo. Esa noche, Leo se desliza del yate y cae al océano sin ser visto. Se despierta en una playa con amnesia y sin recordar su identidad. Vaga por la ciudad y finalmente llega al hospital. Magda lo encuentra y lo deja allí sin reclamar después de enterarse de que tiene amnesia. Ella regresa a casa e informa falsamente que Leo ha muerto. Sofía sospecha que Magda está mintiendo ...',
+      img: 'assets/ov.jpg',
+      fecha: '2018-06-27',
+      trailer: '1quS6SSS9J8UIGM7KxkpJIW1FuJWQ8hwN/preview',
+      drive: '1--7kI0oECmSsYR9G6janFP-yj9fV4lku/preview'
+    },
+    {
+      idx : 12,
+      titulo: 'THE HUSTLE',
+      short: 'Timadoras compulsivas',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Dos estafadoras, una de baja renta y la otra de clase alta, se unen para derrotar a los hombres que las han perjudicado.',
+      img: 'assets/hus.jpg',
+      fecha: '2019-05-10',
+      trailer: '1quS6SSS9J8UIGM7KxkpJIW1FuJWQ8hwN/preview',
+      drive: '1yhGIuQlWCVBwxB3C7BM-ZvKxdokWaTNW/preview'
+    },
+    {
+      idx : 13,
+      titulo: 'Forrest Gump',
+      short: 'Forrest Gump',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Forrest Gump es un hombre sencillo con un coeficiente intelectual bajo pero buenas intenciones. Está atravesando la infancia con su mejor y única amiga Jenny. Su mamá le enseña los modos de vida y lo deja elegir su destino. Forrest se une al ejército para el servicio en Vietnam, encuentra nuevos amigos llamados Dan y Bubba, gana medallas, crea una famosa flota de pesca de camarones, inspira a la gente a trotar, comienza una locura de ping-pong, crea el smiley, escribe calcomanías y canciones, dona a la gente y se encuentra con el presidente varias veces. Sin embargo, todo esto es irrelevante para Forrest, que solo puede pensar en su amor de la infancia, Jenny Curran, que ha arruinado su vida. Aunque al final todo lo que quiere demostrar es que cualquiera puede amar a cualquiera.',
+      img: 'assets/fg.jpg',
+      fecha: '1994-07-23',
+      trailer: '1quS6SSS9J8UIGM7KxkpJIW1FuJWQ8hwN/preview',
+      drive: '1gbvoxtalfSPUAR6Dp9HjyF9D3sHlc9QV/preview'
+    },
   ];
   getPeliculas(): Peliculas[] {
     return this.peliculas;
