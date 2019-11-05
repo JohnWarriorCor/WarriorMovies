@@ -7,6 +7,17 @@ export class PeliculaBdService {
 
   private peliculas: Peliculas[] = [
     {
+      idx : 14,
+      titulo: 'Dora',
+      short: 'Dora y la ciudad perdida',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Después de pasar la mayor parte de su vida explorando la jungla con sus padres, nada podría preparar a Dora para su aventura más peligrosa: la escuela secundaria. Siempre la exploradora, Dora se encuentra rápidamente liderando a Boots, Diego, un misterioso habitante de la jungla y un grupo de adolescentes en una aventura de acción en vivo para salvar a sus padres y resolver el misterio imposible detrás de una civilización inca perdida.',
+      img: 'assets/dora.jpg',
+      fecha: '2019-08-30',
+      trailer: '1hwn0IiTP7vfieX2uqZHK6fXy-G89D03y/preview',
+      drive: '1YzENQfYabjkCkicPFvzN73ctQW5RrNqb/preview'
+    },
+    {
       idx : 0,
       titulo: 'Hobbs & Shaw',
       short: 'Fast & Furious: Hobbs & Shaw',
@@ -102,7 +113,7 @@ export class PeliculaBdService {
       sinopsis: 'Esta es la historia de origen del ex operativo de las Fuerzas Especiales convertido en mercenario Wade Wilson, quien luego de ser sometido a un experimento deshonesto que lo deja con poderes curativos acelerados, adopta el alter ego Deadpool. Armado con sus nuevas habilidades y un sentido del humor oscuro y retorcido, Deadpool persigue al hombre que casi destruye su vida.',
       img: 'assets/dp1.jpg',
       fecha: '2016-02-19',
-      trailer: '1quS6SSS9J8UIGM7KxkpJIW1FuJWQ8hwN/preview',
+      trailer: '1lNAYLROEBGiEyFjlAUk4DsKxW7fNPt5b/preview',
       drive: '1ngzMlMK8yzuteBS4vJ8oy2gMV34TctdT/preview'
     },
     {
