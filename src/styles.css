@@ -11,4 +11,6 @@ body{
   position: fixed;
   bottom: 20px;
   right: 20px;
+  float: none;
+  z-index: 100;
 }
