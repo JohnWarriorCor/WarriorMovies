@@ -28,6 +28,17 @@ export class PeliculaDvdripBdService {
       trailer: '1b4LYXfKZ42U-2bqTYj74xrhdWiI2arxW/preview',
       drive: '1Qd24XSf9DaBlcD2wmMajWy9vTbu6IDDZ/preview'
     },
+    {
+      idx : 2,
+      titulo: 'Belleza oculta',
+      short: 'Belleza inesperada',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Cuando un exitoso ejecutivo de publicidad de Nueva York sufre una gran tragedia, se retira de la vida. Mientras sus amigos preocupados intentan desesperadamente volver a conectarse con él, él busca respuestas del universo escribiendo cartas a Amor, Tiempo y Muerte. Pero no es hasta que sus notas traen respuestas personales inesperadas que comienza a comprender cómo estas constantes se entrelazan en una vida plenamente vivida, y cómo incluso la pérdida más profunda puede revelar momentos de significado y belleza.',
+      img: 'assets/bi.jpg',
+      fecha: '2016-12-23',
+      trailer: '1xLaxGabmS_0BP240lP34L47UpDSdj6aZ/preview',
+      drive: '1nOnaC2aQ6qKDMSzpvie9cz7NuFDHPA2f/preview'
+    },
   ];
   getPeliculas(): Peliculas[] {
     return this.peliculas;

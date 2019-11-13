@@ -2,3 +2,13 @@
 body{
     background-color: #042a4a;
 }
+.ir-arriba{
+  display: inline-block;
+  padding: 20px;
+  background-color: #024959;
+  color: #fff;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}

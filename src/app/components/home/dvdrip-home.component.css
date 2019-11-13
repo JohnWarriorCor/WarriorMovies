@@ -38,13 +38,3 @@
     opacity: 1;
   }
 }
-.irArriba{
-  display: inline-block;
-  padding: 20px;
-  background-color: #024959;
-  color: #fff;
-  cursor: pointer;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-}

@@ -7,7 +7,7 @@ export class PeliculaBdService {
 
   private peliculas: Peliculas[] = [
     {
-      idx : 14,
+      idx : 0,
       titulo: 'Dora',
       short: 'Dora y la ciudad perdida',
       // tslint:disable-next-line:max-line-length
@@ -18,7 +18,18 @@ export class PeliculaBdService {
       drive: '1YzENQfYabjkCkicPFvzN73ctQW5RrNqb/preview'
     },
     {
-      idx : 0,
+      idx : 1,
+      titulo: 'Alma de Héroe',
+      short: 'Alma de Héroe',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Un soldado tendrá la misión de rescatar a su pareja secuestrada en la jungla colombiana, aunque se perderá una cita con una hermosa niña que es la hermana de su pareja.',
+      img: 'assets/ah.jpg',
+      fecha: '2019-04-02',
+      trailer: '1hwn0IiTP7vfieX2uqZHK6fXy-G89D03y/preview',
+      drive: '1xfuagQZbRZEF7sdxxIbIAWFNgTyPUKCp/preview'
+    },
+    {
+      idx : 2,
       titulo: 'Hobbs & Shaw',
       short: 'Fast & Furious: Hobbs & Shaw',
       // tslint:disable-next-line:max-line-length
@@ -29,7 +40,7 @@ export class PeliculaBdService {
       drive: '1R8MqgRsa9xfNhIo9JY7r4-3DlnurkT20/preview'
     },
     {
-      idx : 1,
+      idx : 3,
       titulo: 'PETS 2',
       short: 'LA VIDA SECRETA DE TUS MASCOTAS',
       // tslint:disable-next-line:max-line-length
@@ -40,7 +51,7 @@ export class PeliculaBdService {
       drive: '10cdi9GHKjH1Sp0KzK-0LTjM8htEjAInD/preview'
     },
     {
-      idx : 2,
+      idx : 4,
       titulo: 'El rey león',
       short: 'El rey león',
       // tslint:disable-next-line:max-line-length
@@ -51,7 +62,7 @@ export class PeliculaBdService {
       drive: '1VKoP_GHb2RqGxKRuiZfoPK33HIHAYJkz/preview'
     },
     {
-      idx : 3,
+      idx : 5,
       titulo: 'Dectetive Pikachu',
       short: 'Pokémon: Detective Pikachu',
       // tslint:disable-next-line:max-line-length
@@ -62,7 +73,7 @@ export class PeliculaBdService {
       drive: '1awgJctSr_9EhrHHqrl7Rx7HS6DefR3Yy/preview'
     },
     {
-      idx : 4,
+      idx : 6,
       titulo: 'Toy Story 4',
       short: 'Toy Story 4',
       // tslint:disable-next-line:max-line-length
@@ -73,7 +84,29 @@ export class PeliculaBdService {
       drive: '1FdkIicO8Sp8kFkH0sqZN1R2rYjNqxx_d/preview'
     },
     {
-      idx : 5,
+      idx : 7,
+      titulo: 'Happy Death Day',
+      short: 'Feliz día de tu muerte',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Una adolescente, tratando de disfrutar su cumpleaños, pronto se da cuenta de que este es su último cumpleaños. Es decir, si ella puede descubrir quién es su asesino. Ella debe revivir ese día, una y otra vez, muriendo de una manera diferente cada vez. ¿Puede ella resolver su propio asesinato?',
+      img: 'assets/hdd1.jpg',
+      fecha: '2017-11-10',
+      trailer: '1pOAUEYx3QG3bdrRvgSwjDzml9Gc72JYc/preview',
+      drive: '1Q8q6Y9EfsTezfY-nG_8UshVE5T9hlm3B/preview'
+    },
+    {
+      idx : 8,
+      titulo: 'Happy Death Day 2',
+      short: 'Feliz día de tu muerte 2',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Después de haber sobrevivido a los hechos absurdos pero que ponen en peligro la vida en Feliz día de tu muerte (2017), la luchadora hermandad de mujeres, Tree Gelbman, se encuentra en el mismo dormitorio de la universidad, agradecida de estar viva. Sin embargo, esta vez, es el compañero de cuarto de Carter, Ryan, quien afirma que está reviviendo el mismo día paradójico una y otra vez, como un misterioso asesino paranoico con una máscara de cara de bebé de un solo diente con un gran cuchillo de cocina que se ha acostumbrado a asesinándolo En esas circunstancias, un valiente pero vano intento de enfrentar el desafío, una vez más, enviará a Tree de vuelta al punto de partida, atrapado en un ciclo de tiempo demasiado familiar y empapado de sangre. ¿Cuántas muertes separan a Tree de un cumpleaños verdaderamente feliz?',
+      img: 'assets/hdd2.jpg',
+      fecha: '2019-02-19',
+      trailer: '1pOAUEYx3QG3bdrRvgSwjDzml9Gc72JYc/preview',
+      drive: '1ef8TwwSHSXnLiLNMttwG1VVvgxx2XIZP/preview'
+    },
+    {
+      idx : 9,
       titulo: 'Dumbo',
       short: 'Dumbo',
       // tslint:disable-next-line:max-line-length
@@ -84,7 +117,7 @@ export class PeliculaBdService {
       drive: '1asJIBWVocgwP-0JnMZfDh1t3r835mPTu/preview'
     },
     {
-      idx : 6,
+      idx : 10,
       titulo: 'what man want',
       short: '¿En qué piensan los hombres?',
       // tslint:disable-next-line:max-line-length
@@ -95,7 +128,7 @@ export class PeliculaBdService {
       drive: '1z-FMwaa1jDGFE_U-9bcKd_LjGFpww3em/preview'
     },
     {
-      idx : 7,
+      idx : 11,
       titulo: 'A 2 metros de ti',
       short: 'a dos metros de ti',
       // tslint:disable-next-line:max-line-length
@@ -106,7 +139,7 @@ export class PeliculaBdService {
       drive: '12GQtvFjGA50Nfw2KJKYLwFWudPgvLOdW/preview'
     },
     {
-      idx : 8,
+      idx : 12,
       titulo: 'Deadpool',
       short: 'Deadpool',
       // tslint:disable-next-line:max-line-length
@@ -117,7 +150,7 @@ export class PeliculaBdService {
       drive: '1ngzMlMK8yzuteBS4vJ8oy2gMV34TctdT/preview'
     },
     {
-      idx : 9,
+      idx : 13,
       titulo: 'Deadpool 2',
       short: 'Deadpool 2',
       // tslint:disable-next-line:max-line-length
@@ -128,7 +161,7 @@ export class PeliculaBdService {
       drive: '1DmSaOFV0hQKQnIzM9h4IFXQt1cTV0loy/preview'
     },
     {
-      idx : 10,
+      idx : 14,
       titulo: 'coco',
       short: 'coco',
       // tslint:disable-next-line:max-line-length
@@ -139,7 +172,7 @@ export class PeliculaBdService {
       drive: '1DBfPRW52x7llVeaneYEoBC6TdwKnwg5A/preview'
     },
     {
-      idx : 11,
+      idx : 15,
       titulo: 'Overboard',
       short: 'Un mar de enredos',
       // tslint:disable-next-line:max-line-length
@@ -150,7 +183,7 @@ export class PeliculaBdService {
       drive: '1--7kI0oECmSsYR9G6janFP-yj9fV4lku/preview'
     },
     {
-      idx : 12,
+      idx : 16,
       titulo: 'THE HUSTLE',
       short: 'Timadoras compulsivas',
       // tslint:disable-next-line:max-line-length
@@ -161,7 +194,7 @@ export class PeliculaBdService {
       drive: '1yhGIuQlWCVBwxB3C7BM-ZvKxdokWaTNW/preview'
     },
     {
-      idx : 13,
+      idx : 17,
       titulo: 'Forrest Gump',
       short: 'Forrest Gump',
       // tslint:disable-next-line:max-line-length
