@@ -21,6 +21,18 @@ import { DvdripComponent } from './components/peliculas/dvdrip.component';
 import { TarjetaDvdripComponent } from './components/tarjeta-peliculas/tarjeta-dvdrip.component';
 import { BuscadorMarvelComponent } from './components/buscador/buscador-marvel.component';
 import { BuscadorDVDComponent } from './components/buscador/buscador-dvd.component';
+import { InvertirPipe } from './pipes/invertir.pipe';
+import { RegistroComponent } from './components/registro/registro.component';
+import { TablaRegistrosComponent } from './components/registro/tabla-registros.component';
+import { NavbarService } from './services/navbar.service';
+import { FormsModule } from '@angular/forms';
+
+import { HttpClientModule } from '@angular/common/http';
+import { HttpModule } from '@angular/http';
+import { ReactiveFormsModule } from '@angular/forms';
+import { Routes } from '@angular/router';
+import { InicioComponent } from './components/registro/inicio.component';
+import { KeysPipe } from './pipes/keys.pipe';
 
 @NgModule({
   declarations: [
@@ -40,15 +52,26 @@ import { BuscadorDVDComponent } from './components/buscador/buscador-dvd.compone
     DvdripComponent,
     TarjetaDvdripComponent,
     BuscadorMarvelComponent,
-    BuscadorDVDComponent
+    BuscadorDVDComponent,
+    InvertirPipe,
+    RegistroComponent,
+    TablaRegistrosComponent,
+    InicioComponent,
+    KeysPipe
   ],
   imports: [
     BrowserModule,
     AppRoutes,
     NgbModule,
-    RouterModule
+    RouterModule,
+    FormsModule,
+    HttpModule,
+    HttpClientModule,
+    ReactiveFormsModule,
   ],
-  providers: [],
+  providers: [
+    NavbarService,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

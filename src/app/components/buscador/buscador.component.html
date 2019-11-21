@@ -10,10 +10,9 @@
   </div>
 </div>
 
-
+<ngb-pagination class="d-flex justify-content-end" [collectionSize]="40" [(page)]="page"></ngb-pagination>
 <div class="card-columns scale-in-center">
-
-    <div class="card animated fadeIn fast" *ngFor="let pelicula of peliculas; let i = index" style="background-color: black;margin-top: 20px;">
+    <div class="card animated fadeIn fast" *ngFor="let pelicula of peliculas | invertir ; let i = index" style="background-color: black;margin-top: 20px;">
         <img [routerLink]="['/pelicula',pelicula.idx]" class="card-img-top img-fluid" [src]="pelicula.img" [alt]="pelicula.titulo">
         <div class="card-body text-center">
           <hr style="border: solid 0.8px orangered;">
@@ -42,5 +41,5 @@
 
 
 </div>
-
+<ngb-pagination class="d-flex justify-content-end" [collectionSize]="40" [(page)]="page"></ngb-pagination>
 </div>

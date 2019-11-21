@@ -2,6 +2,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { PeliculaBdService } from '../../services/pelicula-bd.service';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { NavbarService } from '../../services/navbar.service';
 @Component({
   selector: 'app-buscador',
   templateUrl: './buscador.component.html',
@@ -12,8 +13,10 @@ export class BuscadorComponent implements OnInit {
   closeResult: string;
   peliculas: any[] = [];
   termino: string;
-
-  constructor(private modalService: NgbModal, private activatedRoute: ActivatedRoute, private peliculaService: PeliculaBdService) { }
+  page = 1;
+  pageSize = 6;
+  // tslint:disable-next-line:max-line-length
+  constructor(public nav: NavbarService, private modalService: NgbModal, private activatedRoute: ActivatedRoute, private peliculaService: PeliculaBdService) { }
 
   ngOnInit() {
 
@@ -24,7 +27,7 @@ export class BuscadorComponent implements OnInit {
       this.peliculas = this.peliculaService.buscarPeliculas( params['termino'] );
       console.log( this.peliculas );
     });
-
+    this.nav.show();
   }
   openLg(content) {
     this.modalService.open(content, { size: 'lg', windowClass: 'dark-modal' });

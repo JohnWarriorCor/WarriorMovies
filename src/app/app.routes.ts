@@ -8,9 +8,15 @@ import { BuscadorDVDComponent } from './components/buscador/buscador-dvd.compone
 import { BuscadorMarvelComponent } from './components/buscador/buscador-marvel.component';
 import { DvdripComponent } from './components/peliculas/dvdrip.component';
 import { DvdripHomeComponent } from './components/home/dvdrip-home.component';
+import { RegistroComponent } from './components/registro/registro.component';
+import { TablaRegistrosComponent } from './components/registro/tabla-registros.component';
+import { InicioComponent } from './components/registro/inicio.component';
 
 const routes: Routes = [
     { path: 'home', component: HomeComponent },
+    { path: 'registro/:id', component: RegistroComponent },
+    { path: 'inicio', component: InicioComponent },
+    { path: 'registroTablas', component: TablaRegistrosComponent },
     { path: 'marvelHome', component: MarvelHomeComponent },
     { path: 'dvdHome', component: DvdripHomeComponent },
     { path: 'pelicula/:id', component: PeliculasComponent },
@@ -19,7 +25,7 @@ const routes: Routes = [
     { path: 'buscarHd/:termino', component: BuscadorComponent },
     { path: 'buscarMarvel/:termino', component: BuscadorMarvelComponent },
     { path: 'buscarDvd/:termino', component: BuscadorDVDComponent },
-    { path: '**', pathMatch: 'full', redirectTo: 'home' }
+    { path: '**', pathMatch: 'full', redirectTo: 'inicio' }
 ];
 
 export const AppRoutes = RouterModule.forRoot(routes, {useHash: true});

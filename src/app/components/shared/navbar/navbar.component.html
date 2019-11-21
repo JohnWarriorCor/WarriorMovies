@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand text-uppercase" href="#">Menú</a>
+<nav *ngIf="nav.visible" class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand text-uppercase" [routerLink]="['/home']" routerLinkActive="router-link-active" >Menú</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -15,13 +15,37 @@
       <li class="nav-item">
         <a class="nav-link" [routerLink]="['/dvdHome']" routerLinkActive="router-link-active" >DVD RIP</a>
       </li>
+      <li class="nav-item dropdown">
+          <a class="nav-link navlinkout" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Buscador
+          </a>
+          <div class="dropdown-menu text-center" style="background-color: dimgray;padding: 5px;" aria-labelledby="navbarDropdown">
+            <form class="form-inline my-2 my-lg-0">
+                <div class="input-group mb-2">
+                  <div class="input-group-prepend">
+                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="HD" (input)="buscarPelicula1(buscarTexto1.value)" #buscarTexto1>
+                    <div class="input-group-text"><i class="fas fa-search"></i></div>
+                  </div>
+                </div>
+                <div class="dropdown-divider" style="background-color: #8F141B;"></div>
+                <div class="input-group mb-2">
+                  <div class="input-group-prepend">
+                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="MARVEL" (input)="buscarPelicula2(buscarTexto2.value)" #buscarTexto2>
+                    <div class="input-group-text"><i class="fas fa-search"></i></div>
+                  </div>
+                </div>
+                <div class="dropdown-divider" style="background-color: #8F141B;"></div>
+                <div class="input-group mb-2 ">
+                  <div class="input-group-prepend">
+                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="DVDRIP" (input)="buscarPelicula3(buscarTexto3.value)" #buscarTexto3>
+                    <div class="input-group-text"><i class="fas fa-search"></i></div>
+                  </div>
+                </div>
+                <div class="dropdown-divider" style="background-color: #8F141B;"></div>
+                <button class="btn btn-primary my-2 my-sm-0" type="reset">Limpiar</button>
+            </form>
+          </div>
+      </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Buscar película HD" (input)="buscarPelicula1(buscarTexto1.value)" #buscarTexto1>
-        <input class="form-control mr-sm-2" type="text" placeholder="Buscar película MARVEL" (input)="buscarPelicula2(buscarTexto2.value)" #buscarTexto2>
-        <input class="form-control mr-sm-2" type="text" placeholder="Buscar película DVD" (input)="buscarPelicula3(buscarTexto3.value)" #buscarTexto3>
-        <button class="btn btn-outline-primary my-2 my-sm-0" type="reset">Limpiar</button>
-      </form>
-      
   </div>
 </nav>

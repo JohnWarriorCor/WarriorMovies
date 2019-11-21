@@ -1,6 +1,6 @@
 <div class="container">
   <div class="card-columns scale-in-center">
       <!-- *ngFor="let heroe of heroes; let i = index" -->
-      <app-tarjeta-dvdrip (peliculaSeleccionado)="verPelicula( $event )" [pelicula]="foo" [index]="i" *ngFor="let foo of peliculas; let i = index"></app-tarjeta-dvdrip>
+      <app-tarjeta-dvdrip (peliculaSeleccionado)="verPelicula( $event )" [pelicula]="foo" [index]="i" *ngFor="let foo of peliculas | invertir ; let i = index"></app-tarjeta-dvdrip>
   </div>
 </div>

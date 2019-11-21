@@ -1,0 +1,42 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  </nav>
+  <div class="content">
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="assets/element.mp4" type="video/mp4">
+    </video>
+    <div class="container h-100">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100 text-white contentTransparente">
+          <section id="cover" class="min-vh-100">
+            <div id="cover-caption">
+                <div class="container">
+                    <div class="row text-white">
+                        <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-center form p-4">
+                            <h1 class="display-4 py-2 text-truncate text-uppercase">Bienvenido</h1>
+                            <div class="px-2">
+                              <form class="text-justify">
+                                <p>Esta plataforma está adaptada para dipositivos móviles y computadores que soporten un navegador web.
+                                Por ahora no cuenta con soporte para SmartTV estable, próximamente se implementará.
+                                La plataforma cuenta con más de 50 películas y está en constante actualización, tiene tres componentes los cuales son:
+                              </p>
+                              <ul style="margin: 0px;padding: 0px;">
+                                <li>Sección Full HD: La cual dispone de películas en alta calidad.</li>
+                                <li>Sección Saga del inifinitop: La cual dispone de 22 películas que componen esta saga en un formato de alta calidad.</li>
+                                <li>Sección DVD-Rip: La cual dispone de películas en calidad baja pero más liviana de cargar.</li>
+                              </ul>
+                              <div class="text-center" style="margin: 5px;">
+                                <button class="btn btn-primary btn-lg" [routerLink]="['/registro', 'nuevo']" routerLinkActive="router-link-active" >Continuar</button>
+                                <br><br>
+                              </div>
+                              </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+      </div>
+    </div>
+  </div>

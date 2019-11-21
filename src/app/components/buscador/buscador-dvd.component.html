@@ -13,7 +13,7 @@
 
 <div class="card-columns scale-in-center">
 
-    <div class="card animated fadeIn fast" *ngFor="let pelicula of peliculas; let i = index" style="background-color: black;margin-top: 20px;">
+    <div class="card animated fadeIn fast" *ngFor="let pelicula of peliculas | invertir ; let i = index" style="background-color: black;margin-top: 20px;">
         <img [routerLink]="['/dvd',pelicula.idx]" class="card-img-top img-fluid" [src]="pelicula.img" [alt]="pelicula.nombre">
         <div class="card-body text-center">
           <hr style="border: solid 0.8px orangered;">
