@@ -26,7 +26,7 @@ export class PeliculaDvdripBdService {
       img: 'assets/amp8.jpg',
       fecha: '2012-04-04',
       trailer: 'DxBxqbsGlK0',
-      drive: '1Qd24XSf9DaBlcD2wmMajWy9vTbu6IDDZ/preview'
+      drive: '1faLxvGMlS85QoFfi2WF65AP5G77ElKxm/preview'
     },
     {
       idx : 2,

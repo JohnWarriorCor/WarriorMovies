@@ -1,39 +1,16 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-</nav>
-<div class="content">
-  <div class="overlay"></div>
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="assets/dark.mp4" type="video/mp4">
-  </video>
-  <div class="container h-100">
-    <div class="d-flex h-100 text-center align-items-center">
-      <div class="w-100 text-white contentTransparente">
-        <section id="cover" class="min-vh-100">
-          <div id="cover-caption">
-              <div class="container">
-                  <div class="row text-white">
-                      <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-center form p-4">
-                          <h1 style="margin: 2px; padding: 2px;" class="display-4 py-2 text-truncate">LOBBY</h1>
-                          <small id="emailHelp" class="form-text text-muted">La siguiente información se recauda con el fin de tener un control de tráfico de visitantes y conocer los intereses de los usuarios.</small>
-                          <div class="px-2">
-                              <form (ngSubmit)="guardar()" #forma="ngForm" class="justify-content-center">
-                                  <div class="form-group">
-                                    <label>Nombre:</label>
-                                      <input [(ngModel)]="cond1.nombre" name="nombre" type="text" class="form-control" placeholder="Ingrese aquí su nombre">
-                                  </div>
-                                  <div class="form-group">
-                                    <label>Peticición de alguna película o sugerencias:</label>
-                                      <textarea [(ngModel)]="cond1.sugerencia" name="sugerencia" class="form-control" id="" rows="1" placeholder="..."  placement="top" ngbTooltip="En esta sección puedes hacer sugerencias con respecto al contenido o funcionalidad de la página de forma respetuosa, además podrás pedir alguna pélicua que desees ver en la página" triggers="click:blur"></textarea>
-                                  </div>
-                                  <button [disabled]="!forma.valid" type="submit" class="btn btn-primary btn-lg">Entrar</button>
-                              </form>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
-      </div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark"></nav>
+<div class="container text-white text-center" style="padding: 20px;">
+  <h1 class="text-uppercase">Registro de visita</h1>
+  <small id="emailHelp" class="form-text text-muted">La siguiente información se solicita con el fin de tener un registro de visitas y manejar el control de tráfico de la página</small><br>
+  <form (ngSubmit)="guardar()" #forma="ngForm" class="justify-content-center">
+    <div class="form-group">
+      <label>Nombre:</label>
+        <input [(ngModel)]="cond1.nombre" name="nombre" type="text" class="form-control" placeholder="Ingrese aquí su nombre" required>
     </div>
-  </div>
+    <div class="form-group">
+      <label>Peticición de alguna película o sugerencias:</label>
+        <textarea [(ngModel)]="cond1.sugerencia" name="sugerencia" class="form-control" id="" rows="1" placeholder="..."  placement="top" ngbTooltip="En esta sección puedes hacer sugerencias con respecto al contenido o funcionalidad de la página de forma respetuosa, además podrás pedir alguna pélicua que desees ver en la página" triggers="click:blur"></textarea>
+    </div>
+    <button [disabled]="!forma.valid" type="submit" class="btn btn-primary btn-lg">Entrar</button>
+  </form>
 </div>

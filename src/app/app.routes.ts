@@ -16,7 +16,7 @@ const routes: Routes = [
     { path: 'home', component: HomeComponent },
     { path: 'registro/:id', component: RegistroComponent },
     { path: 'inicio', component: InicioComponent },
-    { path: 'registroTablas', component: TablaRegistrosComponent },
+    { path: 't', component: TablaRegistrosComponent },
     { path: 'marvelHome', component: MarvelHomeComponent },
     { path: 'dvdHome', component: DvdripHomeComponent },
     { path: 'pelicula/:id', component: PeliculasComponent },
