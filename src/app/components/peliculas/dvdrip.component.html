@@ -13,7 +13,15 @@
               {{pelicula.sinopsis}}
           </p>
           <div class="text-center slide-in-elliptic-top-fwd ">
-            <iframe [src]="pelicula.drive  | domseguro: 'https://drive.google.com/file/d/'" width="100%" height="350" allowfullscreen></iframe>
+              <ngb-tabset type="pills">
+                  <ngb-tab title="Capitulo {{i+1}}" *ngFor="let foo of pelicula.drive let i = index">
+                    <ng-template ngbTabContent>
+                      <span>
+                        <iframe [src]=" pelicula.drive[i] | domseguro: 'https://drive.google.com/file/d/'" width="100%" height="350" allowfullscreen></iframe>
+                      </span>
+                    </ng-template>
+                  </ngb-tab>
+                </ngb-tabset>
           </div>
       </div>
   </div>

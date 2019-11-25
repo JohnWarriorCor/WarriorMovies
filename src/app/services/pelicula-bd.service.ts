@@ -239,28 +239,94 @@ export class PeliculaBdService {
     },
     {
       idx : 21,
-      titulo: 'The Mandalorian Cap1',
-      short: 'The Mandalorian Capítulo 1',
+      titulo: 'Bumblebee',
+      short: 'Bumblebee',
       // tslint:disable-next-line:max-line-length
-      sinopsis: 'Después de las historias de Jango y Boba Fett, otro guerrero emerge en el universo de Star Wars. El Mandaloriano se establece después de la caída del Imperio y antes de la aparición de la Primera Orden. Seguimos las tribulaciones de un pistolero solitario en los confines de la galaxia, lejos de la autoridad de la Nueva República.',
-      img: 'assets/mando.jpg',
-      fecha: '2019-11-12',
-      trailer: 'XmI7WKrAtqs',
-      drive: '19ITj3xgT3J2-dQoGxLloa2VU7COdfm1s/preview'
+      sinopsis: 'En Cybertron, los Autobots, liderados por Optimus Prime, están a punto de perder la Gran Guerra Cybertroniana ante sus enemigos, los Decepticons, y comienzan a hacer preparativos para abandonar el planeta. Los Decepticons liderados por Shockwave, Soundwave y Starscream los emboscan durante la evacuación, y Optimus envía a un joven explorador, B-127, a la Tierra para establecer una base de operaciones donde los Autobots puedan reagruparse. El B-127 llega a la Tierra solo en 1987, aterriza de manera forzada en California e interrumpe un ejercicio de entrenamiento que realiza el Sector 7, una agencia secreta del gobierno que monitorea la actividad extraterrestre en la Tierra. El agente del sector 7, el coronel Jack Burns, presume que B-127 es un invasor hostil y ataca, conduciendo a B-127 al bosque, donde es emboscado por el Decepticon Blitzwing. Cuando B-127 se niega a revelar el paradero de Optimus, Blitzwing arranca rencorosamente su caja de voz y daña su núcleo de memoria. B-127 logra destruir Blitzwing antes de colapsar de sus heridas. Antes de entrar en estasis, ...',
+      img: 'assets/bb.jpg',
+      fecha: '2018-12-28',
+      trailer: 'lcwmDAYt22k',
+      drive: '1n5iONfl04dClBibO-kgpbYk-7CqY2hUR/preview'
     },
     {
       idx : 22,
-      titulo: 'The Mandalorian Cap2',
-      short: 'The Mandalorian Capítulo 2',
+      titulo: 'AMERICAN PIE 8',
+      short: 'AMERICAN PIE: EL REENCUENTRO',
       // tslint:disable-next-line:max-line-length
-      sinopsis: 'Después de las historias de Jango y Boba Fett, otro guerrero emerge en el universo de Star Wars. El Mandaloriano se establece después de la caída del Imperio y antes de la aparición de la Primera Orden. Seguimos las tribulaciones de un pistolero solitario en los confines de la galaxia, lejos de la autoridad de la Nueva República.',
-      img: 'assets/mando.jpg',
-      fecha: '2019-11-12',
-      trailer: 'XmI7WKrAtqs',
-      drive: '15hiXV3e4u1JFv4AOu0nKg37yaHp21j-C/preview'
+      sinopsis: 'Ha pasado más de una década y la pandilla regresó a East Great Falls, Michigan, para el fin de semana. Descubrirán cómo se han desarrollado sus vidas a medida que se reúnen para su reunión de secundaria. ¿Cómo ha tratado la vida a Michelle, Jim, Heather, Oz, Kevin, Vicky, Finch, Stifler y la madre de Stifler? En el verano de 1999, fueron cuatro niños en una búsqueda para perder su virginidad. Ahora Kara es una linda estudiante de secundaria que busca al chico perfecto para perder su virginidad.',
+      img: 'assets/amp8.jpg',
+      fecha: '2012-04-04',
+      trailer: 'DxBxqbsGlK0',
+      drive: '1faLxvGMlS85QoFfi2WF65AP5G77ElKxm/preview'
     },
     {
       idx : 23,
+      titulo: 'Belleza oculta',
+      short: 'Belleza inesperada',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Cuando un exitoso ejecutivo de publicidad de Nueva York sufre una gran tragedia, se retira de la vida. Mientras sus amigos preocupados intentan desesperadamente volver a conectarse con él, él busca respuestas del universo escribiendo cartas a Amor, Tiempo y Muerte. Pero no es hasta que sus notas traen respuestas personales inesperadas que comienza a comprender cómo estas constantes se entrelazan en una vida plenamente vivida, y cómo incluso la pérdida más profunda puede revelar momentos de significado y belleza.',
+      img: 'assets/bi.jpg',
+      fecha: '2016-12-23',
+      trailer: 'aYuELL1j5_E',
+      drive: '1nOnaC2aQ6qKDMSzpvie9cz7NuFDHPA2f/preview'
+    },
+    {
+      idx : 24,
+      titulo: 'Ready Player One',
+      short: 'Ready Player One',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'En el año 2045, el mundo real es un lugar duro. La única vez que Wade Watts (Tye Sheridan) realmente se siente vivo es cuando escapa al OASIS, un universo virtual inmersivo donde la mayoría de la humanidad pasa sus días. En el OASIS, puedes ir a cualquier parte, hacer cualquier cosa, ser cualquiera, los únicos límites son tu propia imaginación. El OASIS fue creado por el brillante y excéntrico James Halliday (Mark Rylance), quien dejó su inmensa fortuna y control total del Oasis al ganador de un concurso de tres partes que diseñó para encontrar un heredero digno. Cuando Wade conquista el primer desafío de la búsqueda del tesoro que dobla la realidad, él y sus amigos, también conocidos como High Five, son arrojados a un universo fantástico de descubrimiento y peligro para salvar al OASIS.',
+      img: 'assets/rpo.jpg',
+      fecha: '2018-03-29',
+      trailer: 'cSp1dM2Vj48',
+      drive: '1lKGPGdtKDgttnBBziYNWQjw0ul_JejT3/preview'
+    },
+    {
+      idx : 25,
+      titulo: 'Anabelle 3',
+      short: 'Annabelle vuelve a casa',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Decididos a evitar que Annabelle causara más estragos, los demonólogos Ed y Lorraine Warren llevan la muñeca poseída a la sala de artefactos cerrada en su casa, colocándola "a salvo" detrás de un cristal sagrado y reclutando la bendición del sacerdote. Pero una noche impía de horror aguarda cuando Annabelle despierta a los espíritus malignos en la habitación, quienes se enfocan en un nuevo objetivo: Judy, la hija de diez años de los Warren, y sus amigas.',
+      img: 'assets/an3.jpg',
+      fecha: '2018-07-12',
+      trailer: 'KUnKWjeQA9A',
+      drive: '1bRx_qxJ0eJjmzp3d9XaUBJb8ULMkKVfW/preview'
+    },
+    {
+      idx : 26,
+      titulo: 'X-Men Fénix Oscura',
+      short: 'X-Men Fénix Oscura',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Los X-Men. Protectores de la paz. Jean Gray es uno de los X-Men más queridos. Pero cuando una misión sale mal, Jean está expuesta a un poder oscuro y antiguo. Este poder ha destruido todo con lo que entra en contacto, hasta ella. Ahora que este poder se está volviendo inestable, lo libera con destrucción y enojo. Ahora que este poder extranjero la está consumiendo, y el mundo está amenazado, los X-Men tienen que enfrentar una verdad importante: deben salvar al mundo o a su amigo que lo amenaza.',
+      img: 'assets/xmf.jpg',
+      fecha: '2018-06-7',
+      trailer: '1-q8C_c-nlM',
+      drive: '1fAgYtObY_5sTzUQ5r6U1iacmVEoIkqcn/preview'
+    },
+    {
+      idx : 27,
+      titulo: 'Angry birds 2',
+      short: 'Angry birds 2',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Después de salvar a Bird Island de una invasión total de cerdo verde en Angry Birds: La película (2016), el héroe local siempre irritable de la isla, Red, todavía se encuentra luchando con Pig Island. A medida que la guerra de broma entre cerdos y pájaros se desata, los enormes proyectiles helados que provienen de la isla de águila cubierta de hielo del tirano Zeta amenazan la seguridad de ambos paraísos, a menos que Red y el Rey Leonard acuerden formar una tregua difícil pero honesta. Ahora, Red, Bomb, Mighty Eagle, Chuck y su brillante hermana, Silver, tienen que unir fuerzas con el poderoso equipo porcino de Leonard para frustrar los audaces esquemas del megalómano Zeta para dominar el mundo. Sin embargo, ¿es rojo capaz de cambiar?',
+      img: 'assets/ab2.jpg',
+      fecha: '2018-07-23',
+      trailer: 'RDj8Y2K0ODA',
+      drive: '1yWxngJGh0OSgyWu0YwDAPcug-iRVQE8s/preview'
+    },
+    {
+      idx : 28,
+      titulo: 'Spiderman far home',
+      short: 'Spider-Man: Lejos de casa',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Nuestro amigable vecindario Superhéroe decide unirse a sus mejores amigos Ned, MJ y el resto de la pandilla en unas vacaciones europeas. Sin embargo, el plan de Peter de dejar atrás a los súper heroicos durante algunas semanas se descarta rápidamente cuando acepta a regañadientes ayudar a Nick Fury a descubrir el misterio de varios ataques de criaturas elementales, creando estragos en todo el continente. ',
+      img: 'assets/spfh.jpg',
+      fecha: '2018-07-23',
+      trailer: 'DYYtuKyMtY8',
+      drive: '1RXSnobZTvAyRHGBZ2WFUIFBAvYNvRuJ8/preview'
+    },
+    {
+      idx : 29,
       titulo: 'it capítulo 2',
       short: 'it capítulo 2',
       // tslint:disable-next-line:max-line-length

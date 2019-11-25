@@ -5,11 +5,11 @@
   <form (ngSubmit)="guardar()" #forma="ngForm" class="justify-content-center">
     <div class="form-group">
       <label>Nombre:</label>
-        <input [(ngModel)]="cond1.nombre" name="nombre" type="text" class="form-control" placeholder="Ingrese aquí su nombre" required>
+        <input style="width: 300px;margin: 0 auto;" [(ngModel)]="cond1.nombre" name="nombre" type="text" class="form-control" placeholder="Ingrese aquí su nombre" required>
     </div>
     <div class="form-group">
       <label>Peticición de alguna película o sugerencias:</label>
-        <textarea [(ngModel)]="cond1.sugerencia" name="sugerencia" class="form-control" id="" rows="1" placeholder="..."  placement="top" ngbTooltip="En esta sección puedes hacer sugerencias con respecto al contenido o funcionalidad de la página de forma respetuosa, además podrás pedir alguna pélicua que desees ver en la página" triggers="click:blur"></textarea>
+        <textarea style="width: 300px;margin: 0 auto;" [(ngModel)]="cond1.sugerencia" name="sugerencia" class="form-control" id="" rows="3" placeholder="..."  placement="top" ngbTooltip="En esta sección puedes hacer sugerencias con respecto al contenido o funcionalidad de la página de forma respetuosa, además podrás pedir alguna pélicua que desees ver en la página" triggers="click:blur"></textarea>
     </div>
     <button [disabled]="!forma.valid" type="submit" class="btn btn-primary btn-lg">Entrar</button>
   </form>

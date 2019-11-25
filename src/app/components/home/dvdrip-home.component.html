@@ -1,6 +1,11 @@
 <div class="container">
+  <br>
+  <ngb-pagination class="d-flex justify-content-end" [collectionSize]="40" [(page)]="page"></ngb-pagination>
   <div class="card-columns scale-in-center">
-      <!-- *ngFor="let heroe of heroes; let i = index" -->
-      <app-tarjeta-dvdrip (peliculaSeleccionado)="verPelicula( $event )" [pelicula]="foo" [index]="i" *ngFor="let foo of peliculas | invertir ; let i = index"></app-tarjeta-dvdrip>
+    <!-- *ngFor="let heroe of heroes; let i = index" -->
+    <app-tarjeta-dvdrip (peliculaSeleccionado)="verPelicula( $event )" [pelicula]="foo" [index]="i"
+      *ngFor="let foo of peliculas | invertir | slice: (page-1) * pageSize : (page-1) * pageSize + pageSize  ; let i = index">
+    </app-tarjeta-dvdrip>
   </div>
+  <ngb-pagination class="d-flex justify-content-end" [collectionSize]="40" [(page)]="page"></ngb-pagination>
 </div>

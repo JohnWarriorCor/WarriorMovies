@@ -1,9 +1,10 @@
 export interface Pelicula {
-    nombre: string;
-    username: string;
-    servidor: string;
-    division: string;
-    liga: string;
-    carriles: string[];
+    short: string;
+    titulo: string;
+    sinopsis: string;
+    img: string;
+    fecha: string;
+    trailer: string;
+    drive: string;
     key$?: string;
 }

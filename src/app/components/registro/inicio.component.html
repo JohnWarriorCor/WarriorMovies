@@ -1,13 +1,18 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark"></nav>
-<div class="container text-white text-center" style="padding: 20px;">
-  <h1 class="display-3 text-uppercase">Bienvenid@</h1>
+<div class="container text-white" style="padding: 20px;">
+  <h1 class="text-uppercase text-center">Bienvenid@</h1>
   <p class="lead mb-0">
     Esta plataforma está adaptada para dipositivos móviles y computadores que soporten un navegador web.
     Por ahora no cuenta con soporte para SmartTV estable, próximamente se implementará.
-    La plataforma cuenta con más de 50 películas y está en constante actualización, tiene tres componentes los cuales son: <br>
-    Sección Full HD: La cual dispone de películas en alta calidad. <br>
-    Sección Saga del inifinitop: La cual dispone de 22 películas que componen esta saga en un formato de alta calidad. <br>
-    Sección DVD-Rip: La cual dispone de películas en calidad baja pero más liviana de cargar.
-  </p>
-  <button class="btn btn-primary btn-lg" [routerLink]="['/registro', 'nuevo']">CONTINUAR <i class="fas fa-caret-square-right"></i></button>
+    La plataforma cuenta con más de 50 películas, 2 series y está en constante actualización, tiene cuatro módulos los cuales son: <br>
+  </p><br>
+  <ul>
+    <li>Sección <b>PELÍCULAS</b>: La cual dispone de películas en alta calidad. </li>
+    <li>Sección <b><span class="text-uppercase">Saga del inifinito</span></b>: La cual dispone de 22 películas que componen esta saga en un formato de alta calidad. </li>
+    <li>Sección <b>SERIES</b>: La cual dispone de series recomendadas por el autor del sitio, es un componente en proceso debido a lo extenso y próximamente incluirá más.</li>
+    <li>Sección <b>BUSCADOR</b>: Una herramienta de búsqueda categorizada.</li>
+  </ul>
+  <div class="text-center">
+    <button class="btn btn-primary btn-lg tex" [routerLink]="['/registro', 'nuevo']">CONTINUAR <i class="fas fa-caret-square-right"></i></button>
+  </div>
 </div>
