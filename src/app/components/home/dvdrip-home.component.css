@@ -39,27 +39,3 @@
     opacity: 1;
   }
 }
-::ng-deep ngb-pagination .pagination .page-item .page-link {
-  border-radius: 2 !important;
-  border: black;
-}
-
-::ng-deep ngb-pagination .pagination .page-link {
-  border-top-style: none !important;
-  border-bottom-style: none !important;
-  background-color: black !important;
-  color: white !important;
-}
-::ng-deep ngb-pagination .pagination .page-link .active {
-  border-top-style: none !important;
-  border-bottom-style: none !important;
-  background-color: blue !important;
-  color: white !important;
-}
-ngb-pagination ::ng-deep ul > li:not(.active) > a {
-  background-color: black !important;
-}
-
-ngb-pagination ::ng-deep ul > li.active > a {
-  background-color: blue !important;
-}

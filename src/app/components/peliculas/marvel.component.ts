@@ -10,14 +10,9 @@ import { PeliculaMarvelBdService } from '../../services/pelicula-marvel-bd.servi
 export class MarvelComponent {
 
   pelicula: any = {};
-
   constructor( private activatedRoute: ActivatedRoute, private peliculaService: PeliculaMarvelBdService) {
     this.activatedRoute.params.subscribe( params => {
       this.pelicula = this.peliculaService.getPelicula(params.id);
     });
   }
-  up() {
-    window.scroll(0, 0);
-  }
-
 }

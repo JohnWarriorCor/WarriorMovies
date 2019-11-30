@@ -14,3 +14,47 @@ body{
   float: none;
   z-index: 100;
 }
+.pagination > li > a
+{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.page-item.active .page-link {
+    background-color: blue;
+    border: solid 1px blue;
+}
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > a:active,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+.pagination > li > span:active
+{
+    color: white;
+    background-color:blue;
+    border-color: blue;
+}
+
+.pagination > .active > a
+{
+    color: white;
+    background-color: blue;
+    border: solid 1px blue;
+}
+
+.pagination > .active > a:hover
+{
+    background-color: blue;
+    border: solid 1px blue;
+}
+.pagination ul > li:not(.active) > a
+{
+    background-color: blue;
+    border: solid 1px blue;
+}
+.pagination ul > li.active > a
+{
+    background-color: blue;
+    border: solid 1px blue;
+}

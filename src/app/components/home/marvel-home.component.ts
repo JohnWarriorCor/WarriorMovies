@@ -11,8 +11,10 @@ import { NavbarService } from '../../services/navbar.service';
   encapsulation: ViewEncapsulation.None
 })
 export class MarvelHomeComponent implements OnInit {
-
+  page = 1;
+  pageSize = 3;
   peliculas: Peliculas[] = [];
+  sound = new Audio('assets/avengers.mp3'); // buffers automatically when created
 
   // tslint:disable-next-line:max-line-length
   constructor( public nav: NavbarService, private modalService: NgbModal, private peliculaService: PeliculaMarvelBdService, private router: Router) {}
@@ -20,6 +22,7 @@ export class MarvelHomeComponent implements OnInit {
   ngOnInit() {
     this.peliculas = this.peliculaService.getPeliculas();
     this.nav.show();
+    this.played();
   }
   openLg(content) {
     this.modalService.open(content, { size: 'lg', windowClass: 'dark-modal' });
@@ -31,7 +34,9 @@ export class MarvelHomeComponent implements OnInit {
     // console.log(termino);
     this.router.navigate( ['/buscarMarvel', termino] );
   }
-  up() {
-    window.scroll(0, 0);
+  played() {
+    this.sound.volume = 0.2;
+    this.sound.autoplay = true ;
+    this.sound.load();
   }
 }
