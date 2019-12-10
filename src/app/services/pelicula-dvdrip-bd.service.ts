@@ -37,22 +37,6 @@ export class PeliculaDvdripBdService {
     },
     {
       idx: 1,
-      titulo: 'The Mandalorian Temporada 1',
-      short: 'The Mandalorian Temporada 1',
-      // tslint:disable-next-line:max-line-length
-      sinopsis: 'Después de las historias de Jango y Boba Fett, otro guerrero emerge en el universo de Star Wars. El Mandaloriano se establece después de la caída del Imperio y antes de la aparición de la Primera Orden. Seguimos las tribulaciones de un pistolero solitario en los confines de la galaxia, lejos de la autoridad de la Nueva República.',
-      img: 'assets/mando.jpg',
-      fecha: '2019-11-12',
-      trailer: 'XmI7WKrAtqs',
-      // tslint:disable-next-line:max-line-length
-      drive: ['19ITj3xgT3J2-dQoGxLloa2VU7COdfm1s/preview', // 1
-              '15hiXV3e4u1JFv4AOu0nKg37yaHp21j-C/preview', // 2
-              '17U9cJzJAqVW7tqWJ4ex9L-BFGwvnvFXY/preview', // 3
-              '1UfUEs1he2G0U_g8XH8UYWk5ZN0YPOC6q/preview', // 4
-            ]
-    },
-    {
-      idx: 2,
       titulo: 'La casa de papel temporada 1 y 2',
       short: 'La casa de papel temporada 1 y 2',
       // tslint:disable-next-line:max-line-length
@@ -79,7 +63,7 @@ export class PeliculaDvdripBdService {
             ]
     },
     {
-      idx: 3,
+      idx: 2,
       titulo: 'La casa de papel temporada 3',
       short: 'La casa de papel temporada 3',
       // tslint:disable-next-line:max-line-length
@@ -99,7 +83,7 @@ export class PeliculaDvdripBdService {
             ]
     },
     {
-      idx: 4,
+      idx: 3,
       titulo: 'Chernobyl HBO temporada 1',
       short: 'Chernobyl',
       // tslint:disable-next-line:max-line-length
@@ -112,7 +96,7 @@ export class PeliculaDvdripBdService {
             ]
     },
     {
-      idx: 5,
+      idx: 4,
       titulo: 'Game of Thrones Temporada 1',
       short: 'Game of Thrones temporada 1',
       // tslint:disable-next-line:max-line-length
@@ -133,7 +117,7 @@ export class PeliculaDvdripBdService {
             ]
     },
     {
-      idx: 6,
+      idx: 5,
       titulo: 'Game of Thrones Temporada 2',
       short: 'Game of Thrones temporada 2',
       // tslint:disable-next-line:max-line-length
@@ -154,7 +138,7 @@ export class PeliculaDvdripBdService {
             ]
     },
     {
-      idx: 7,
+      idx: 6,
       titulo: 'Game of Thrones Temporada 3',
       short: 'Game of Thrones temporada 3',
       // tslint:disable-next-line:max-line-length
@@ -175,7 +159,7 @@ export class PeliculaDvdripBdService {
             ]
     },
     {
-      idx: 8,
+      idx: 7,
       titulo: 'Game of Thrones Temporada 4',
       short: 'Game of Thrones temporada 4',
       // tslint:disable-next-line:max-line-length
@@ -196,7 +180,7 @@ export class PeliculaDvdripBdService {
             ]
     },
     {
-      idx: 9,
+      idx: 8,
       titulo: 'Game of Thrones Temporada 5',
       short: 'Game of Thrones temporada 5',
       // tslint:disable-next-line:max-line-length
@@ -217,7 +201,7 @@ export class PeliculaDvdripBdService {
             ]
     },
     {
-      idx: 10,
+      idx: 9,
       titulo: 'Game of Thrones Temporada 6',
       short: 'Game of Thrones temporada 6',
       // tslint:disable-next-line:max-line-length
@@ -238,7 +222,7 @@ export class PeliculaDvdripBdService {
             ]
     },
     {
-      idx: 11,
+      idx: 10,
       titulo: 'Game of Thrones Temporada 7',
       short: 'Game of Thrones temporada 7',
       // tslint:disable-next-line:max-line-length
@@ -256,7 +240,7 @@ export class PeliculaDvdripBdService {
             ]
     },
     {
-      idx: 12,
+      idx: 11,
       titulo: 'Game of Thrones Temporada 8',
       short: 'Game of Thrones temporada 8',
       // tslint:disable-next-line:max-line-length
@@ -270,6 +254,23 @@ export class PeliculaDvdripBdService {
               '1fLNRKkTwQazE-9s1_9Lrm4AbnzLtDmkC/preview', // 4
               '1BvCizQG3xeQeOeg69YFAA8op2JHnK8EE/preview', // 5
               '1elxQzruvzsoGALhj3c7uSdTSH_kGQRVZ/preview', // 6
+            ]
+    },
+    {
+      idx: 12,
+      titulo: 'The Mandalorian Temporada 1',
+      short: 'The Mandalorian Temporada 1',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Después de las historias de Jango y Boba Fett, otro guerrero emerge en el universo de Star Wars. El Mandaloriano se establece después de la caída del Imperio y antes de la aparición de la Primera Orden. Seguimos las tribulaciones de un pistolero solitario en los confines de la galaxia, lejos de la autoridad de la Nueva República.',
+      img: 'assets/mando.jpg',
+      fecha: '2019-11-12',
+      trailer: 'XmI7WKrAtqs',
+      // tslint:disable-next-line:max-line-length
+      drive: ['19ITj3xgT3J2-dQoGxLloa2VU7COdfm1s/preview', // 1
+              '15hiXV3e4u1JFv4AOu0nKg37yaHp21j-C/preview', // 2
+              '17U9cJzJAqVW7tqWJ4ex9L-BFGwvnvFXY/preview', // 3
+              '1UfUEs1he2G0U_g8XH8UYWk5ZN0YPOC6q/preview', // 4
+              '1RETdJCLjepDvsgP8FtFR3Wiw2nL9O4wN/preview', // 5
             ]
     },
     {
