@@ -1,9 +1,9 @@
 <div class="container">
   <br>
-  <ngb-pagination class="d-flex justify-content-end" [collectionSize]="((peliculas).length+20)" [(page)]="page"></ngb-pagination>
+  <ngb-pagination class="d-flex justify-content-end" [collectionSize]="((peliculas).length+25)" [(page)]="page"></ngb-pagination>
   <div class="card-columns scale-in-center" id="up">
       <!-- *ngFor="let heroe of heroes; let i = index" -->
       <app-tarjeta-peliculas (peliculaSeleccionado)="verPelicula( $event )" [pelicula]="foo" [index]="i" *ngFor="let foo of peliculas | invertir | slice: (page-1) * pageSize : (page-1) * pageSize + pageSize ; let i = index"></app-tarjeta-peliculas>
   </div>
-  <ngb-pagination class="d-flex justify-content-center" [collectionSize]="((peliculas).length+20)" [(page)]="page"></ngb-pagination>
+  <ngb-pagination class="d-flex justify-content-center" [collectionSize]="((peliculas).length+25)" [(page)]="page"></ngb-pagination>
 </div>

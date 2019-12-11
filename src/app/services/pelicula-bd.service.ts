@@ -22,6 +22,90 @@ export class PeliculaBdService {
     },
     {
       idx : 1,
+      titulo: 'El castigador',
+      short: 'the punisher',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'El agente especial Frank Castle lo tenía todo: una familia amorosa, una gran vida y un trabajo aventurero. Pero cuando un criminal despiadado y sus asociados le quitan la vida, Frank renace. Ahora sirviendo como juez, jurado y verdugo, es un nuevo tipo de vigilante para librar una guerra de un solo hombre contra aquellos que lo han hecho mal.',
+      img: 'assets/tp.jpg',
+      tirilla: 'assets/hd.png',
+      fecha: '2004-04-16',
+      trailer: '',
+      drive: '1FxDEu10HBls3MRm4cOSY49hFpXmlHmux/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 2,
+      titulo: '¿Por qué él?',
+      short: '¿Por qué él?',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Durante las vacaciones, Ned, un padre sobreprotector pero amoroso, y su familia visitan a su hija en Stanford, donde conoce a su mayor pesadilla: su novio millonario, Silicon Valley, bien intencionado pero socialmente incómodo. La rivalidad se desarrolla y el nivel de pánico de Ned se dispara cuando se encuentra perdido en este glamoroso mundo de alta tecnología y descubre que Laird está a punto de hacer esta pregunta.',
+      img: 'assets/pqe.jpg',
+      tirilla: 'assets/hd.png',
+      fecha: '2016-12-23',
+      trailer: 'EctQd9h9ez0',
+      drive: '1SoYLpC7LozZrplmNnGJuVg6EHrWv3stn/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 3,
+      titulo: 'Chappie',
+      short: 'Chappie',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'En Johannesburgo, el departamento de policía redujo la alta tasa de criminalidad utilizando robots de la Compañía Tetravaal, diseñada por el ingeniero Deon Wilson. El ex militar Vincent Moore tiene envidia de Deon, ya que ha desarrollado otro proyecto llamado Moose, pero ni Tetravaal ni el departamento de policía están interesados. Deon acaba de desarrollar una Inteligencia Artificial, pero la CEO de Tetravaal, Michelle Bradley, le pide que suspenda el proyecto. Deon decide traer el Robot 22 dañado que fue enviado para ser aplastado para probar su IA. Sin embargo, es secuestrado por los criminales Ninja, Yo-Landi y Amerika que quieren que detenga a los policías robot. Cuando ven el robot dañado en la camioneta, obligan a Deon a programarlo para robar bancos con ellos y lo llaman Chappie. Sin embargo, Chappie actúa como un niño y necesita ser entrenado para aprender y crecer.',
+      img: 'assets/cha.jpg',
+      tirilla: 'assets/hd.png',
+      fecha: '2015-03-06',
+      trailer: '',
+      drive: '16l0-2SGqmD-TJPXJy20Wz027HjMY4PuH/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 4,
+      titulo: 'Dirty Grandpa',
+      short: 'Mi abuelo es un peligro',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Jason Kelly, el nieto de Dick Kelly, pierde a su abuela unas dos semanas antes de su boda con Meredith. Intenta ayudar a su abuelo y consolarlo por su pérdida, pero fue engañado en un viaje por carretera de vacaciones de primavera; persiguiendo a la juventud una vez más. Con la ayuda de Shadia y Lenore, los dos hombres se embarcan en una aventura que nunca olvidarán.',
+      img: 'assets/map.jpg',
+      tirilla: 'assets/hd.png',
+      fecha: '2016-01-22',
+      trailer: '',
+      drive: '13VV6Nb_PJCXK8cH6nHtn6Gl-_Cabna5S/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 5,
+      titulo: 'Liga de la justicia',
+      short: 'Liga de la justicia',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Impulsado por su fe restaurada en la humanidad e inspirado por el acto desinteresado de Superman, Bruce Wayne solicita la ayuda de su nueva aliada, Diana Prince, para enfrentarse a un enemigo aún mayor. Juntos, Batman y Wonder Woman trabajan rápidamente para encontrar y reclutar un equipo de metahumanos para enfrentar esta amenaza recién despertada. Pero a pesar de la formación de esta liga de héroes sin precedentes: Batman, Wonder Woman, Aquaman, Cyborg y The Flash, ya puede ser demasiado tarde para salvar al planeta de un asalto de proporciones catastróficas. ',
+      img: 'assets/dc.jpg',
+      tirilla: 'assets/hd.png',
+      fecha: '',
+      trailer: '2017-11-17',
+      drive: '11Td4AKIYi7P9tEgnXX6wrltqGLcVIJ98/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 6,
+      titulo: 'Mazinger Z: INFINITY',
+      short: 'Mazinger Z: INFINITY',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Hace diez años, el científico villano Dr. Hell dirigió a sus malvados seguidores, conocidos como el Imperio Subterráneo, en una lucha para destruir a toda la humanidad. Fue contra estas fuerzas que luchó el joven héroe Koji Kabuto, pilotando el legendario súper robot "Mazinger Z". La victoria de Koji detuvo el malvado plan del Dr. Hell y devolvió la paz a la Tierra. Ahora Koji ha dejado atrás el asiento del piloto y se ha convertido en un científico por derecho propio, siguiendo los pasos de su padre y su abuelo. Sin embargo, un encuentro inesperado en las profundidades del monte. Fuji desencadena una amenaza aún mayor para la humanidad que nunca y altera el destino de Koji para siempre. Con el destino de la humanidad en sus manos, Koji y Mazinger Z enfrentan una elección entre el bien y el mal.',
+      img: 'assets/mzg.jpg',
+      tirilla: 'assets/hd.png',
+      fecha: '2018-02-11',
+      trailer: '',
+      drive: '18lb6221FkJSKV52vRHxrYrEZNPw_R1X6/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 7,
       titulo: 'Bohemian Rhapsody',
       short: 'Bohemian Rhapsody',
       // tslint:disable-next-line:max-line-length
@@ -35,7 +119,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 2,
+      idx : 8,
       titulo: 'THE HUSTLE',
       short: 'Timadoras compulsivas',
       // tslint:disable-next-line:max-line-length
@@ -49,7 +133,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 3,
+      idx : 9,
       titulo: 'Overboard',
       short: 'Un mar de enredos',
       // tslint:disable-next-line:max-line-length
@@ -63,7 +147,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 4,
+      idx : 10,
       titulo: 'coco',
       short: 'coco',
       // tslint:disable-next-line:max-line-length
@@ -77,7 +161,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 5,
+      idx : 11,
       titulo: 'Deadpool 2',
       short: 'Deadpool 2',
       // tslint:disable-next-line:max-line-length
@@ -91,7 +175,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 6,
+      idx : 12,
       titulo: 'Deadpool',
       short: 'Deadpool',
       // tslint:disable-next-line:max-line-length
@@ -105,7 +189,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 7,
+      idx : 13,
       titulo: 'A 2 metros de ti',
       short: 'a dos metros de ti',
       // tslint:disable-next-line:max-line-length
@@ -119,7 +203,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 8,
+      idx : 14,
       titulo: 'what man want',
       short: '¿En qué piensan los hombres?',
       // tslint:disable-next-line:max-line-length
@@ -133,7 +217,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 9,
+      idx : 15,
       titulo: 'Dumbo',
       short: 'Dumbo',
       // tslint:disable-next-line:max-line-length
@@ -147,7 +231,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 10,
+      idx : 16,
       titulo: 'Happy Death Day 2',
       short: 'Feliz día de tu muerte 2',
       // tslint:disable-next-line:max-line-length
@@ -161,7 +245,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 11,
+      idx : 17,
       titulo: 'Happy Death Day',
       short: 'Feliz día de tu muerte',
       // tslint:disable-next-line:max-line-length
@@ -175,7 +259,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 12,
+      idx : 18,
       titulo: 'Toy Story 4',
       short: 'Toy Story 4',
       // tslint:disable-next-line:max-line-length
@@ -189,7 +273,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 13,
+      idx : 19,
       titulo: 'Dectetive Pikachu',
       short: 'Pokémon: Detective Pikachu',
       // tslint:disable-next-line:max-line-length
@@ -203,7 +287,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 14,
+      idx : 20,
       titulo: 'El rey león',
       short: 'El rey león',
       // tslint:disable-next-line:max-line-length
@@ -217,7 +301,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 15,
+      idx : 21,
       titulo: 'PETS 2',
       short: 'LA VIDA SECRETA DE TUS MASCOTAS',
       // tslint:disable-next-line:max-line-length
@@ -231,7 +315,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 16,
+      idx : 22,
       titulo: 'Star Wars 8',
       short: 'Star Wars: Los últimos Jedi',
       // tslint:disable-next-line:max-line-length
@@ -245,7 +329,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 17,
+      idx : 23,
       titulo: 'Hobbs & Shaw',
       short: 'Fast & Furious: Hobbs & Shaw',
       // tslint:disable-next-line:max-line-length
@@ -259,7 +343,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 18,
+      idx : 24,
       titulo: 'John Wick 3',
       short: 'John Wick: Capítulo 3 - Parabellum',
       // tslint:disable-next-line:max-line-length
@@ -273,7 +357,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 19,
+      idx : 25,
       titulo: 'Dora',
       short: 'Dora y la ciudad perdida',
       // tslint:disable-next-line:max-line-length
@@ -287,7 +371,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 20,
+      idx : 26,
       titulo: 'la dama y el vagabundo',
       short: 'la dama y el vagabundo',
       // tslint:disable-next-line:max-line-length
@@ -301,7 +385,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 21,
+      idx : 27,
       titulo: 'Bumblebee',
       short: 'Bumblebee',
       // tslint:disable-next-line:max-line-length
@@ -315,7 +399,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 22,
+      idx : 28,
       titulo: 'AMERICAN PIE 8',
       short: 'AMERICAN PIE: EL REENCUENTRO',
       // tslint:disable-next-line:max-line-length
@@ -329,7 +413,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 23,
+      idx : 29,
       titulo: 'Belleza oculta',
       short: 'Belleza inesperada',
       // tslint:disable-next-line:max-line-length
@@ -343,7 +427,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 24,
+      idx : 30,
       titulo: 'Ready Player One',
       short: 'Ready Player One',
       // tslint:disable-next-line:max-line-length
@@ -357,7 +441,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 25,
+      idx : 31,
       titulo: 'Anabelle 3',
       short: 'Annabelle vuelve a casa',
       // tslint:disable-next-line:max-line-length
@@ -371,7 +455,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 26,
+      idx : 32,
       titulo: 'X-Men Fénix Oscura',
       short: 'X-Men Fénix Oscura',
       // tslint:disable-next-line:max-line-length
@@ -385,7 +469,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 27,
+      idx : 33,
       titulo: 'Angry birds 2',
       short: 'Angry birds 2',
       // tslint:disable-next-line:max-line-length
@@ -399,7 +483,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 28,
+      idx : 34,
       titulo: 'Spiderman far home',
       short: 'Spider-Man: Lejos de casa',
       // tslint:disable-next-line:max-line-length
@@ -413,7 +497,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 29,
+      idx : 35,
       titulo: 'it capítulo 2',
       short: 'it capítulo 2',
       // tslint:disable-next-line:max-line-length
@@ -427,7 +511,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 30,
+      idx : 36,
       titulo: 'Searching',
       short: 'Searching',
       // tslint:disable-next-line:max-line-length
@@ -441,7 +525,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 31,
+      idx : 37,
       titulo: 'Hollywood',
       short: 'Érase una vez ... en Hollywood',
       // tslint:disable-next-line:max-line-length
@@ -455,7 +539,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 32,
+      idx : 38,
       titulo: 'Joker',
       short: 'joker',
       // tslint:disable-next-line:max-line-length
@@ -469,7 +553,7 @@ export class PeliculaBdService {
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
-      idx : 33,
+      idx : 39,
       titulo: 'american ultra',
       short: 'american ultra',
       // tslint:disable-next-line:max-line-length
@@ -479,6 +563,104 @@ export class PeliculaBdService {
       fecha: '2015-07-21',
       trailer: 'icpHc_DetxI',
       drive: '1kMGZwp2-uWMloU5bNXgnsDlpvmIUvHN_/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 40,
+      titulo: 'jefa por accidente',
+      short: 'jefa por accidente',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Una gran trabajadora de una tienda de cajas reinventa su vida y su historia de vida y le muestra a Madison Avenue lo que la inteligencia de la calle puede hacer.',
+      img: 'assets/jpa.jpg',
+      tirilla: 'assets/hd.png',
+      fecha: '2018-12-21',
+      trailer: 'VoNNj-eC-KA',
+      drive: '1IH6Qh0Gpnzr_w6yUMs2SpLilw3xloMym/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 41,
+      titulo: 'justiciero 2',
+      short: 'justiciero 2',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'El director Antoine Fuqua se reúne con Denzel Washington en esta secuela de The Equalizer de 2014. Washington retoma su papel de Robert McCall: un agente retirado de la CIA Black Ops que ahora trabaja como conductor de Lyft y vigila a la luz de la luna. Cuando su amiga Susan Plummer (Melissa Leo) es asesinada, se embarca en una incesante búsqueda de venganza por el mundo.',
+      img: 'assets/ju2.jpg',
+      tirilla: 'assets/hd.png',
+      fecha: '2018-07-20',
+      trailer: 'zK0LNzU2TQI',
+      drive: '14wr4pYb6VTDSMmMP1RY2rBtwLk_H5est/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 42,
+      titulo: 'Pet Sematary',
+      short: 'Pet Sematary',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Louis Creed, su esposa Rachel, y sus dos hijos, Gage y Ellie, mover a una casa rural donde son recibidos e iluminados por el misterioso Pet Sematary, ubicado cerca. Después de la tragedia de su gato está muerto por un camión, Louis recurre a enterrarlo en el misterioso cementerio de mascotas, lo que definitivamente no es lo que parece, ya que demuestra a los Símbolos que, a veces, es mejor muertos.',
+      img: 'assets/ps.jpg',
+      tirilla: 'assets/hd.png',
+      fecha: '2019-04-05',
+      trailer: '',
+      drive: '1Ete_hBwyBkyNNX5tduZ83eJFq_tYAeyB/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 43,
+      titulo: 'nace una estrella',
+      short: 'nace una estrella',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'El experimentado músico Jackson Maine (Bradley Cooper) descubre y se enamora de Ally (Gaga). Ella casi ha renunciado a su sueño de triunfar como cantante, hasta que Jack la convence. Pero incluso cuando la carrera de Ally despega, el lado personal de su relación se está desmoronando, mientras Jack lucha en una batalla en curso con sus propios demonios internos.',
+      img: 'assets/nue.jpg',
+      tirilla: 'assets/hd.png',
+      fecha: '2018-10-05',
+      trailer: 'RCSf90JrROk',
+      drive: '1co3DW_iILnH4ycxaIUgRiHe9Ybp39QxB/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 44,
+      titulo: 'regreso a casa',
+      short: 'regreso a casa',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Como cachorro, Bella encuentra el camino hacia los brazos de Lucas, un joven que le da un buen hogar. Cuando Bella se separa de Lucas, pronto se encuentra en un viaje épico de 400 millas para reunirse con su amado dueño. En el camino, el perro perdido pero enérgico se encuentra con una serie de nuevos amigos y logra brindar un poco de consuelo y alegría a sus vidas.',
+      img: 'assets/rac.jpg',
+      tirilla: 'assets/hd.png',
+      fecha: '2019-01-11',
+      trailer: 'Fo4POwticIk',
+      drive: '1rpOBYSexGY9xWKRMMqi_REap07ow3JIs/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 45,
+      titulo: 'klaus',
+      short: 'klaus',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Cuando Jesper (Jason Schwartzman) se distingue como el peor estudiante de la academia postal, se encuentra estacionado en una isla congelada sobre el Círculo Polar Ártico, donde los lugareños apenas intercambian palabras y mucho menos letras. Jesper está a punto de darse por vencido cuando encuentra un aliado en el maestro local Alva (Rashida Jones) y descubre a Klaus (ganador del Oscar® JK Simmons), un misterioso carpintero que vive solo en una cabaña llena de juguetes hechos a mano. Estas improbables amistades devuelven la risa a Smeerensburg, forjando un nuevo legado de vecinos generosos, tradiciones mágicas y medias colgadas de la chimenea con cuidado. Una comedia animada de Navidad dirigida por el cocreador de Despicable Me Sergio Pablos, los coprotagonistas de KLAUS Rashida Jones, Jason Schwartzman y JK Simmons.',
+      img: 'assets/kla.jpg',
+      tirilla: 'assets/hd.png',
+      fecha: '2019-11-15',
+      trailer: 'taE3PwurhYM',
+      drive: '1CgZjWDdKVWRRpNzUzUNNsrGZ8d31lc-p/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 46,
+      titulo: 'Can You Keep a Secret?',
+      short: 'me puedes guardar un secreto?',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Pensando que están a punto de estrellarse, Emma le cuenta sus secretos a un extraño en un avión. Al menos, pensó que era un extraño ... Hasta que más tarde conoce a Jack, el joven CEO de su compañía, que ahora conoce cada detalle humillante sobre ella. Basado en el éxito de ventas más vendido de NYT.',
+      img: 'assets/mpg.jpg',
+      tirilla: 'assets/hd.png',
+      fecha: '2019-07-16',
+      trailer: 'wEYh5-L20hU',
+      drive: '1HwVpyfxupNeadDKfk-FtP_dvKEczcOF9/preview',
       // tslint:disable-next-line:max-line-length
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
