@@ -271,6 +271,7 @@ export class PeliculaDvdripBdService {
               '17U9cJzJAqVW7tqWJ4ex9L-BFGwvnvFXY/preview', // 3
               '1UfUEs1he2G0U_g8XH8UYWk5ZN0YPOC6q/preview', // 4
               '1RETdJCLjepDvsgP8FtFR3Wiw2nL9O4wN/preview', // 5
+              '1ZeMa62H4LTJOOMUnabidEBxLFfx4Ct1y/preview', // 6
             ]
     },
     {
