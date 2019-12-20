@@ -5,7 +5,7 @@ import { NavbarService } from '../../services/navbar.service';
 
 import { FormGroup, NgForm, FormControl, Validators, FormArray } from '@angular/forms';
 import { RegistroService } from '../../services/registro.service';
-import { Registro } from '../../interfaces/registro';
+import { Registros } from '../../interfaces/registros';
 
 @Component({
   selector: 'app-registro',
@@ -18,7 +18,7 @@ export class RegistroComponent implements OnInit {
   controls: any;
   nuevo = false;
   id: string;
-  cond1: Registro = {
+  cond1: Registros = {
     nombre: '',
     sugerencia: '',
     fechaIngreso: '',

@@ -33,6 +33,10 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { Routes } from '@angular/router';
 import { InicioComponent } from './components/registro/inicio.component';
 import { KeysPipe } from './pipes/keys.pipe';
+import { PeliculaBdService } from './services/pelicula-bd.service';
+import { RegistroService } from './services/registro.service';
+import { PeliculaDvdripBdService } from './services/pelicula-dvdrip-bd.service';
+import { PeliculaMarvelBdService } from './services/pelicula-marvel-bd.service';
 
 @NgModule({
   declarations: [
@@ -71,6 +75,10 @@ import { KeysPipe } from './pipes/keys.pipe';
   ],
   providers: [
     NavbarService,
+    PeliculaBdService,
+    RegistroService,
+    PeliculaDvdripBdService,
+    PeliculaMarvelBdService
   ],
   bootstrap: [AppComponent]
 })

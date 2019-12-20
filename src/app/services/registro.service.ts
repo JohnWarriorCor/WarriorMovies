@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Http, Headers  } from '@angular/http';
 import { map } from 'rxjs/operators';
-import { Registro } from '../interfaces/registro';
+import { Registros } from '../interfaces/registros';
 
 @Injectable({
   providedIn: 'root'
@@ -11,7 +11,7 @@ export class RegistroService {
   condicionURL = 'https://warriormovies-6aa76.firebaseio.com/visitantes/';
   constructor( private http: Http) { }
 
-  nuevoInvocador( regis: Registro) {
+  nuevoInvocador( regis: Registros) {
     const body = JSON.stringify(regis);
     const headers = new Headers({
       'Content-Type': 'application/json'
@@ -21,7 +21,7 @@ export class RegistroService {
       return res.json();
     }));
   }
-  actualizarInvocador( reg: Registro, key$: string ) {
+  actualizarInvocador( reg: Registros, key$: string ) {
     const body = JSON.stringify(reg);
     const headers = new Headers({
       'Content-Type': 'application/json'
@@ -45,10 +45,4 @@ export class RegistroService {
     const url = `${ this.condicionURL }/${ key$ }.json`;
     return this.http.delete(url).pipe(map( res => res.json()));
   }
-}
-export interface Registro {
-  idx?: number;
-  nombre: string;
-  sugerencia: string;
-  fechaIngreso: string;
 }

@@ -54,7 +54,7 @@
       </ol>
       <div class="carousel-inner">
         <div [ngClass]="i == 0 ? 'carousel-item active' : 'carousel-item'" *ngFor="let item of peliculas let i = index ">
-          <a [routerLink]="['/pelicula',item.idx]">
+          <a [routerLink]="['/pelicula',item.idx]" (click)="up()">
             <img [src]="item.img" class="d-block w-100" [alt]="item.short">
           </a>
           <div class="carousel-caption d-none d-md-block">
