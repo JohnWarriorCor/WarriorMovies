@@ -462,7 +462,7 @@ export class PeliculaBdService {
       sinopsis: 'Los X-Men. Protectores de la paz. Jean Gray es uno de los X-Men más queridos. Pero cuando una misión sale mal, Jean está expuesta a un poder oscuro y antiguo. Este poder ha destruido todo con lo que entra en contacto, hasta ella. Ahora que este poder se está volviendo inestable, lo libera con destrucción y enojo. Ahora que este poder extranjero la está consumiendo, y el mundo está amenazado, los X-Men tienen que enfrentar una verdad importante: deben salvar al mundo o a su amigo que lo amenaza.',
       img: 'assets/xmf.jpg',
       tirilla: 'assets/dvd.png',
-      fecha: '2018-06-7',
+      fecha: '2018-06-07',
       trailer: '1-q8C_c-nlM',
       drive: '1fAgYtObY_5sTzUQ5r6U1iacmVEoIkqcn/preview',
       // tslint:disable-next-line:max-line-length
@@ -589,7 +589,7 @@ export class PeliculaBdService {
       img: 'assets/ju2.jpg',
       tirilla: 'assets/hd.png',
       fecha: '2018-07-20',
-      trailer: 'zK0LNzU2TQI',
+      trailer: 'Q-HiBI_cAT8',
       drive: '14wr4pYb6VTDSMmMP1RY2rBtwLk_H5est/preview',
       // tslint:disable-next-line:max-line-length
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
@@ -717,6 +717,48 @@ export class PeliculaBdService {
       fecha: '2019-12-13',
       trailer: 'aVfxMcGrKm4',
       drive: '1WjoQbGakckYkfhmeWUAHSDrKUsQtobQO/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 51,
+      titulo: 'alita',
+      short: 'alita',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Alita es una creación de una época de desesperación. Encontrada por el misterioso Dr. Ido mientras buscaba partes de cyborg, Alita se convierte en un ser letal y peligroso. No puede recordar quién es o de dónde vino. Pero para el Dr. Ido, la verdad es muy clara. Ella es la única persona que puede romper el ciclo de muerte y destrucción que dejó Tiphares. Pero para lograr su verdadero propósito, debe luchar y matar. Y ahí es donde entra en juego el verdadero significado de Alita. Ella es un ángel del cielo. Ella es un ángel de la muerte.',
+      img: 'assets/ali.jpg',
+      tirilla: 'assets/hd.png',
+      fecha: '2019-02-14',
+      trailer: 'HZpDuRzr_Xk',
+      drive: '1TjJOSzvJTxufsg1PHMi5sNuCLIqprC9a/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 52,
+      titulo: 'POMS',
+      short: 'POMS',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'POMS es una comedia sobre un grupo de mujeres que forman un escuadrón de animadores en su comunidad de jubilados, lo que demuestra que nunca eres demasiado viejo para traerlo.',
+      img: 'assets/poms.jpg',
+      tirilla: 'assets/hd.png',
+      fecha: '2019-04-10',
+      trailer: '-9PypHxfY_M',
+      drive: '1jd6yQdHBTjTHtvata7XEUxhfDaZ1Tym6/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 53,
+      titulo: 'Star Wars IX',
+      short: 'Star Wars: Episode IX - The Rise of Skywalker',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'La Resistencia sobreviviente se enfrenta a la Primera Orden una vez más en el capítulo final de la saga Skywalker.',
+      img: 'assets/sw9.jpg',
+      tirilla: 'assets/gdc.png',
+      fecha: '2019-12-20',
+      trailer: '8Qn_spdM5Zg',
+      drive: '1wzx8CdBQ1I7W8IXEAnFKnhIVZSRvq4ip/preview',
       // tslint:disable-next-line:max-line-length
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },

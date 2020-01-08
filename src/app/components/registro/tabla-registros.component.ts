@@ -9,7 +9,7 @@ import { NavbarService } from '../../services/navbar.service';
   encapsulation: ViewEncapsulation.None,
 })
 export class TablaRegistrosComponent implements OnInit {
-  page = 1;
+  page = 0;
   pageSize = 10;
   registro: any[] = [];
   loading = true;

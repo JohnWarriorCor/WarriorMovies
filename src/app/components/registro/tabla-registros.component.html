@@ -5,13 +5,9 @@
         <tbody *ngFor="let reg of registro | keys | slice: (page-1) * pageSize : (page-1) * pageSize + pageSize ; let i = index">
             <tr>
                 <th class="tg-0pky">#</th>
-                <td class="tg-0pky">{{ i+1 }}</td>
+                <td class="tg-0pky">{{ (i+1)+((page-1)*10)}}</td>
                 <th class="tg-0pky">Nombre</th>
                 <td class="tg-0pky">{{ registro[reg].nombre }}</td>
-              </tr>
-              <tr>
-                <th class="tg-0pky" colspan="2">Sugerencia</th>
-                <td class="tg-0pky" colspan="2">{{ registro[reg].sugerencia }}</td>
               </tr>
               <tr>
                 <th class="tg-0pky" colspan="2">Fecha y hora</th>

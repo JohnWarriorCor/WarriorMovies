@@ -7,8 +7,8 @@ import { Registros } from '../interfaces/registros';
   providedIn: 'root'
 })
 export class RegistroService {
-  condicionRegistroURL = 'https://warriormovies-6aa76.firebaseio.com/visitantes.json';
-  condicionURL = 'https://warriormovies-6aa76.firebaseio.com/visitantes/';
+  condicionRegistroURL = 'https://anonimomovies-1c361.firebaseio.com/visitantes.json';
+  condicionURL = 'https://anonimomovies-1c361.firebaseio.com/visitantes/';
   constructor( private http: Http) { }
 
   nuevoInvocador( regis: Registros) {

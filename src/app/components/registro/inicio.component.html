@@ -1,17 +1,65 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark"></nav>
 <div class="container text-white" style="padding: 20px;">
   <h1 class="text-uppercase text-center">Bienvenid@</h1>
-  <p class="lead mb-0">
+  <p class="lead mb-0 text-justify">
     Esta plataforma está adaptada para dipositivos móviles y computadores que soporten un navegador web.
     Por ahora no cuenta con soporte para SmartTV estable, próximamente se implementará.
-    La plataforma cuenta con más de 50 películas, 2 series y está en constante actualización, tiene cuatro módulos los cuales son: <br>
+    Debido a adversidades con terceros, la plataforma fue migrada y adaptada con un usuario de autenticación.
+    Movies cuenta con más de {{peliculas.length}} películas, {{series.length}} series y está en constante actualización, tiene cuatro módulos los cuales son: <br>
   </p><br>
-  <ul>
-    <li>Sección <b>PELÍCULAS</b>: La cual dispone de películas en alta calidad. </li>
-    <li>Sección <b><span class="text-uppercase">Saga del inifinito</span></b>: La cual dispone de 22 películas que componen esta saga en un formato de alta calidad. </li>
-    <li>Sección <b>SERIES</b>: La cual dispone de series recomendadas por el autor del sitio, es un componente en proceso debido a lo extenso y próximamente incluirá más.</li>
-    <li>Sección <b>BUSCADOR</b>: Una herramienta de búsqueda categorizada.</li>
-  </ul>
+  <hr style="border: 2px solid white;">
+  <h4>Sección <b>PELÍCULAS</b>: La cual dispone de películas en alta calidad etiqueta <span style="background-color: #0099cc;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;padding-left: 5px;padding-right: 5px;">HD</span> y otras más ligeras con etiqueta <span style="background-color: #0099cc;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;padding-left: 5px;padding-right: 5px;">DVD</span>.</h4><br>
+  <ngb-pagination class="d-flex justify-content-center" [collectionSize]="((peliculas.length/10)*10)" [(page)]="page"></ngb-pagination>
+  <table class="table table-sm table-dark">
+    <thead>
+      <tr>
+        <th colspan="3" scope="col" class="text-uppercase text-center">Listado de películas disponibles</th>
+      </tr>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Lanzamiento</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let f of peliculas | slice: (page-1) * pageSize : (page-1) * pageSize + pageSize ; let i = index, let j = index">
+        <th scope="row">{{(j+1)+((page-1)*10)}}</th>
+        <td class="text-uppercase">{{peliculas[(peliculas.length-1)-(i+((page-1)*10))].short}}</td>
+        <td>{{peliculas[(peliculas.length-1)-(i+((page-1)*10))].fecha}}</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr style="border: 2px solid white;">
+  <br>
+  <h4>Sección <b>SERIES</b>: La cual dispone de series recomendadas por el autor del sitio, es un componente en proceso debido a lo extenso y próximamente incluirá más.</h4><br>
+  <ngb-pagination class="d-flex justify-content-center" [collectionSize]="(((series).length/10)*10)" [(page)]="pageB"></ngb-pagination>
+  <table class="table table-sm table-dark">
+    <thead>
+      <tr>
+        <th colspan="4" scope="col" class="text-uppercase text-center">Listado de series disponibles</th>
+      </tr>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Lanzamiento</th>
+        <th scope="col">Episodios</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let s of series | slice: (pageB-1) * pageSizeB : (pageB-1) * pageSizeB + pageSizeB ; let i = index, let j = index">
+        <th scope="row">{{(j+1)+((page-1)*10)}}</th>
+        <td class="text-uppercase">{{series[(series.length-1)-(i+((pageB-1)*10))].short}}</td>
+        <td>{{series[(series.length-1)-(i+((pageB-1)*10))].fecha}}</td>
+        <td>{{series[(series.length-1)-(i+((pageB-1)*10))].drive.length}}</td>
+      </tr>
+      <h1></h1>
+    </tbody>
+  </table><br>
+  <hr style="border: 2px solid white;">
+  <h4>Sección <b><span class="text-uppercase">Saga del inifinito</span></b>: La cual dispone de 22 películas que componen esta saga en un formato de alta calidad.</h4><br>
+  <hr style="border: 2px solid white;">
+  <h4>Sección <b>BUSCADOR</b>: Una herramienta de búsqueda categorizada.</h4><br>
+  <hr style="border: 2px solid white;">
   <div class="text-center">
     <button class="btn btn-primary btn-lg tex" [routerLink]="['/registro', 'nuevo']">CONTINUAR <i class="fas fa-caret-square-right"></i></button>
   </div>

@@ -14,6 +14,8 @@ import { Registros } from '../../interfaces/registros';
   encapsulation: ViewEncapsulation.None,
 })
 export class RegistroComponent implements OnInit {
+  key: any;
+  error = false;
   forma: FormGroup;
   controls: any;
   nuevo = false;
@@ -45,16 +47,22 @@ export class RegistroComponent implements OnInit {
     this.cond1.fechaIngreso = this.jstoday;
   }
   guardar() {
-    if ( this.id === 'nuevo' ) {
-      this._CONDICIONSERVICES.nuevoInvocador(this.cond1 ).subscribe(data => {
-        this.router.navigate(['/home']);
-      },
-      error => console.error(error));
+    this.key = this.cond1.nombre.toUpperCase();
+    // tslint:disable-next-line:max-line-length
+    if ( this.key === 'AURORA' || this.key === 'CARLOSBER' || this.key === 'JOHNGOMEZ' || this.key === 'JEANMA' || this.key === 'MILTONGUERRERO' || this.key === 'ANDRESC' || this.key === 'KAROL' || this.key === 'NANA' || this.key === 'MAMANO') {
+      if ( this.id === 'nuevo' ) {
+        this._CONDICIONSERVICES.nuevoInvocador(this.cond1 ).subscribe(data => {
+          this.router.navigate(['/home']);
+        },
+        error => console.error(error));
+      } else {
+        this._CONDICIONSERVICES.actualizarInvocador( this.cond1, this.id ).subscribe(data => {
+          this.router.navigate(['/home']);
+        },
+        error => console.error(error));
+      }
     } else {
-      this._CONDICIONSERVICES.actualizarInvocador( this.cond1, this.id ).subscribe(data => {
-        this.router.navigate(['/home']);
-      },
-      error => console.error(error));
+      this.error = true;
     }
   }
   agregarNuevo( forma: NgForm) {

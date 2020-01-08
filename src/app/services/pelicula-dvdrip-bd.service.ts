@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class PeliculaDvdripBdService {
 
-  private peliculas: Peliculas[] = [
+  private peliculas: Series[] = [
     {
       idx: 0,
       titulo: 'The big bang theory temporada 1',
@@ -37,12 +37,222 @@ export class PeliculaDvdripBdService {
     },
     {
       idx: 1,
+      titulo: 'The big bang theory temporada 2',
+      short: 'The big bang theory temporada 2',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Leonard Hofstadter y Sheldon Cooper son físicos brillantes que trabajan en Cal Tech en Pasadena, California. Son colegas, mejores amigos y compañeros de cuarto, aunque en todas sus capacidades su relación siempre es probada principalmente por las formas regimentadas, profundamente excéntricas y no convencionales de Sheldon. También son amigos de sus colegas de Cal Tech, el ingeniero mecánico Howard Wolowitz y el astrofísico Rajesh Koothrappali. Los cuatro pasan su tiempo trabajando en sus proyectos de trabajo individuales, jugando videojuegos, viendo películas de ciencia ficción o leyendo cómics. Como son nerds autoproclamados, todos tienen poca o ninguna suerte con las mujeres. Cuando Penny, una mujer bonita y una aspirante a actriz de Omaha, se muda al departamento al otro lado del pasillo de Leonard y Sheldon, Leonard tiene otra aspiración en la vida.',
+      img: 'assets/tbbt2.jpg',
+      fecha: '2008-07-24',
+      trailer: '9l4FSDqNsuk',
+      // tslint:disable-next-line:max-line-length
+      drive: ['1Nervxw8wnWKUdL6y9r4tWeNThnTSYaBK/preview', // 1
+              '1OwI0HTAqd449sAM4-7ZvgG_UkziAdrrV/preview', // 2
+              '1Qzshyf7E55XKzMBKvRNODoRGrkdGR0CU/preview', // 3
+              '1ew_hENVHRIR2H-Opx8iR60w6uii2zycV/preview', // 4
+              '1kmoN1uh_Bjc-znTjXRjM79HVhNwUiLJo/preview', // 5
+              '1mc6qTWoI9NwYYM6PkA8tpl3a5Q_lGT6j/preview', // 6
+              '1NTESvk4f76lTq6W46CpOKD0QM1pNA_s7/preview', // 7
+              '1K3TA0FIYQ-l3WwgbpuTN2RKUAXGcT5b5/preview', // 8
+              '1I6_VUrtoYDg0J9JoESqpSYU6Q4BqWUZ1/preview', // 9
+              '18AghfAwUxlyDSt8514O7E2NAWZ6GxFEl/preview', // 10
+              '177C-XpYD829JzfuIlxLc5CBiWdXasXDE/preview', // 11
+              '1bCpxVkhbkuLdQbmkEnzGKFE4OINWKhwk/preview', // 12
+              '1MbMEi-iqyQNqE3PrpopShyhvqPF_8Pc7/preview', // 13
+              '12ZqPq2AxMHjfmnFnxajozef9yC943Fxb/preview', // 14
+              '1iy8snmQj8m6AdUGmMhW-1e71dPhegHDX/preview', // 15
+              '1WGvJLwEXcA88XeiuVhBJehjXRDsXRNrr/preview', // 16
+              '1W0j0xkX1p77cCixddkMb4mByJtAxF_4N/preview', // 17
+              '1Bo_DH8oMYG1rWY9k1s0yZsjq_TtS-vxO/preview', // 18
+              '1niygv_P5G-jPIgvmuC1RT5rxQB59WSj4/preview', // 19
+              '16j_HjZY8AVuDPYEPh6ZIka2o8_Fj8GJj/preview', // 20
+              '13Y2Lz2oFBWBT2P8ieNZersA6qAncbxPm/preview', // 21
+              '18VgrPKIYoAIBWpz9HxTyx7OOumEKmwEV/preview', // 22
+              '11oNAgYkSBb8flv9-IE-W6S1CjygNz5qH/preview', // 23
+            ]
+    },
+    {
+      idx: 2,
+      titulo: 'The big bang theory temporada 3',
+      short: 'The big bang theory temporada 3',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Leonard Hofstadter y Sheldon Cooper son físicos brillantes que trabajan en Cal Tech en Pasadena, California. Son colegas, mejores amigos y compañeros de cuarto, aunque en todas sus capacidades su relación siempre es probada principalmente por las formas regimentadas, profundamente excéntricas y no convencionales de Sheldon. También son amigos de sus colegas de Cal Tech, el ingeniero mecánico Howard Wolowitz y el astrofísico Rajesh Koothrappali. Los cuatro pasan su tiempo trabajando en sus proyectos de trabajo individuales, jugando videojuegos, viendo películas de ciencia ficción o leyendo cómics. Como son nerds autoproclamados, todos tienen poca o ninguna suerte con las mujeres. Cuando Penny, una mujer bonita y una aspirante a actriz de Omaha, se muda al departamento al otro lado del pasillo de Leonard y Sheldon, Leonard tiene otra aspiración en la vida.',
+      img: 'assets/tbbt3.jpg',
+      fecha: '2009-07-24',
+      trailer: '9l4FSDqNsuk',
+      // tslint:disable-next-line:max-line-length
+      drive: ['13w2gegL3WEg_6QokUtMLkhUx8qzLK7Rx/preview', // 1
+              '1HwCoE1qaspXEBfDNQ1L7SJ6aGuII5KjW/preview', // 2
+              '1tvtgazx1-QIFTbAadJZvPLazuPNk_cjh/preview', // 3
+              '18s4n2mURTFbAqet9wg_9vVouOlUOhjJq/preview', // 4
+              '1RpayGZmLSJQAjon8hD2BpMkK2HqWJKUZ/preview', // 5
+              '1Dsn9JEZaHrj9zvxC0mfiIQwml-GW5m9V/preview', // 6
+              '1bz5OgXxByd9W1-7oU4aGXjnzUUedDajc/preview', // 7
+              '1fRviYaUkez6hnLPEvFKnfQgT1lSPCKvC/preview', // 8
+              '1Blg3u5VTsa91tn7rvU64H4IULvpZSyHY/preview', // 9
+              '10q9wP90FG15Fb7MLmJrE6qVb05LMDJ8x/preview', // 10
+              '1HXA--8L6TDDeehvczsj1TTLpd6D-s-eR/preview', // 11
+              '1t-pvgI-bZvfvnH3geK-SJxpSqMoYpBae/preview', // 12
+              '1zCzGe5XL9O_gpPy3r5jBne-6v222ipFT/preview', // 13
+              '1bDV0-7F-xkwcqGYAiMnPsqZqAhg44idz/preview', // 14
+              '1gKT29I9esFHoD6xgmtIQU0IVIJDku0My/preview', // 15
+              '16zGCX1P1pZCPfa_LpB9YzX3aoigqd7at/preview', // 16
+              '1-pXGggBLEJTbv1ucbYB2z_RtaloeAkzB/preview', // 17
+              '1yh5SZh0bPLghuaQMFodXSj4UwFoWeft9/preview', // 18
+              '1OevaYbbJCAWwhV9aJ5507YRttRcluQNY/preview', // 19
+              '1QEU6ORwjehHUIY0qAsx6Sqh8AKzDdTSf/preview', // 20
+              '19kSCPWUYmngtULRkBECNQyl8hzCeAyM0/preview', // 21
+              '1jtsqhMQLVX0lpMG5ZWckoF9e5hWrEQme/preview', // 22
+              '1qJy0YkQP95iB8ndRDCBwVjOKFOoDR3Ys/preview', // 23
+            ]
+    },
+    {
+      idx: 3,
+      titulo: 'The big bang theory temporada 4',
+      short: 'The big bang theory temporada 4',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Leonard Hofstadter y Sheldon Cooper son físicos brillantes que trabajan en Cal Tech en Pasadena, California. Son colegas, mejores amigos y compañeros de cuarto, aunque en todas sus capacidades su relación siempre es probada principalmente por las formas regimentadas, profundamente excéntricas y no convencionales de Sheldon. También son amigos de sus colegas de Cal Tech, el ingeniero mecánico Howard Wolowitz y el astrofísico Rajesh Koothrappali. Los cuatro pasan su tiempo trabajando en sus proyectos de trabajo individuales, jugando videojuegos, viendo películas de ciencia ficción o leyendo cómics. Como son nerds autoproclamados, todos tienen poca o ninguna suerte con las mujeres. Cuando Penny, una mujer bonita y una aspirante a actriz de Omaha, se muda al departamento al otro lado del pasillo de Leonard y Sheldon, Leonard tiene otra aspiración en la vida.',
+      img: 'assets/tbbt4.jpg',
+      fecha: '2010-07-24',
+      trailer: '9l4FSDqNsuk',
+      // tslint:disable-next-line:max-line-length
+      drive: ['1TsxtJay7XaN_kfnnw_bPPO1d618qwXGQ/preview', // 1
+              '14gE0Lszp1FMBwgfKbHRk4I-wIiZ2wqaI/preview', // 2
+              '1r3Z6wlB7on3eTYuHvdQNBXn0LCFz3w_t/preview', // 3
+              '1vmH6qtGudYh82hOsKIak9yW2ItPaI_DF/preview', // 4
+              '1fDCYVNrhBsnDyUkHtjnkEgotL9IaKFf_/preview', // 5
+              '1yvY-L3RGhcFdYECUu5z2t3MPaImlHC2P/preview', // 6
+              '10S07JL1on0Jqg-S6li4_lUcsl3ieUdZK/preview', // 7
+              '1ue_EbPDwSvqPil4Y3FxNKRaK_a0wmrea/preview', // 8
+              '17oXZ6xSRdtdNbZvSapRMFopz6MkdCbwm/preview', // 9
+              '14jjXYfpMkymZv-UFknpUpx57zUt4CO-W/preview', // 10
+              '1kgP2K2IKIGInr_xoCUd6X53tOY_dxD39/preview', // 11
+              '15VqKu7b86LoANRhAgK9asVUIfhMnDlv6/preview', // 12
+              '1sX_WfuiXwNp_tgF8Flk6mQA1K1QUKAvM/preview', // 13
+              '1dqZ9bC2eLbKDlgzZXVlkn7CyT7pdoNrB/preview', // 14
+              '1ExTQCTX604RN4QQPn6ZkQ63n0wgZQRMs/preview', // 15
+              '1L9RK57XY1fwmTnCSLyO-1EtlDKvVid3m/preview', // 16
+              '1icC50ETXcXwlMGign_AYvVUuGMLmweiL/preview', // 17
+              '1AAHoDu4x1cm_-JfC2oK-rwMoTELCezPp/preview', // 18
+              '1QiJPUlY9kz4Ac44EitH3DalstSWNQp55/preview', // 19
+              '1Rs4sBylvHNBbsYknVRtRbADimu0bx7iS/preview', // 20
+              '1QD0KlX_szZinMJwmmMd1UkOpdXgIUlJk/preview', // 21
+              '1ie9Rnlh7DmM7PY3lBZsp3nIpkcPew0_u/preview', // 22
+              '1bCr4yf7HVmAz4AMtutbm47Eos7bjBElY/preview', // 23
+              '1qFVetGUi2SYRoZicIGrAMLlrw0mYUztv/preview', // 24
+            ]
+    },
+    {
+      idx: 4,
+      titulo: 'The big bang theory temporada 5',
+      short: 'The big bang theory temporada 5',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Leonard Hofstadter y Sheldon Cooper son físicos brillantes que trabajan en Cal Tech en Pasadena, California. Son colegas, mejores amigos y compañeros de cuarto, aunque en todas sus capacidades su relación siempre es probada principalmente por las formas regimentadas, profundamente excéntricas y no convencionales de Sheldon. También son amigos de sus colegas de Cal Tech, el ingeniero mecánico Howard Wolowitz y el astrofísico Rajesh Koothrappali. Los cuatro pasan su tiempo trabajando en sus proyectos de trabajo individuales, jugando videojuegos, viendo películas de ciencia ficción o leyendo cómics. Como son nerds autoproclamados, todos tienen poca o ninguna suerte con las mujeres. Cuando Penny, una mujer bonita y una aspirante a actriz de Omaha, se muda al departamento al otro lado del pasillo de Leonard y Sheldon, Leonard tiene otra aspiración en la vida.',
+      img: 'assets/tbbt5.jpg',
+      fecha: '2011-07-24',
+      trailer: '9l4FSDqNsuk',
+      // tslint:disable-next-line:max-line-length
+      drive: ['/preview', // 1
+            ]
+    },
+    {
+      idx: 5,
+      titulo: 'The big bang theory temporada 6',
+      short: 'The big bang theory temporada 6',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Leonard Hofstadter y Sheldon Cooper son físicos brillantes que trabajan en Cal Tech en Pasadena, California. Son colegas, mejores amigos y compañeros de cuarto, aunque en todas sus capacidades su relación siempre es probada principalmente por las formas regimentadas, profundamente excéntricas y no convencionales de Sheldon. También son amigos de sus colegas de Cal Tech, el ingeniero mecánico Howard Wolowitz y el astrofísico Rajesh Koothrappali. Los cuatro pasan su tiempo trabajando en sus proyectos de trabajo individuales, jugando videojuegos, viendo películas de ciencia ficción o leyendo cómics. Como son nerds autoproclamados, todos tienen poca o ninguna suerte con las mujeres. Cuando Penny, una mujer bonita y una aspirante a actriz de Omaha, se muda al departamento al otro lado del pasillo de Leonard y Sheldon, Leonard tiene otra aspiración en la vida.',
+      img: 'assets/tbbt6.jpg',
+      fecha: '2012-07-24',
+      trailer: '9l4FSDqNsuk',
+      // tslint:disable-next-line:max-line-length
+      drive: ['/preview', // 1
+            ]
+    },
+    {
+      idx: 6,
+      titulo: 'The big bang theory temporada 7',
+      short: 'The big bang theory temporada 7',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Leonard Hofstadter y Sheldon Cooper son físicos brillantes que trabajan en Cal Tech en Pasadena, California. Son colegas, mejores amigos y compañeros de cuarto, aunque en todas sus capacidades su relación siempre es probada principalmente por las formas regimentadas, profundamente excéntricas y no convencionales de Sheldon. También son amigos de sus colegas de Cal Tech, el ingeniero mecánico Howard Wolowitz y el astrofísico Rajesh Koothrappali. Los cuatro pasan su tiempo trabajando en sus proyectos de trabajo individuales, jugando videojuegos, viendo películas de ciencia ficción o leyendo cómics. Como son nerds autoproclamados, todos tienen poca o ninguna suerte con las mujeres. Cuando Penny, una mujer bonita y una aspirante a actriz de Omaha, se muda al departamento al otro lado del pasillo de Leonard y Sheldon, Leonard tiene otra aspiración en la vida.',
+      img: 'assets/tbbt7.jpg',
+      fecha: '2013-07-24',
+      trailer: '9l4FSDqNsuk',
+      // tslint:disable-next-line:max-line-length
+      drive: ['/preview', // 1
+            ]
+    },
+    {
+      idx: 7,
+      titulo: 'The big bang theory temporada 8',
+      short: 'The big bang theory temporada 8',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Leonard Hofstadter y Sheldon Cooper son físicos brillantes que trabajan en Cal Tech en Pasadena, California. Son colegas, mejores amigos y compañeros de cuarto, aunque en todas sus capacidades su relación siempre es probada principalmente por las formas regimentadas, profundamente excéntricas y no convencionales de Sheldon. También son amigos de sus colegas de Cal Tech, el ingeniero mecánico Howard Wolowitz y el astrofísico Rajesh Koothrappali. Los cuatro pasan su tiempo trabajando en sus proyectos de trabajo individuales, jugando videojuegos, viendo películas de ciencia ficción o leyendo cómics. Como son nerds autoproclamados, todos tienen poca o ninguna suerte con las mujeres. Cuando Penny, una mujer bonita y una aspirante a actriz de Omaha, se muda al departamento al otro lado del pasillo de Leonard y Sheldon, Leonard tiene otra aspiración en la vida.',
+      img: 'assets/tbbt8.jpg',
+      fecha: '2014-07-24',
+      trailer: '9l4FSDqNsuk',
+      // tslint:disable-next-line:max-line-length
+      drive: ['/preview', // 1
+            ]
+    },
+    {
+      idx: 8,
+      titulo: 'The big bang theory temporada 9',
+      short: 'The big bang theory temporada 9',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Leonard Hofstadter y Sheldon Cooper son físicos brillantes que trabajan en Cal Tech en Pasadena, California. Son colegas, mejores amigos y compañeros de cuarto, aunque en todas sus capacidades su relación siempre es probada principalmente por las formas regimentadas, profundamente excéntricas y no convencionales de Sheldon. También son amigos de sus colegas de Cal Tech, el ingeniero mecánico Howard Wolowitz y el astrofísico Rajesh Koothrappali. Los cuatro pasan su tiempo trabajando en sus proyectos de trabajo individuales, jugando videojuegos, viendo películas de ciencia ficción o leyendo cómics. Como son nerds autoproclamados, todos tienen poca o ninguna suerte con las mujeres. Cuando Penny, una mujer bonita y una aspirante a actriz de Omaha, se muda al departamento al otro lado del pasillo de Leonard y Sheldon, Leonard tiene otra aspiración en la vida.',
+      img: 'assets/tbbt9.jpg',
+      fecha: '2015-07-24',
+      trailer: '9l4FSDqNsuk',
+      // tslint:disable-next-line:max-line-length
+      drive: ['/preview', // 1
+            ]
+    },
+    {
+      idx: 9,
+      titulo: 'The big bang theory temporada 10',
+      short: 'The big bang theory temporada 10',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Leonard Hofstadter y Sheldon Cooper son físicos brillantes que trabajan en Cal Tech en Pasadena, California. Son colegas, mejores amigos y compañeros de cuarto, aunque en todas sus capacidades su relación siempre es probada principalmente por las formas regimentadas, profundamente excéntricas y no convencionales de Sheldon. También son amigos de sus colegas de Cal Tech, el ingeniero mecánico Howard Wolowitz y el astrofísico Rajesh Koothrappali. Los cuatro pasan su tiempo trabajando en sus proyectos de trabajo individuales, jugando videojuegos, viendo películas de ciencia ficción o leyendo cómics. Como son nerds autoproclamados, todos tienen poca o ninguna suerte con las mujeres. Cuando Penny, una mujer bonita y una aspirante a actriz de Omaha, se muda al departamento al otro lado del pasillo de Leonard y Sheldon, Leonard tiene otra aspiración en la vida.',
+      img: 'assets/tbbt10.jpg',
+      fecha: '2016-07-24',
+      trailer: '9l4FSDqNsuk',
+      // tslint:disable-next-line:max-line-length
+      drive: ['/preview', // 1
+            ]
+    },
+    {
+      idx: 10,
+      titulo: 'The big bang theory temporada 11',
+      short: 'The big bang theory temporada 11',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Leonard Hofstadter y Sheldon Cooper son físicos brillantes que trabajan en Cal Tech en Pasadena, California. Son colegas, mejores amigos y compañeros de cuarto, aunque en todas sus capacidades su relación siempre es probada principalmente por las formas regimentadas, profundamente excéntricas y no convencionales de Sheldon. También son amigos de sus colegas de Cal Tech, el ingeniero mecánico Howard Wolowitz y el astrofísico Rajesh Koothrappali. Los cuatro pasan su tiempo trabajando en sus proyectos de trabajo individuales, jugando videojuegos, viendo películas de ciencia ficción o leyendo cómics. Como son nerds autoproclamados, todos tienen poca o ninguna suerte con las mujeres. Cuando Penny, una mujer bonita y una aspirante a actriz de Omaha, se muda al departamento al otro lado del pasillo de Leonard y Sheldon, Leonard tiene otra aspiración en la vida.',
+      img: 'assets/tbbt11.jpg',
+      fecha: '2017-07-24',
+      trailer: '9l4FSDqNsuk',
+      // tslint:disable-next-line:max-line-length
+      drive: ['/preview', // 1
+            ]
+    },
+    {
+      idx: 11,
+      titulo: 'The big bang theory temporada 12',
+      short: 'The big bang theory temporada 12',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Leonard Hofstadter y Sheldon Cooper son físicos brillantes que trabajan en Cal Tech en Pasadena, California. Son colegas, mejores amigos y compañeros de cuarto, aunque en todas sus capacidades su relación siempre es probada principalmente por las formas regimentadas, profundamente excéntricas y no convencionales de Sheldon. También son amigos de sus colegas de Cal Tech, el ingeniero mecánico Howard Wolowitz y el astrofísico Rajesh Koothrappali. Los cuatro pasan su tiempo trabajando en sus proyectos de trabajo individuales, jugando videojuegos, viendo películas de ciencia ficción o leyendo cómics. Como son nerds autoproclamados, todos tienen poca o ninguna suerte con las mujeres. Cuando Penny, una mujer bonita y una aspirante a actriz de Omaha, se muda al departamento al otro lado del pasillo de Leonard y Sheldon, Leonard tiene otra aspiración en la vida.',
+      img: 'assets/tbbt12.jpg',
+      fecha: '2018-07-24',
+      trailer: '9l4FSDqNsuk',
+      // tslint:disable-next-line:max-line-length
+      drive: ['/preview', // 1
+            ]
+    },
+    {
+      idx: 12,
       titulo: 'La casa de papel temporada 1 y 2',
       short: 'La casa de papel temporada 1 y 2',
       // tslint:disable-next-line:max-line-length
       sinopsis: 'Un grupo de ladrones únicos asalta la Fábrica de Moneda y Timbre para llevar a cabo el robo más perfecto en la historia de España y llevarse a casa 2.400 millones de euros.',
       img: 'assets/lcp1.jpg',
-      fecha: '2017-05-02',
+      fecha: '2019-05-02',
       trailer: 'nJ0Jik9Tokk',
       // tslint:disable-next-line:max-line-length
       drive: ['13g6XJNF69cvy_lDteTTno6Hmp3t1eE3w/preview', // 1
@@ -63,7 +273,7 @@ export class PeliculaDvdripBdService {
             ]
     },
     {
-      idx: 2,
+      idx: 13,
       titulo: 'La casa de papel temporada 3',
       short: 'La casa de papel temporada 3',
       // tslint:disable-next-line:max-line-length
@@ -83,7 +293,7 @@ export class PeliculaDvdripBdService {
             ]
     },
     {
-      idx: 3,
+      idx: 14,
       titulo: 'Chernobyl HBO temporada 1',
       short: 'Chernobyl',
       // tslint:disable-next-line:max-line-length
@@ -96,7 +306,7 @@ export class PeliculaDvdripBdService {
             ]
     },
     {
-      idx: 4,
+      idx: 15,
       titulo: 'Game of Thrones Temporada 1',
       short: 'Game of Thrones temporada 1',
       // tslint:disable-next-line:max-line-length
@@ -117,7 +327,7 @@ export class PeliculaDvdripBdService {
             ]
     },
     {
-      idx: 5,
+      idx: 16,
       titulo: 'Game of Thrones Temporada 2',
       short: 'Game of Thrones temporada 2',
       // tslint:disable-next-line:max-line-length
@@ -138,7 +348,7 @@ export class PeliculaDvdripBdService {
             ]
     },
     {
-      idx: 6,
+      idx: 17,
       titulo: 'Game of Thrones Temporada 3',
       short: 'Game of Thrones temporada 3',
       // tslint:disable-next-line:max-line-length
@@ -159,7 +369,7 @@ export class PeliculaDvdripBdService {
             ]
     },
     {
-      idx: 7,
+      idx: 18,
       titulo: 'Game of Thrones Temporada 4',
       short: 'Game of Thrones temporada 4',
       // tslint:disable-next-line:max-line-length
@@ -180,7 +390,7 @@ export class PeliculaDvdripBdService {
             ]
     },
     {
-      idx: 8,
+      idx: 19,
       titulo: 'Game of Thrones Temporada 5',
       short: 'Game of Thrones temporada 5',
       // tslint:disable-next-line:max-line-length
@@ -201,7 +411,7 @@ export class PeliculaDvdripBdService {
             ]
     },
     {
-      idx: 9,
+      idx: 20,
       titulo: 'Game of Thrones Temporada 6',
       short: 'Game of Thrones temporada 6',
       // tslint:disable-next-line:max-line-length
@@ -222,7 +432,7 @@ export class PeliculaDvdripBdService {
             ]
     },
     {
-      idx: 10,
+      idx: 21,
       titulo: 'Game of Thrones Temporada 7',
       short: 'Game of Thrones temporada 7',
       // tslint:disable-next-line:max-line-length
@@ -240,7 +450,7 @@ export class PeliculaDvdripBdService {
             ]
     },
     {
-      idx: 11,
+      idx: 22,
       titulo: 'Game of Thrones Temporada 8',
       short: 'Game of Thrones temporada 8',
       // tslint:disable-next-line:max-line-length
@@ -257,7 +467,7 @@ export class PeliculaDvdripBdService {
             ]
     },
     {
-      idx: 12,
+      idx: 23,
       titulo: 'The Mandalorian Temporada 1',
       short: 'The Mandalorian Temporada 1',
       // tslint:disable-next-line:max-line-length
@@ -276,7 +486,7 @@ export class PeliculaDvdripBdService {
             ]
     },
     {
-      idx: 13,
+      idx: 24,
       titulo: 'El buen doctor temporada 2',
       short: 'El buen doctor temporada 2',
       // tslint:disable-next-line:max-line-length
@@ -294,7 +504,7 @@ export class PeliculaDvdripBdService {
             ]
     },
     {
-      idx: 14,
+      idx: 25,
       titulo: 'El buen doctor temporada 1',
       short: 'El buen doctor temporada 1',
       // tslint:disable-next-line:max-line-length
@@ -323,17 +533,31 @@ export class PeliculaDvdripBdService {
               '10LNh2vRlwX1ACPrpRuCe7MPps94tVRnW/preview', // 18
             ]
     },
+    {
+      idx: 26,
+      titulo: 'The Witcher temporada 1',
+      short: 'The Witcher temporada 1',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Geralt de Rivia, un cazador de monstruos solitario, lucha por encontrar su lugar en un mundo donde las personas a menudo son más malvadas que las bestias.',
+      img: 'assets/tw1.jpg',
+      fecha: '2019-12-20',
+      trailer: 'ETY44yszyNc',
+      // tslint:disable-next-line:max-line-length
+      drive: ['1_fNBbsNGSUqS-R12aiuOMejeuU67chsy/preview', // 1
+              '1xNQ5UipB9eGLdndIbxfhlqtmxieWHDEo/preview', // 2
+            ]
+    },
   ];
-  getPeliculas(): Peliculas[] {
+  getPeliculas(): Series[] {
     return this.peliculas;
   }
 
   getPelicula(idx: string) {
     return this.peliculas[idx];
   }
-  buscarPeliculas(termino: string): Peliculas[] {
+  buscarPeliculas(termino: string): Series[] {
 
-    const peliculaArr: Peliculas[] = [];
+    const peliculaArr: Series[] = [];
     termino = termino.toLowerCase();
 
     for (const pelicula of this.peliculas) {
@@ -350,7 +574,7 @@ export class PeliculaDvdripBdService {
 
   }
 }
-export interface Peliculas {
+export interface Series {
   idx?: number;
   short: string;
   titulo: string;

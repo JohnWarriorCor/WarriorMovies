@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Router } from '@angular/router';
-import { PeliculaDvdripBdService, Peliculas } from '../../services/pelicula-dvdrip-bd.service';
+import { PeliculaDvdripBdService, Series } from '../../services/pelicula-dvdrip-bd.service';
 
 @Component({
   selector: 'app-dvdrip',
@@ -11,7 +11,7 @@ import { PeliculaDvdripBdService, Peliculas } from '../../services/pelicula-dvdr
 export class DvdripComponent implements OnInit {
 
   pelicula: any = {};
-  peliculas: Peliculas[] = [];
+  peliculas: Series[] = [];
 
   constructor( private activatedRoute: ActivatedRoute, private peliculaService: PeliculaDvdripBdService, private router: Router) {
     this.activatedRoute.params.subscribe( params => {
