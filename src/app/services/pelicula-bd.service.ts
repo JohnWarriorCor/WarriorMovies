@@ -762,6 +762,34 @@ export class PeliculaBdService {
       // tslint:disable-next-line:max-line-length
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
+    {
+      idx : 54,
+      titulo: 'Star Wars IX',
+      short: 'Maléfica: la amante del mal',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Han pasado cinco años pacíficos desde la desaparición del monarca duplicito, el Rey Stefan, en Maléfica (2014), y, ahora, un evento imprevisto pero alegre está a punto de unir el reino mortal de Ulstead y el reino de las hadas de los moros encantados. Sin embargo, una vez más, la traición odiosa se interpone en el camino del verdadero amor joven, ya que la envidia maliciosa, la ambición ilimitada y los pensamientos ignorables se arrastran en los corazones de los hombres. Ahora, dos mundos vecinos se encuentran divididos por el miedo y los prejuicios, y, lamentablemente, la unión inminente allana el camino para una confrontación total. De repente, el magnífico sprite alado, Maléfica, y la encantadora princesa Aurora se ven atrapados en el medio. ¿El amor siempre termina bien?',
+      img: 'assets/m2.jpg',
+      tirilla: 'assets/hd.png',
+      fecha: '2019-10-18',
+      trailer: 'dd4l6veFRDw',
+      drive: '1BSglBEiW07laMEnsoECRNJ0zG6tKRFhH/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 55,
+      titulo: 'Zombieland 2',
+      short: 'Zombieland: Double Tap',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Una larga década después de los eventos post-apocalípticos en Zombieland (2009), el cuarteto resistente de supervivientes: el exterminador de zombis duro como las uñas, Tallahassee; su compañero de regla, Colón; La cazadora de espíritu libre, Wichita, y su hermana menor, Little Rock, se encuentran en el seno de una Casa Blanca ahora abandonada. Sin embargo, en un mundo rabioso aún invadido por multitudes de muertos vivientes y cepas mutadas de cadáveres animados evolucionados, una separación premeditada enviará al equipo de vuelta al punto de partida, buscando, una vez más, la tierra prometida. Ahora, toda esperanza descansa en Babilonia: una comuna totalmente orgánica de pacíficos vegetarianos felices que adoran las fiestas. ¿Es este el final del camino? ',
+      img: 'assets/zl2.jpg',
+      tirilla: 'assets/hd.png',
+      fecha: '2019-10-18',
+      trailer: 'ZlW9yhUKlkQ',
+      drive: '1Cp8BCpioMbjKppvSE234DsPjDOTov2ly/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
   ];
   getPeliculas(): Peliculas[] {
     return this.peliculas;

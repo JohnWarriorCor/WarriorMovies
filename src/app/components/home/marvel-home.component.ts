@@ -22,7 +22,7 @@ export class MarvelHomeComponent implements OnInit {
   ngOnInit() {
     this.peliculas = this.peliculaService.getPeliculas();
     this.nav.show();
-    this.played();
+    // this.played();
   }
   openLg(content) {
     this.modalService.open(content, { size: 'lg', windowClass: 'dark-modal' });
@@ -34,9 +34,10 @@ export class MarvelHomeComponent implements OnInit {
     // console.log(termino);
     this.router.navigate( ['/buscarMarvel', termino] );
   }
+  /*
   played() {
     this.sound.volume = 0.2;
     this.sound.autoplay = true ;
     this.sound.load();
-  }
+  }*/
 }

@@ -15,7 +15,7 @@ export class PeliculaMarvelBdService {
       img: 'assets/marvel1.jpg',
       fecha: '2011-07-05',
       trailer: 'JerVrbLldXw',
-      drive: '1_GG_1Ee05d2H82E3lUPLbBvx8ypcfSrs/preview'
+      drive: '1uf95izu_qOVrxYH-EH3T_WyF4lEZ6xs0/preview'
     },
     {
       idx : 1,
@@ -235,7 +235,7 @@ export class PeliculaMarvelBdService {
       img: 'assets/marvel21.jpg',
       fecha: '2019-03-29',
       trailer: '6XkN-MFNZpI',
-      drive: '1X8mhNT10iCVCKA3Y892t6jEDE47TNyIg/preview'
+      drive: '1TKL4teHpkc5BCTFdZ93gFji6dUVbH7sQ/preview'
     },
     {
       idx : 21,
@@ -246,7 +246,7 @@ export class PeliculaMarvelBdService {
       img: 'assets/marvel22.jpg',
       fecha: '2019-03-29',
       trailer: 'znk2OICHbjY',
-      drive: '12qHDxuOSMvTke45KARDYo8FNkOOA6Kup/preview'
+      drive: '1YUjZqFv-81LYY4ZjRgY0ZTtYFZum2cjY/preview'
     },
   ];
   getPeliculas(): Peliculas[] {
