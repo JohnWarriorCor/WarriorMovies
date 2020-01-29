@@ -790,6 +790,34 @@ export class PeliculaBdService {
       // tslint:disable-next-line:max-line-length
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
+    {
+      idx : 56,
+      titulo: 'Cuenta regresiva',
+      short: 'Cuenta regresiva',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'En una fiesta de adolescentes, un grupo de amigos descarga la aplicación Countdown que predice cuándo morirá el usuario. La adolescente Courtney ve que solo le quedan un par de horas de vida y no acepta el viaje de su novio borracho Evan. Ella camina a su casa, pero una criatura sobrenatural la mata cuando el temporizador de su teléfono celular llega a cero. Mientras tanto, Evan choca su auto al mismo tiempo de su muerte y va a un hospital donde trabaja la enfermera Quinn Harris. Evan revela que tiene miedo de someterse a una cirugía ya que la aplicación Countdown predice que morirá al mismo tiempo de la cirugía. Los médicos y enfermeras del hospital deciden descargar la aplicación y Quinn se entera de que solo tiene tres días de vida. Cuando Evan misterioso muere en un accidente en el hospital, Quinn compra un nuevo teléfono celular y descubre que la aplicación también está instalada.',
+      img: 'assets/cr.jpg',
+      tirilla: 'assets/hd.png',
+      fecha: '2019-10-25',
+      trailer: 'rcJCuWS_gd0',
+      drive: '1ve_nUHY9_pXD6At2kZ_PY9yq72sbh6tC/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 57,
+      titulo: 'Abigail',
+      short: 'Abigail',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Una joven Abigail vive en una ciudad cuyas fronteras se cerraron hace muchos años debido a una epidemia de una misteriosa enfermedad. El padre de Abby era uno de los enfermos, y lo llevaron cuando ella tenía seis años. Al ir en contra de las autoridades para encontrar a su padre, Abby se entera de que su ciudad está llena de magia. Y ella descubre en sí misma habilidades mágicas extraordinarias.',
+      img: 'assets/abi.jpg',
+      tirilla: 'assets/hd.png',
+      fecha: '2020-01-30',
+      trailer: 'BblRdE06lic',
+      drive: '17u_zgiOL9J1gQ6s6Cx85Dmhwc63WPKdc/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
   ];
   getPeliculas(): Peliculas[] {
     return this.peliculas;
