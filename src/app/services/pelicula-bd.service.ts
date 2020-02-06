@@ -338,7 +338,7 @@ export class PeliculaBdService {
       tirilla: 'assets/hd.png',
       fecha: '2019-07-01',
       trailer: 'EVH78PvQCTE',
-      drive: '1R8MqgRsa9xfNhIo9JY7r4-3DlnurkT20/preview',
+      drive: '10UqgAtOdloE_T8tjPc8wrMcLf2_q5Yi7/preview',
       // tslint:disable-next-line:max-line-length
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
@@ -815,6 +815,132 @@ export class PeliculaBdService {
       fecha: '2020-01-30',
       trailer: 'BblRdE06lic',
       drive: '17u_zgiOL9J1gQ6s6Cx85Dmhwc63WPKdc/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 58,
+      titulo: 'Lamp Life',
+      short: 'Lamp Life',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Corto que muestra lo que le pasó a Bo Peep y sus ovejas entre Toy Story 2 y cuando reaparece en Toy Story 4.',
+      img: 'assets/ll.jpg',
+      tirilla: 'assets/hd.png',
+      fecha: '2020-01-31',
+      trailer: 'S4NBWqFS3io',
+      drive: '1QB6Q-lLFSdAG1_GMYrViYIh7j7CAdE0p/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 59,
+      titulo: 'jugando con fuego',
+      short: 'jugando con fuego',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Un equipo de bomberos robustos se encuentra con su pareja cuando intenta rescatar a tres niños revoltosos.',
+      img: 'assets/jcf.jpg',
+      tirilla: 'assets/hd.png',
+      fecha: '2019-11-08',
+      trailer: 'bYc1NSJyuZE',
+      drive: '1JKW26zDAVayP6p0MAxq-NXjawXmJsQgO/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 60,
+      titulo: 'parasite',
+      short: 'parasite',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Los Kim, madre y padre Chung-sook y Ki-taek, y sus hijos adultos jóvenes, su hijo Ki-woo y su hija Ki-jung, son una familia pobre que vive en un apartamento medio sótano en mal estado y estrecho en un concurrido comercial de clase baja. Distrito de Seúl. Sin siquiera saberlo, ellos, especialmente el Sr. y la Sra. Kim, literalmente huelen a pobreza. A menudo, como colectivo, perpetran estafas menores para subsistir, e incluso cuando tienen trabajos, realizan el trabajo mínimo requerido. Ki-woo es quien sueña con salir de la pobreza un día yendo a la universidad. A pesar de no tener esa educación universitaria, Ki-woo es elegido por su amigo estudiante universitario Min, quien se va a la escuela para hacerse cargo de su trabajo de tutoría en Park Da-hye, con quien Min planea salir una vez que regrese a Seúl y ella misma está en la universidad. Los parques son una familia acomodada que durante cuatro años ha vivido en su casa modernista diseñada por y la antigua residencia del famoso arquitecto Namsoong. Mientras que el Sr. y la Sra. Park .',
+      img: 'assets/par.jpg',
+      tirilla: 'assets/hd.png',
+      fecha: '2019-11-08',
+      trailer: '5xH0HfJHsaY',
+      drive: '1hgvBqZpeuUKOGJ3gLFiVtf-6ad-KV-R6/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 61,
+      titulo: 'Ford v Ferrari',
+      short: 'Ford v Ferrari',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'El diseñador de automóviles estadounidense Carroll Shelby y el conductor Ken Miles luchan contra la interferencia corporativa, las leyes de la física y sus propios demonios personales para construir un revolucionario auto de carreras para Ford y desafiar a Ferrari en las 24 Horas de Le Mans en 1966.',
+      img: 'assets/foryfer.jpg',
+      tirilla: 'assets/hd.png',
+      fecha: '2019-11-15',
+      trailer: 'zyYgDtY2AMY',
+      drive: '1QO8qSHMKBBk1YFh5tRN4WZl7Fe8GVU2h/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 62,
+      titulo: 'Terminator: Dark Fate',
+      short: 'Terminator: Dark Fate',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'La trabajadora mexicana Dani Ramos es perseguida por el terminador indestructible del futuro REV-9 que mata a su padre y hermano y está protegido por el soldado mejorado también de la futura Grace. Huyen del terminador imparable y de la nada Sarah Connor los ayuda en el camino. Se dirigen a Laredo, Texas, donde Grace tiene las coordenadas de un posible apoyo y se encuentran con el T-800 que mató a John Connor y vive en un lugar aislado con su familia compuesta por una esposa y un hijo durante mucho tiempo. El grupo se une para tratar de destruir el REV-9.',
+      img: 'assets/tdd.jpg',
+      tirilla: 'assets/hd.png',
+      fecha: '2019-11-01',
+      trailer: 'jCyEX6u-Yhs',
+      drive: '1WAQiBYb-3HA0HuxYWiwrqsL67aSvWeJb/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 63,
+      titulo: 'docotor sueño',
+      short: 'docotor sueño',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'La trabajadora mexicana Dani Ramos es perseguida por el terminador indestructible del futuro REV-9 que mata a su padre y hermano y está protegido por el soldado mejorado también de la futura Grace. Huyen del terminador imparable y de la nada Sarah Connor los ayuda en el camino. Se dirigen a Laredo, Texas, donde Grace tiene las coordenadas de un posible apoyo y se encuentran con el T-800 que mató a John Connor y vive en un lugar aislado con su familia compuesta por una esposa y un hijo durante mucho tiempo. El grupo se une para tratar de destruir el REV-9.',
+      img: 'assets/ds.jpg',
+      tirilla: 'assets/hd.png',
+      fecha: '2019-11-08',
+      trailer: 'ohBLtn5FI0E',
+      drive: '1TZk6NAuCUUUdjhjeqxlq9RbQ8duCBjk_/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 64,
+      titulo: 'Jojo Rabbit',
+      short: 'Jojo Rabbit',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Una sátira de la Segunda Guerra Mundial que sigue a un niño alemán solitario llamado Jojo (Roman Griffin Davis) cuya visión del mundo se da vuelta cuando descubre que su madre soltera (Scarlett Johansson) está escondiendo a una joven judía (Thomasin McKenzie) en su ático. Ayudado solo por su idiota amigo imaginario, Adolf Hitler (Taika Waititi), Jojo debe enfrentar su nacionalismo ciego.',
+      img: 'assets/jojo.jpg',
+      tirilla: 'assets/hd.png',
+      fecha: '2019-11-08',
+      trailer: 'XW1syXGnNBE',
+      drive: '19JAEqKwrbHU78cAiMbLetcK5L7WemV_1/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 65,
+      titulo: 'Proyecto Géminis',
+      short: 'Proyecto Géminis',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Un asesino en retiro, Henry Brogan, se encuentra perseguido por un misterioso asesino que puede predecir cada uno de sus movimientos. Al descubrir que está siendo cazado por un clon más joven de sí mismo, Henry necesita descubrir por qué está siendo atacado y quién es el creador.',
+      img: 'assets/pg.jpg',
+      tirilla: 'assets/hd.png',
+      fecha: '2019-10-11',
+      trailer: 'AbyJignbSj0',
+      drive: '1B3wI28j-IgOHW68uN88A87No8TQ_kExL/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 66,
+      titulo: 'Nueva York Sin Salida',
+      short: 'Nueva York Sin Salida',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Empujado a una persecución en toda la ciudad por un dúo de asesinos de policías, el detective de la policía de Nueva York, Andre Davis, comienza a descubrir una conspiración masiva que vincula a sus compañeros policías con un imperio criminal y debe decidir quién está cazando y quién lo está cazando. Durante la cacería humana, Manhattan está completamente cerrada por primera vez en su historia, sin salida ni entrada a la isla, incluidos los 21 puentes.',
+      img: 'assets/nyss.jpg',
+      tirilla: 'assets/hd.png',
+      fecha: '2019-11-22',
+      trailer: 'BVZDhunTrYA',
+      drive: '1l_KvQaQ7hBgz1IpVMcqHCEvZxzh3WZOY/preview',
       // tslint:disable-next-line:max-line-length
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },

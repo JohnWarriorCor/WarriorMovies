@@ -26,7 +26,7 @@ export class PeliculaMarvelBdService {
       img: 'assets/marvel2.jpg',
       fecha: '2008-04-30',
       trailer: '8hYlB38asDY',
-      drive: '/preview'
+      drive: '1CaV3uILk58nt6onChIoEvh457cro-L3-/preview'
     },
     {
       idx : 2,
