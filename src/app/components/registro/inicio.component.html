@@ -25,7 +25,7 @@
       <tr *ngFor="let f of peliculas | slice: (page-1) * pageSize : (page-1) * pageSize + pageSize ; let i = index, let j = index">
         <th scope="row">{{(j+1)+((page-1)*10)}}</th>
         <td class="text-uppercase">{{peliculas[(peliculas.length-1)-(i+((page-1)*10))].short}}</td>
-        <td>{{peliculas[(peliculas.length-1)-(i+((page-1)*10))].fecha}}</td>
+        <td>{{peliculas[(peliculas.length-1)-(i+((page-1)*10))].fecha | date: 'dd/MM/yyyy'}}</td>
       </tr>
     </tbody>
   </table>
@@ -49,7 +49,7 @@
       <tr *ngFor="let s of series | slice: (pageB-1) * pageSizeB : (pageB-1) * pageSizeB + pageSizeB ; let i = index, let j = index">
         <th scope="row">{{(j+1)+((page-1)*10)}}</th>
         <td class="text-uppercase">{{series[(series.length-1)-(i+((pageB-1)*10))].short}}</td>
-        <td>{{series[(series.length-1)-(i+((pageB-1)*10))].fecha}}</td>
+        <td>{{series[(series.length-1)-(i+((pageB-1)*10))].fecha | date: 'dd/MM/yyyy'}}</td>
         <td>{{series[(series.length-1)-(i+((pageB-1)*10))].drive.length}}</td>
       </tr>
       <h1></h1>

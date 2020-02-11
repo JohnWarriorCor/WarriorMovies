@@ -511,28 +511,6 @@ export class PeliculaDvdripBdService {
     },
     {
       idx: 24,
-      titulo: 'El buen doctor temporada 2',
-      short: 'El buen doctor temporada 2',
-      // tslint:disable-next-line:max-line-length
-      sinopsis: 'Shaun Murphy, un joven cirujano con autismo y síndrome sabio, se muda de una vida rural tranquila para unirse a una prestigiosa unidad quirúrgica de un hospital. Solo en el mundo e incapaz de conectarse personalmente con quienes lo rodean, Shaun usa sus extraordinarios dones médicos para salvar vidas y desafiar el escepticismo de sus colegas.',
-      img: 'assets/tgd2.jpg',
-      fecha: '2018-07-25',
-      trailer: 'V2pAT7jkK5c',
-      // tslint:disable-next-line:max-line-length
-      drive: ['1KpbbnW9WjHFzsIfWi1oLNWEjbj510tlq/preview', // 1
-              '1ROh_AK67SxTsb3AkTlzh3UXUt_vf0Flg/preview', // 2
-              '1_PuxWLrzIFeDBvpio53A2wtTRBlC4q6L/preview', // 3
-              '19LUWQAfuIj0b1wXEQLh_GoEus2vrjMWV/preview', // 4
-              '1AxdGbaFA_vkJu8b0DCeUtLXbYHv9MiAO/preview', // 5
-              '1pw4E0NW1qCKMtSHkAd7p1Luxh_iL_Ddv/preview', // 6
-              '1aWnkmbjwaAWrK75T8Ro3kI2HNVpSJZ_3/preview', // 7
-              '1l0oI_vblCmbxaEiNw3jAh8Lr292cjAaI/preview', // 8
-              '1N2PjNGxMItc5DqM1XNOkf1oCMvCDAqJ7/preview', // 9
-              '1h8sEd_yggPqO4ythAx0iYv7gpnVHsRXg/preview', // 10
-            ]
-    },
-    {
-      idx: 25,
       titulo: 'El buen doctor temporada 1',
       short: 'El buen doctor temporada 1',
       // tslint:disable-next-line:max-line-length
@@ -562,6 +540,36 @@ export class PeliculaDvdripBdService {
             ]
     },
     {
+      idx: 25,
+      titulo: 'El buen doctor temporada 2',
+      short: 'El buen doctor temporada 2',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Shaun Murphy, un joven cirujano con autismo y síndrome sabio, se muda de una vida rural tranquila para unirse a una prestigiosa unidad quirúrgica de un hospital. Solo en el mundo e incapaz de conectarse personalmente con quienes lo rodean, Shaun usa sus extraordinarios dones médicos para salvar vidas y desafiar el escepticismo de sus colegas.',
+      img: 'assets/tgd2.jpg',
+      fecha: '2018-07-25',
+      trailer: 'V2pAT7jkK5c',
+      // tslint:disable-next-line:max-line-length
+      drive: ['1KpbbnW9WjHFzsIfWi1oLNWEjbj510tlq/preview', // 1
+              '1ROh_AK67SxTsb3AkTlzh3UXUt_vf0Flg/preview', // 2
+              '1_PuxWLrzIFeDBvpio53A2wtTRBlC4q6L/preview', // 3
+              '19LUWQAfuIj0b1wXEQLh_GoEus2vrjMWV/preview', // 4
+              '1AxdGbaFA_vkJu8b0DCeUtLXbYHv9MiAO/preview', // 5
+              '1pw4E0NW1qCKMtSHkAd7p1Luxh_iL_Ddv/preview', // 6
+              '1aWnkmbjwaAWrK75T8Ro3kI2HNVpSJZ_3/preview', // 7
+              '1l0oI_vblCmbxaEiNw3jAh8Lr292cjAaI/preview', // 8
+              '1N2PjNGxMItc5DqM1XNOkf1oCMvCDAqJ7/preview', // 9
+              '1h8sEd_yggPqO4ythAx0iYv7gpnVHsRXg/preview', // 10
+              '1BDULM_kckTYlYY5pwejHbw9wuguJj9yL/preview', // 11
+              '1asUaCJZEBN6L7kxpgMGKJe4bF4hQ8_z3/preview', // 12
+              '1loPmZi0-BqgCVPy6wTOVxt6kRR9dnl_K/preview', // 13
+              '1Jw8BektSE5cvPcqMjdBRuNt-R05dAfNu/preview', // 14
+              '1zsAWJT3rHFxt9cc-27O629QWnTQum-y2/preview', // 15
+              '1d4r2X1iqCqv0kC7dlpd9XeULF0C9YMFw/preview', // 16
+              '14rIXlUBDIyB55ol3ZQ8WDJuhohcV33st/preview', // 17
+              '1PwxKeh0G7TU0rl9AMWoap9e46jcTI35s/preview', // 18
+            ]
+    },
+    {
       idx: 26,
       titulo: 'The Witcher temporada 1',
       short: 'The Witcher temporada 1',
@@ -579,6 +587,21 @@ export class PeliculaDvdripBdService {
               '1L-On1AvZqx-ApOGER3Pk0XFJcPP2jHd2/preview', // 6
               '18mj3oVM32TQyx3J2bhpcq5mCUWRc8xD5/preview', // 7
               '1A8V8CcO4Alevh-FluIc-BRSwQ5gQdXlS/preview', // 8
+            ]
+    },
+    {
+      idx: 27,
+      titulo: 'El buen doctor temporada 3',
+      short: 'El buen doctor temporada 3',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Shaun Murphy, un joven cirujano con autismo y síndrome sabio, se muda de una vida rural tranquila para unirse a una prestigiosa unidad quirúrgica de un hospital. Solo en el mundo e incapaz de conectarse personalmente con quienes lo rodean, Shaun usa sus extraordinarios dones médicos para salvar vidas y desafiar el escepticismo de sus colegas.',
+      img: 'assets/tgd3.jpg',
+      fecha: '2020-02-07',
+      trailer: 'DbzgeoLFqg0',
+      // tslint:disable-next-line:max-line-length
+      drive: ['1KgU_HnO2sFaFys6FhHSHFN8Bmb_kfvPK/preview', // 1
+              '11wsvIV4SVFwcSTgZrc_t6sbkOvTOQBJV/preview', // 2
+              '1FXApmHcUz0e6yblrtJgje-EODXnOGBG0/preview', // 3
             ]
     },
   ];
