@@ -49,7 +49,7 @@ export class RegistroComponent implements OnInit {
   guardar() {
     this.key = this.cond1.nombre.toUpperCase();
     // tslint:disable-next-line:max-line-length
-    if ( this.key === 'AURORA' || this.key === 'CARLOSBER' || this.key === 'JOHNGOMEZ' || this.key === 'JEANMA' || this.key === 'MILTONGUERRERO' || this.key === 'ANDRESC' || this.key === 'KAROL' || this.key === 'NANA' || this.key === 'MAMANO' || this.key === 'NANI') {
+    if ( this.key === 'AURORA' || this.key === 'CARLOSBER' || this.key === 'JOHNGOMEZ' || this.key === 'JEANMA' || this.key === 'MILTONGUERRERO' || this.key === 'YENI' || this.key === 'KAROL' || this.key === 'NANA' || this.key === 'MAMANO' || this.key === 'NANI') {
       if ( this.id === 'nuevo' ) {
         this._CONDICIONSERVICES.nuevoInvocador(this.cond1 ).subscribe(data => {
           this.router.navigate(['/home']);
