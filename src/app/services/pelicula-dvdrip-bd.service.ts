@@ -771,6 +771,22 @@ export class PeliculaDvdripBdService {
         '1Z15ko1IgDCIqo-3VqoM5boW0-HyjalnK/preview', // 10
       ]
     },
+    {
+      idx: 28,
+      titulo: 'outlander - forastera temporada 5',
+      short: 'Outlander',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Sigue la historia de Claire Randall, una enfermera de combate casada de 1945 que misteriosamente es arrastrada en el tiempo hasta 1743, donde es arrojada inmediatamente a un mundo desconocido en el que su vida está amenazada. Cuando se ve obligada a casarse con Jamie Fraser, un joven guerrero escocés caballeroso y romántico, se enciende una relación apasionada que rompe el corazón de Claire entre dos hombres muy diferentes en dos vidas irreconciliables.',
+      img: 'assets/out5.jpg',
+      fecha: '2020-02-16',
+      trailer: '0B2B6bvUeuU',
+      // tslint:disable-next-line:max-line-length
+      drive: ['1FqtDNQ0eBcXyB3UoyNZ4wsbU1-RAiNbW/preview', // 1
+        '1O1YuJrN86oz9wqtEpzIbg999CcrhQ6V1/preview', // 2
+        '1DWGscIZ7AhJ74lPPvWl1I4WCgYmOp37h/preview', // 3
+        '1CGHMb4yDpqU9Bcu-79C17xZvG0WbZGoy/preview', // 4
+      ]
+    },
   ];
   getPeliculas(): Series[] {
     return this.peliculas;
