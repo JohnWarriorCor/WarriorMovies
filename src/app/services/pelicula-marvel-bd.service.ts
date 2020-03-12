@@ -70,7 +70,7 @@ export class PeliculaMarvelBdService {
       img: 'assets/marvel6.jpg',
       fecha: '2019-03-29',
       trailer: 'yNXfOOL8824',
-      drive: '/preview'
+      drive: '1Bw5wR5um_AGfLJ55Mt6K2W9CeSswRWn_/preview'
     },
     {
       idx : 6,
@@ -169,7 +169,7 @@ export class PeliculaMarvelBdService {
       img: 'assets/marvel15.jpg',
       fecha: '2019-03-29',
       trailer: 'JcIye2DaZwI',
-      drive: '/preview'
+      drive: '12vvFDButvE1ZqKfYv3r3S0xUpzIOnIOb/preview'
     },
     {
       idx : 15,
