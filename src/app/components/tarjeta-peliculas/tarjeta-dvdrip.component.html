@@ -1,5 +1,5 @@
 <div class="card animated fadeIn fast" style="background-color: black;margin-top: 20px;">
-  <img [routerLink]="['/dvd',pelicula.idx]" class="card-img-top img-fluid" [src]="pelicula.img" [alt]="pelicula.nombre">
+  <img loading="lazy" [routerLink]="['/dvd',pelicula.idx]" class="card-img-top img-fluid" [src]="pelicula.img" [alt]="pelicula.nombre">
   <div class="card-body text-center">
     <hr style="border: solid 0.8px orangered;">
     <h4 class="card-title text-uppercase" style="color: orangered;" tooltipClass="my-custom-class" ngbTooltip={{pelicula.short}}>{{ pelicula.titulo }}</h4>

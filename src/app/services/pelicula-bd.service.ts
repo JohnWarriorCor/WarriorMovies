@@ -755,16 +755,16 @@ export class PeliculaBdService {
       // tslint:disable-next-line:max-line-length
       sinopsis: 'La Resistencia sobreviviente se enfrenta a la Primera Orden una vez más en el capítulo final de la saga Skywalker.',
       img: 'assets/sw9.jpg',
-      tirilla: 'assets/gdc.png',
+      tirilla: 'assets/hd.png',
       fecha: '2019-12-20',
       trailer: '8Qn_spdM5Zg',
-      drive: '1wzx8CdBQ1I7W8IXEAnFKnhIVZSRvq4ip/preview',
+      drive: '1-CnsFHh9HqGYlzKZESDp0oGHkYV_BSJc/preview',
       // tslint:disable-next-line:max-line-length
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
     {
       idx : 54,
-      titulo: 'Star Wars IX',
+      titulo: 'Maléfica: la amante del mal',
       short: 'Maléfica: la amante del mal',
       // tslint:disable-next-line:max-line-length
       sinopsis: 'Han pasado cinco años pacíficos desde la desaparición del monarca duplicito, el Rey Stefan, en Maléfica (2014), y, ahora, un evento imprevisto pero alegre está a punto de unir el reino mortal de Ulstead y el reino de las hadas de los moros encantados. Sin embargo, una vez más, la traición odiosa se interpone en el camino del verdadero amor joven, ya que la envidia maliciosa, la ambición ilimitada y los pensamientos ignorables se arrastran en los corazones de los hombres. Ahora, dos mundos vecinos se encuentran divididos por el miedo y los prejuicios, y, lamentablemente, la unión inminente allana el camino para una confrontación total. De repente, el magnífico sprite alado, Maléfica, y la encantadora princesa Aurora se ven atrapados en el medio. ¿El amor siempre termina bien?',
@@ -1039,6 +1039,20 @@ export class PeliculaBdService {
       fecha: '2019-12-25',
       trailer: '-AN01Vnmt3U',
       drive: '1yUw5PmWYgJ8KZAywNGAvZXBIaX52zBJB/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 74,
+      titulo: '1917',
+      short: '1917',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Abril de 1917, el frente occidental. Dos soldados británicos son enviados a entregar un mensaje urgente a un regimiento aislado. Si el mensaje no se recibe a tiempo, el regimiento entrará en una trampa y será masacrado. Para llegar al regimiento deberán cruzar el territorio enemigo. El tiempo es esencial y el viaje estará lleno de peligros.',
+      img: 'assets/1917.jpg',
+      tirilla: 'assets/hd.png',
+      fecha: '2020-02-10',
+      trailer: 'YrbdN5zaouU',
+      drive: '1tYF0uNxXiSwkQLe1SJi5Yw7XvhnXuIMs/preview',
       // tslint:disable-next-line:max-line-length
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
