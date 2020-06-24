@@ -265,10 +265,10 @@ export class PeliculaBdService {
       // tslint:disable-next-line:max-line-length
       sinopsis: 'Woody, Buzz Lightyear y el resto de la pandilla se embarcan en un viaje por carretera con Bonnie y un nuevo juguete llamado Forky. El viaje aventurero se convierte en una reunión inesperada cuando el pequeño desvío de Woody lo lleva a su amigo Bo Peep, perdido hace mucho tiempo. Mientras Woody y Bo discuten los viejos tiempos, pronto comienzan a darse cuenta de que están separados por dos mundos cuando se trata de lo que quieren de la vida como un juguete.',
       img: 'assets/toy4.jpg',
-      tirilla: 'assets/hd.png',
+      tirilla: 'assets/dvd.png',
       fecha: '2019-06-21',
       trailer: 'wmiIUN-7qhE',
-      drive: '1FdkIicO8Sp8kFkH0sqZN1R2rYjNqxx_d/preview',
+      drive: '1_uh0ZHRxBNPOp3pnkIsOxYATnIDTy90p/preview',
       // tslint:disable-next-line:max-line-length
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
@@ -1053,6 +1053,118 @@ export class PeliculaBdService {
       fecha: '2020-02-10',
       trailer: 'YrbdN5zaouU',
       drive: '1tYF0uNxXiSwkQLe1SJi5Yw7XvhnXuIMs/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 75,
+      titulo: 'Aves de presa',
+      short: 'Aves de presa y la fantabulosa emancipación de una Harley Quinn',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Una historia retorcida contada por la propia Harley Quinn, cuando el villano más nefastamente narcisista de Gotham, Roman Sionis, y su celosa mano derecha, Zsasz, apuntaron a una joven llamada Cass, la ciudad se volcó para buscarla. Los caminos de Harley, Huntress, Black Canary y Renee Montoya chocan, y el cuarteto poco probable no tiene más remedio que unirse para derrotar a Roman.',
+      img: 'assets/bop.jpg',
+      tirilla: 'assets/dvd.png',
+      fecha: '2020-02-07',
+      trailer: 'xthGgPbyhD4',
+      drive: '1THrOV9Rn0g92-BFZ3KOawocvEn8OLnog/view?usp=sharing/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 76,
+      titulo: 'Bloodshot',
+      short: 'Bloodshot',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Ray Garrison, un soldado de élite que murió en la batalla, vuelve a la vida gracias a una tecnología avanzada que le brinda la capacidad de una fuerza súper humana y una curación rápida. Con sus nuevas habilidades, persigue al hombre que mató a su esposa, o al menos, quien cree que mató a su esposa. Pronto llega a aprender que no se puede confiar en todo lo que aprende. La verdadera pregunta suya: ¿puede incluso confiar en sí mismo?',
+      img: 'assets/blood.jpg',
+      tirilla: 'assets/dvd.png',
+      fecha: '2020-03-13',
+      trailer: 'k3kDSLFZTl4',
+      drive: '1FkeFEEaY-iARqV7skOl9E3V8sbyWVgDZ/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 77,
+      titulo: 'Dolittle',
+      short: 'Dolittle',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Después de la muerte de su esposa, el Dr. John Dolittle (Robert Downey, Jr.) decidió esconderse del mundo con sus queridos animales. Pero tiene que hacer un viaje a una isla misteriosa para encontrar un árbol curativo, que es la única medicina que puede ayudar a la moribunda Reina Victoria (Jessie Buckley) en el Palacio de Buckingham.',
+      img: 'assets/dott.jpg',
+      tirilla: 'assets/dvd.png',
+      fecha: '2020-01-17',
+      trailer: 'FEf412bSPLs',
+      drive: '1TZSi4-sqVhzl7piMZUPq1l10D9R7UFmP/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 78,
+      titulo: 'Onward',
+      short: 'Onward',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Ambientados en un mundo de fantasía suburbano, dos hermanos elfos adolescentes, Ian y Barley Lightfoot, emprenden un viaje para descubrir si aún queda algo de magia para pasar un último día con su padre, quien murió cuando ellos también joven para recordarlo.',
+      img: 'assets/onw.jpg',
+      tirilla: 'assets/dvd.png',
+      fecha: '2020-03-06',
+      trailer: 'aLpNGVkBSDQ',
+      drive: '1Qvbsl1-vAIVuXlhzRA2tBymZlriu-ZZW/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 79,
+      titulo: 'Bad Boys For Life',
+      short: 'Bad Boys For Life',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Marcus y Mike tienen que enfrentar nuevos problemas (cambios de carrera y crisis de la mediana edad), mientras se unen al nuevo equipo de élite AMMO del departamento de policía de Miami para derrotar al despiadado Armando Armas, el despiadado líder de un cartel de drogas de Miami.',
+      img: 'assets/bb3.jpg',
+      tirilla: 'assets/dvd.png',
+      fecha: '2020-01-17',
+      trailer: 'Amzj7xll3Aw',
+      drive: '1afKdW8XmRoZRpusFW8ODwRn3akiFVUfb/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 80,
+      titulo: 'Sonic',
+      short: 'Sonic',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Basado en la franquicia global de videojuegos de gran éxito de Sega, SONIC THE HEDGEHOG cuenta la historia del erizo más rápido del mundo mientras abraza su nuevo hogar en la Tierra. En esta comedia de aventuras de acción en vivo, Sonic y su nuevo mejor amigo Tom (James Marsden) se unen para defender el planeta del malvado genio Dr. Robotnik (Jim Carrey) y sus planes para dominar el mundo. La película familiar también está protagonizada por Tika Sumpter y Ben Schwartz como la voz de Sonic.',
+      img: 'assets/son.jpg',
+      tirilla: 'assets/dvd.png',
+      fecha: '2020-02-14',
+      trailer: 'Xb3E8eWZ1mk',
+      drive: '1OpH89-aMi_w8vFrlRWyvfuPU0H2XgYu4/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 81,
+      titulo: 'La La Land',
+      short: 'La La Land',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'La aspirante a actriz sirve café con leche a las estrellas de cine entre audiciones y el músico de jazz Sebastian toca tocando cócteles en bares lúgubres. Pero a medida que aumenta el éxito, se enfrentan a decisiones que deshilachan el frágil tejido de su historia de amor, y los sueños que trabajaron tan arduamente entre ellos amenazan con destrozarlos.',
+      img: 'assets/lala.jpg',
+      tirilla: 'assets/dvd.png',
+      fecha: '2016-12-25',
+      trailer: '0pdqf4P9MB8',
+      drive: '1XUR0z2xmIWHeOSX9JmpHB4LwWGv_tvPn/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 82,
+      titulo: 'Mamma Mia! 2',
+      short: 'Mamma Mia! Aquí vamos otra vez',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Descubra la vida joven de Donna (Meryl Streep, Lily James), experimentando la diversión que tuvo con los tres posibles padres de Sophie (Amanda Seyfriend). Mientras reflexiona sobre el viaje de su madre, Sophie se parece más a su madre de lo que nunca se había dado cuenta.',
+      img: 'assets/mamma.jpg',
+      tirilla: 'assets/dvd.png',
+      fecha: '2018-07-20',
+      trailer: 'rnK9F2BjlQQ',
+      drive: '1VPmdcdpeqLotK_0929rN4gtZ5GACEjyY/preview',
       // tslint:disable-next-line:max-line-length
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
