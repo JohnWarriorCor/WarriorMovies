@@ -787,6 +787,26 @@ export class PeliculaDvdripBdService {
         '1CGHMb4yDpqU9Bcu-79C17xZvG0WbZGoy/preview', // 4
       ]
     },
+    {
+      idx: 29,
+      titulo: 'Merlí. Sapere Aude Temporada 1',
+      short: 'Merlí. Sapere Aude Temporada 1',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Pol Rubio comienza a estudiar Filosofía en la Universidad de Barcelona mientras la relación entre Bruno y él comienza a fortalecerse. Pol conocerá nuevos amigos, nuevos compañeros y nuevos profesores además de tener que afrontar conflictos en su nueva etapa de alumno, su complicada familia y su nueva relación con Bruno Bergeron de esta forma hasta convertirse en profesor de Filosofía.',
+      img: 'assets/merli.jpg',
+      fecha: '2019-12-05',
+      trailer: 'rUGeZnlAhP4',
+      // tslint:disable-next-line:max-line-length
+      drive: ['1vPF3FORdLMngRROYRwshH2_saxsEUiuE/preview', // 1
+        '1olF62WaFJoNF4XLGbWanztROJ9DlyLAb/preview', // 2
+        '1hYdwMCOio9ozuwLeisqlYID4XwUkXacB/preview', // 3
+        '1hSZ0rF4rZGuu0KPtCOz9PkjD3PGbND0z/preview', // 4
+        '16KAo-EHoj-8k9oPgZH5EJI3VbmX3u3IJ/preview', // 5
+        '1AxX9nkwC1tGE9Oat4HW-xjFzdi68CJdD/preview', // 6
+        '1Cc3Q1EQhcUljtd9Lb_V_l8nkitA7IkTW/preview', // 7
+        '1h4nevWxJEC0dfC6N6s-R_md_3j3OSrwB/preview', // 8
+      ]
+    },
   ];
   getPeliculas(): Series[] {
     return this.peliculas;
