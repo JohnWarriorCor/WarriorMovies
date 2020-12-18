@@ -37,6 +37,13 @@ import { PeliculaBdService } from './services/pelicula-bd.service';
 import { RegistroService } from './services/registro.service';
 import { PeliculaDvdripBdService } from './services/pelicula-dvdrip-bd.service';
 import { PeliculaMarvelBdService } from './services/pelicula-marvel-bd.service';
+import { environment } from '../environments/environment';
+
+import { AngularFireModule } from '@angular/fire';
+import { AngularFireDatabaseModule } from '@angular/fire/database';
+import { AngularFireAuth } from '@angular/fire/auth';
+import { AngularFireStorageModule } from '@angular/fire/storage';
+import { AngularFirestore } from '@angular/fire/firestore';
 
 @NgModule({
   declarations: [
@@ -72,6 +79,9 @@ import { PeliculaMarvelBdService } from './services/pelicula-marvel-bd.service';
     HttpModule,
     HttpClientModule,
     ReactiveFormsModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFireDatabaseModule,
+    AngularFireStorageModule,
   ],
   providers: [
     NavbarService,
@@ -80,6 +90,7 @@ import { PeliculaMarvelBdService } from './services/pelicula-marvel-bd.service';
     PeliculaDvdripBdService,
     PeliculaMarvelBdService
   ],
+  // providers: [AngularFireAuth, AngularFirestore],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

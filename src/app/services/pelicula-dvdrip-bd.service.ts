@@ -773,22 +773,6 @@ export class PeliculaDvdripBdService {
     },
     {
       idx: 28,
-      titulo: 'outlander - forastera temporada 5',
-      short: 'Outlander',
-      // tslint:disable-next-line:max-line-length
-      sinopsis: 'Sigue la historia de Claire Randall, una enfermera de combate casada de 1945 que misteriosamente es arrastrada en el tiempo hasta 1743, donde es arrojada inmediatamente a un mundo desconocido en el que su vida está amenazada. Cuando se ve obligada a casarse con Jamie Fraser, un joven guerrero escocés caballeroso y romántico, se enciende una relación apasionada que rompe el corazón de Claire entre dos hombres muy diferentes en dos vidas irreconciliables.',
-      img: 'assets/out5.jpg',
-      fecha: '2020-02-16',
-      trailer: '0B2B6bvUeuU',
-      // tslint:disable-next-line:max-line-length
-      drive: ['1FqtDNQ0eBcXyB3UoyNZ4wsbU1-RAiNbW/preview', // 1
-        '1O1YuJrN86oz9wqtEpzIbg999CcrhQ6V1/preview', // 2
-        '1DWGscIZ7AhJ74lPPvWl1I4WCgYmOp37h/preview', // 3
-        '1CGHMb4yDpqU9Bcu-79C17xZvG0WbZGoy/preview', // 4
-      ]
-    },
-    {
-      idx: 29,
       titulo: 'Merlí. Sapere Aude Temporada 1',
       short: 'Merlí. Sapere Aude Temporada 1',
       // tslint:disable-next-line:max-line-length
@@ -805,6 +789,30 @@ export class PeliculaDvdripBdService {
         '1AxX9nkwC1tGE9Oat4HW-xjFzdi68CJdD/preview', // 6
         '1Cc3Q1EQhcUljtd9Lb_V_l8nkitA7IkTW/preview', // 7
         '1h4nevWxJEC0dfC6N6s-R_md_3j3OSrwB/preview', // 8
+      ]
+    },
+    {
+      idx: 29,
+      titulo: 'outlander - forastera temporada 5',
+      short: 'Outlander',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Sigue la historia de Claire Randall, una enfermera de combate casada de 1945 que misteriosamente es arrastrada en el tiempo hasta 1743, donde es arrojada inmediatamente a un mundo desconocido en el que su vida está amenazada. Cuando se ve obligada a casarse con Jamie Fraser, un joven guerrero escocés caballeroso y romántico, se enciende una relación apasionada que rompe el corazón de Claire entre dos hombres muy diferentes en dos vidas irreconciliables.',
+      img: 'assets/out5.jpg',
+      fecha: '2020-02-16',
+      trailer: '0B2B6bvUeuU',
+      // tslint:disable-next-line:max-line-length
+      drive: ['1FqtDNQ0eBcXyB3UoyNZ4wsbU1-RAiNbW/preview', // 1
+        '1O1YuJrN86oz9wqtEpzIbg999CcrhQ6V1/preview', // 2
+        '1DWGscIZ7AhJ74lPPvWl1I4WCgYmOp37h/preview', // 3
+        '1CGHMb4yDpqU9Bcu-79C17xZvG0WbZGoy/preview', // 4
+        '1PdMgrUhyMEgsgxAN6lBJHHBqA-r2tyJ2/preview', // 5
+        '1P2F5vTlyRKj7m07pWyEo54VgnzQEVstn/preview', // 6
+        '1Wt_01h9f1wYrnhY37AcN0CcMLW69504d/preview', // 7
+        '1TUWkmU2HAdsr-ftrfcUMQtsthXQAWoq2/preview', // 8
+        '1Kb5LI74VFG5QK23figMrUP3Mfy1VMa_6/preview', // 9
+        '1Sv6_r003zUZFHoSjdvPlsASGR12108k2/preview', // 10
+        '1FKdha3NOhSFjwmNC1y8yM0vPLbB0iwrO/preview', // 11
+        '1PHlplkggsrH_CwyqThKG1C33pypguVj3/preview', // 12
       ]
     },
   ];
