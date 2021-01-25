@@ -12,8 +12,8 @@ import { Router } from '@angular/router';
   encapsulation: ViewEncapsulation.None,
 })
 export class RegistroComponent implements OnInit {
-  email = 'kevin@example.com';
-  pass = '123456';
+  email = '';
+  pass = '';
   // tslint:disable-next-line:max-line-length
   // tslint:disable-next-line:no-shadowed-variable
   constructor(public auth: AngularFireAuth, private router: Router) {
@@ -33,6 +33,9 @@ export class RegistroComponent implements OnInit {
     this.auth.user.subscribe( res => {
       console.log(res);
     });
+  }
+  passEmail() {
+    this.auth.auth.sendPasswordResetEmail(this.email);
   }
   customLogin() {
     this.auth.auth.signInWithEmailAndPassword(this.email, this.pass)
