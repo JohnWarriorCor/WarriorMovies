@@ -1,6 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { PeliculaBdService, Peliculas } from '../../services/pelicula-bd.service';
 import { Router } from '@angular/router';
+import { AngularFireAuth } from '@angular/fire/auth';
+import { auth } from 'firebase/app';
+import 'firebase/auth';
+import firebase from '@firebase/app';
 import { NavbarService } from '../../services/navbar.service';
 @Component({
   selector: 'app-home',
@@ -12,7 +16,9 @@ export class HomeComponent implements OnInit {
   pageSize = 6;
   peliculas: Peliculas[] = [];
 
-  constructor( public nav: NavbarService, private peliculaService: PeliculaBdService, private router: Router) {}
+  // tslint:disable-next-line:max-line-length
+  // tslint:disable-next-line:no-shadowed-variable
+  constructor( public auth: AngularFireAuth, public nav: NavbarService, private peliculaService: PeliculaBdService, private router: Router) {}
 
   ngOnInit() {
     this.peliculas = this.peliculaService.getPeliculas();

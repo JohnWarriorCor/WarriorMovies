@@ -1,11 +1,9 @@
 import { Component, OnInit, ViewEncapsulation  } from '@angular/core';
-import { formatDate } from '@angular/common';
-import { Router, ActivatedRoute} from '@angular/router';
-import { NavbarService } from '../../services/navbar.service';
-
-import { FormGroup, NgForm, FormControl, Validators, FormArray } from '@angular/forms';
-import { RegistroService } from '../../services/registro.service';
-import { Registros } from '../../interfaces/registros';
+import { AngularFireAuth } from '@angular/fire/auth';
+import { auth } from 'firebase/app';
+import 'firebase/auth';
+import firebase from '@firebase/app';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-registro',
@@ -14,59 +12,33 @@ import { Registros } from '../../interfaces/registros';
   encapsulation: ViewEncapsulation.None,
 })
 export class RegistroComponent implements OnInit {
-  key: any;
-  error = false;
-  forma: FormGroup;
-  controls: any;
-  nuevo = false;
-  id: string;
-  cond1: Registros = {
-    nombre: '',
-    sugerencia: '',
-    fechaIngreso: '',
-  };
-  // FECHA
-  formato = 1000 * 60 * 60 * 24;
-  today = new Date();
-  jstoday = '';
+  email = 'kevin@example.com';
+  pass = '123456';
   // tslint:disable-next-line:max-line-length
-  constructor(public nav: NavbarService, private _CONDICIONSERVICES: RegistroService, private router: Router, private activatedRoute: ActivatedRoute) {
-    this.jstoday = '' + this.today;
-    this.activatedRoute.params.subscribe( parametros => {
-      console.log(this.jstoday);
-      this.id = parametros.id;
-      if ( this.id !== 'nuevo' ) {
-        console.log('2');
-        this._CONDICIONSERVICES.getInvocador( this.id ).subscribe(cond1 => this.cond1 = cond1);
-      }
-    });
+  // tslint:disable-next-line:no-shadowed-variable
+  constructor(public auth: AngularFireAuth, private router: Router) {
   }
 
   ngOnInit() {
-    this.nav.hide();
-    this.cond1.fechaIngreso = this.jstoday;
   }
-  guardar() {
-    this.key = this.cond1.nombre.toUpperCase();
-    // tslint:disable-next-line:max-line-length
-    if ( this.key === 'AURORA' || this.key === 'CARLOSBER' || this.key === 'JOHNGOMEZ' || this.key === 'JEANMA' || this.key === 'MILTONGUERRERO' || this.key === 'YENI' || this.key === 'KAROL' || this.key === 'NANA' || this.key === 'MAMANO' || this.key === 'NANI' || this.key === 'DIANA' || this.key === 'ARLYN') {
-      if ( this.id === 'nuevo' ) {
-        this._CONDICIONSERVICES.nuevoInvocador(this.cond1 ).subscribe(data => {
-          this.router.navigate(['/home']);
-        },
-        error => console.error(error));
-      } else {
-        this._CONDICIONSERVICES.actualizarInvocador( this.cond1, this.id ).subscribe(data => {
-          this.router.navigate(['/home']);
-        },
-        error => console.error(error));
-      }
-    } else {
-      this.error = true;
-    }
+
+  loginWith() {
+    // tslint:disable-next-line:new-parens
+    this.auth.auth.signInWithPopup(new auth.GoogleAuthProvider);
   }
-  agregarNuevo( forma: NgForm) {
-    this.router.navigate(['/registro', 'nuevo']);
-    forma.reset({});
+  logout() {
+    this.auth.auth.signOut();
+  }
+  showData() {
+    this.auth.user.subscribe( res => {
+      console.log(res);
+    });
+  }
+  customLogin() {
+    this.auth.auth.signInWithEmailAndPassword(this.email, this.pass)
+    .then( res => {
+      console.log(res);
+    })
+    .catch(err => console.log('Error cl:', err));
   }
 }

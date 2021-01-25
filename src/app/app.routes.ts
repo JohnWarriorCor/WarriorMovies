@@ -11,10 +11,13 @@ import { DvdripHomeComponent } from './components/home/dvdrip-home.component';
 import { RegistroComponent } from './components/registro/registro.component';
 import { TablaRegistrosComponent } from './components/registro/tabla-registros.component';
 import { InicioComponent } from './components/registro/inicio.component';
+import { AngularFireAuthGuard } from '@angular/fire/auth-guard';
+import { AuthGuard } from './guards/auth.guard';
+
 
 const routes: Routes = [
-    { path: 'home', component: HomeComponent },
-    { path: 'registro/:id', component: RegistroComponent },
+    { path: 'home', component: HomeComponent},
+    { path: 'registro', component: RegistroComponent },
     { path: 'inicio', component: InicioComponent },
     { path: 't', component: TablaRegistrosComponent },
     { path: 'marvelHome', component: MarvelHomeComponent },

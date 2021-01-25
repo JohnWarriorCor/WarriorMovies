@@ -1168,6 +1168,34 @@ export class PeliculaBdService {
       // tslint:disable-next-line:max-line-length
       tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
     },
+    {
+      idx : 83,
+      titulo: 'Wonder Woman 1984',
+      short: 'Wonder Woman 1984',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Regrese a la década de 1980 cuando la próxima aventura de Wonder Woman en la pantalla grande la encuentre enfrentando a dos enemigos completamente nuevos: Max Lord y The Cheetah.',
+      img: 'assets/ww1984.jpg',
+      tirilla: 'assets/dvd.png',
+      fecha: '2020-12-25',
+      trailer: 'XW2E2Fnh52w',
+      drive: '1Khp-KFJHXejMA3ZfmWa4hj8JJJR1JYAl/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
+    {
+      idx : 84,
+      titulo: 'Soul',
+      short: 'Soul',
+      // tslint:disable-next-line:max-line-length
+      sinopsis: 'Joe es un profesor de banda en la escuela secundaria cuya vida no ha salido como esperaba. Su verdadera pasión es el jazz, y es bueno. Pero cuando viaja a otro reino para ayudar a alguien a encontrar su pasión, pronto descubre lo que significa tener alma.',
+      img: 'assets/soul.jpg',
+      tirilla: 'assets/dvd.png',
+      fecha: '2020-12-25',
+      trailer: 'qotNwJYXnTI',
+      drive: '1_HURX8-AbIkaaFTLuKwJnZbkBO9ckPKU/preview',
+      // tslint:disable-next-line:max-line-length
+      tvshow: 'https://r4---sn-cvb7ln7e.c.drive.google.com/videoplayback?expire=1575338138&ei=WojlXc-uA8rm-QW_nougCg&ip=167.249.43.48&cp=QVNMV0RfV1FRSVhOOmlHWjg2aEFLUTY0U3ZVdXVkcmtZOHBlZFdCV01zUmJ2c3hqWTdWWlhfd2o&id=6e44e17a7b85bc39&itag=18&source=webdrive&requiressl=yes&mm=30&mn=sn-cvb7ln7e&ms=nxu&mv=u&mvi=3&pl=24&ttl=transient&susc=dr&driveid=1DlC1xYTAFHmaTxQa6g49IzB21EEYLhBB&app=explorer&mime=video/mp4&dur=10161.702&lmt=1574197768812112&mt=1575322820&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,dur,lmt&sig=ALgxI2wwRgIhAJWYEk2UJu7vu7hjhKs4mygo3VcTkXhwhovoi3WVjTYMAiEAxQewsMk6hv7XDKbVwUBS0uM0cUJmRc4M1deyzWbWILM=&lsparams=mm,mn,ms,mv,mvi,pl&lsig=AHylml4wRQIgfAw0o9C4WrhTdulNxjW4ziDuBTSjpIISScC29BInP5ECIQDUMtB9-LtmAfG0tuHJEXrr9uf3PUvoSHVovvG0lPwhaQ==&cpn=d-8LWxQbU3lIy4tV&c=WEB_EMBEDDED_PLAYER&cver=20191128'
+    },
   ];
   getPeliculas(): Peliculas[] {
     return this.peliculas;

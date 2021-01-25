@@ -1,26 +1,34 @@
 import { Injectable } from '@angular/core';
-import { CanActivate, ActivatedRouteSnapshot, RouterStateSnapshot, Router } from '@angular/router';
+import { CanActivate, ActivatedRouteSnapshot, RouterStateSnapshot, UrlTree, Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { AngularFireAuth } from '@angular/fire/auth';
-import { take, map, tap } from 'rxjs/operators';
-
+import { delay, tap , take, map, first, switchMap} from 'rxjs/internal/operators';
+// import 'rxjs/add/operator/do';
+// import 'rxjs/add/operator/map';
+// import 'rxjs/add/operator/take';
 
 @Injectable({
   providedIn: 'root'
 })
-export class AuthGuard implements  CanActivate {
-  constructor(private afsAuth: AngularFireAuth, private router: Router) { }
-  canActivate(
-    next: ActivatedRouteSnapshot,
-    state: RouterStateSnapshot): Observable<boolean> | Promise<boolean> | boolean {
+export class AuthGuard implements CanActivate {
 
-    return this.afsAuth.authState
-      .pipe(take(1))
-      .pipe(map(authState => !!authState))
-      .pipe(tap(auth => {
-        if (!auth) {
-          this.router.navigate(['/user/login']);
-        }
-      }));
+  constructor(
+    private auth: AngularFireAuth,
+    private router: Router) { }
+    canActivate() {
+
+      return this.auth.authState.pipe(
+        take(1),
+        switchMap(async (authState) => {
+            if (authState) {
+                return true;
+            } else {
+                console.log('No autenticado');
+                this.router.navigate(['/auth/login']);
+                return false;
+            }
+        }),
+    );
+
   }
 }

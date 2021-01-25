@@ -37,13 +37,18 @@ import { PeliculaBdService } from './services/pelicula-bd.service';
 import { RegistroService } from './services/registro.service';
 import { PeliculaDvdripBdService } from './services/pelicula-dvdrip-bd.service';
 import { PeliculaMarvelBdService } from './services/pelicula-marvel-bd.service';
+import { LoginComponent } from './components/admin/login/login.component';
+import { RegisterComponent } from './components/admin/register/register.component';
+import { ProfileComponent } from './components/admin/profile/profile.component';
+
+
 import { environment } from '../environments/environment';
 
 import { AngularFireModule } from '@angular/fire';
-import { AngularFireDatabaseModule } from '@angular/fire/database';
-import { AngularFireAuth } from '@angular/fire/auth';
-import { AngularFireStorageModule } from '@angular/fire/storage';
-import { AngularFirestore } from '@angular/fire/firestore';
+import { AngularFireAuthModule } from '@angular/fire/auth';
+import { AngularFireAuthGuardModule  } from '@angular/fire/auth-guard';
+
+
 
 @NgModule({
   declarations: [
@@ -68,7 +73,10 @@ import { AngularFirestore } from '@angular/fire/firestore';
     RegistroComponent,
     TablaRegistrosComponent,
     InicioComponent,
-    KeysPipe
+    KeysPipe,
+    LoginComponent,
+    RegisterComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
@@ -79,9 +87,12 @@ import { AngularFirestore } from '@angular/fire/firestore';
     HttpModule,
     HttpClientModule,
     ReactiveFormsModule,
+
+
+
     AngularFireModule.initializeApp(environment.firebaseConfig),
-    AngularFireDatabaseModule,
-    AngularFireStorageModule,
+    AngularFireAuthModule,
+    AngularFireAuthGuardModule
   ],
   providers: [
     NavbarService,

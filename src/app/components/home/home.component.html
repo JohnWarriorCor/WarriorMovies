@@ -6,4 +6,5 @@
       <app-tarjeta-peliculas (peliculaSeleccionado)="verPelicula( $event )" [pelicula]="foo" [index]="i" *ngFor="let foo of peliculas | invertir | slice: (page-1) * pageSize : (page-1) * pageSize + pageSize ; let i = index"></app-tarjeta-peliculas>
   </div>
   <ngb-pagination class="d-flex justify-content-center" [collectionSize]="(((peliculas).length/6)*10)" [(page)]="page" [maxSize]="5" [boundaryLinks]="true"></ngb-pagination>
+  <button *ngIf="auth.user | async" class="btn btn-danger">Editar</button>
 </div>
