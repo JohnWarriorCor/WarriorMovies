@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { LOCALE_ID, NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
@@ -7,31 +7,29 @@ import { AppRoutes } from './app.routes';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { HeaderComponent } from './components/shared/header/header.component';
-import { PeliculasComponent } from './components/peliculas/peliculas.component';
-import { TarjetaPeliculasComponent } from './components/tarjeta-peliculas/tarjeta-peliculas.component';
+import { PeliculasComponent } from './components/pages/peliculas/peliculas.component';
+import { TarjetaPeliculasComponent } from './components/pages/tarjeta-peliculas/tarjeta-peliculas.component';
 import { DomseguroPipe } from './pipes/domseguro.pipe';
-import { NavbarComponent } from './components/shared/navbar/navbar.component';
-import { MarvelTarjetaComponent } from './components/tarjeta-peliculas/marvel-tarjeta.component';
+import { MarvelTarjetaComponent } from './components/pages/tarjeta-peliculas/marvel-tarjeta.component';
 import { MarvelHomeComponent } from './components/home/marvel-home.component';
-import { MarvelComponent } from './components/peliculas/marvel.component';
+import { MarvelComponent } from './components/pages/peliculas/marvel.component';
 import { RouterModule } from '@angular/router';
 import { BuscadorComponent } from './components/buscador/buscador.component';
 import { DvdripHomeComponent } from './components/home/dvdrip-home.component';
-import { DvdripComponent } from './components/peliculas/dvdrip.component';
-import { TarjetaDvdripComponent } from './components/tarjeta-peliculas/tarjeta-dvdrip.component';
+import { DvdripComponent } from './components/pages/peliculas/dvdrip.component';
+import { TarjetaDvdripComponent } from './components/pages/tarjeta-peliculas/tarjeta-dvdrip.component';
 import { BuscadorMarvelComponent } from './components/buscador/buscador-marvel.component';
 import { BuscadorDVDComponent } from './components/buscador/buscador-dvd.component';
 import { InvertirPipe } from './pipes/invertir.pipe';
-import { RegistroComponent } from './components/registro/registro.component';
-import { TablaRegistrosComponent } from './components/registro/tabla-registros.component';
+import { RegistroComponent } from './components/pages/registro/registro.component';
+import { TablaRegistrosComponent } from './components/pages/registro/tabla-registros.component';
 import { NavbarService } from './services/navbar.service';
 import { FormsModule } from '@angular/forms';
 
 import { HttpClientModule } from '@angular/common/http';
 import { HttpModule } from '@angular/http';
 import { ReactiveFormsModule } from '@angular/forms';
-import { Routes } from '@angular/router';
-import { InicioComponent } from './components/registro/inicio.component';
+import { InicioComponent } from './components/pages/registro/inicio.component';
 import { KeysPipe } from './pipes/keys.pipe';
 import { PeliculaBdService } from './services/pelicula-bd.service';
 import { RegistroService } from './services/registro.service';
@@ -41,13 +39,22 @@ import { LoginComponent } from './components/admin/login/login.component';
 import { RegisterComponent } from './components/admin/register/register.component';
 import { ProfileComponent } from './components/admin/profile/profile.component';
 
+// Toast
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ToastrModule } from 'ngx-toastr';
+import { CommonModule } from '@angular/common';
 
+import localeEsCO from '@angular/common/locales/es-CO';
+// Autenticacion Firebase
 import { environment } from '../environments/environment';
-
 import { AngularFireModule } from '@angular/fire';
+import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { AngularFireAuthGuardModule  } from '@angular/fire/auth-guard';
-
+import { registerLocaleData } from '@angular/common';
+import { PeliculaeditComponent } from './components/admin/peliculaedit/peliculaedit.component';
+// registrar los locales con el nombre que quieras utilizar a la hora de proveer
+registerLocaleData(localeEsCO, 'es-CO');
 
 
 @NgModule({
@@ -59,7 +66,6 @@ import { AngularFireAuthGuardModule  } from '@angular/fire/auth-guard';
     PeliculasComponent,
     TarjetaPeliculasComponent,
     DomseguroPipe,
-    NavbarComponent,
     MarvelTarjetaComponent,
     MarvelHomeComponent,
     MarvelComponent,
@@ -76,7 +82,8 @@ import { AngularFireAuthGuardModule  } from '@angular/fire/auth-guard';
     KeysPipe,
     LoginComponent,
     RegisterComponent,
-    ProfileComponent
+    ProfileComponent,
+    PeliculaeditComponent
   ],
   imports: [
     BrowserModule,
@@ -87,21 +94,18 @@ import { AngularFireAuthGuardModule  } from '@angular/fire/auth-guard';
     HttpModule,
     HttpClientModule,
     ReactiveFormsModule,
-
-
-
+    AngularFireDatabaseModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireAuthModule,
-    AngularFireAuthGuardModule
+    AngularFireAuthGuardModule,
+    BrowserAnimationsModule,
+    ToastrModule.forRoot(),
+    CommonModule,
   ],
   providers: [
-    NavbarService,
-    PeliculaBdService,
-    RegistroService,
-    PeliculaDvdripBdService,
-    PeliculaMarvelBdService
+    { provide: LOCALE_ID, useValue: 'es-CO' },
   ],
-  // providers: [AngularFireAuth, AngularFirestore],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [NO_ERRORS_SCHEMA]
 })
 export class AppModule { }

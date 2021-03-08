@@ -1,19 +1,19 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Router } from '@angular/router';
-import { PeliculaBdService, Peliculas } from '../../services/pelicula-bd.service';
+import { PeliculaDvdripBdService, Series } from '../../../services/pelicula-dvdrip-bd.service';
 
 @Component({
-  selector: 'app-peliculas',
-  templateUrl: './peliculas.component.html',
-  styleUrls: ['./peliculas.component.css']
+  selector: 'app-dvdrip',
+  templateUrl: './dvdrip.component.html',
+  styleUrls: ['./dvdrip.component.css']
 })
-export class PeliculasComponent implements OnInit {
+export class DvdripComponent implements OnInit {
 
   pelicula: any = {};
-  peliculas: Peliculas[] = [];
+  peliculas: Series[] = [];
 
-  constructor( private activatedRoute: ActivatedRoute, private peliculaService: PeliculaBdService, private router: Router) {
+  constructor( private activatedRoute: ActivatedRoute, private peliculaService: PeliculaDvdripBdService, private router: Router) {
     this.activatedRoute.params.subscribe( params => {
       this.pelicula = this.peliculaService.getPelicula(params.id);
     });
@@ -27,4 +27,5 @@ export class PeliculasComponent implements OnInit {
   up() {
     window.scroll(0, 0);
   }
+
 }

@@ -1,6 +1,6 @@
 import { Component} from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { PeliculaMarvelBdService } from '../../services/pelicula-marvel-bd.service';
+import { PeliculaMarvelBdService } from '../../../services/pelicula-marvel-bd.service';
 
 @Component({
   selector: 'app-marvel',

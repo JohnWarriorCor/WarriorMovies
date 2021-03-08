@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, ViewEncapsulation } from '@angular/core';
-import { RegistroService } from '../../services/registro.service';
-import { NavbarService } from '../../services/navbar.service';
+import { RegistroService } from '../../../services/registro.service';
+import { NavbarService } from '../../../services/navbar.service';
 
 @Component({
   selector: 'app-tabla-registros',

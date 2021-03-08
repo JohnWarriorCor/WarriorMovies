@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { NavbarService } from '../../services/navbar.service';
-import { PeliculaBdService, Peliculas } from '../../services/pelicula-bd.service';
-import { PeliculaDvdripBdService, Series } from '../../services/pelicula-dvdrip-bd.service';
+import { NavbarService } from '../../../services/navbar.service';
+import { PeliculaBdService, Peliculas } from '../../../services/pelicula-bd.service';
+import { PeliculaDvdripBdService, Series } from '../../../services/pelicula-dvdrip-bd.service';
 import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({

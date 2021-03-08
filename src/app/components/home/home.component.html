@@ -1,10 +1,131 @@
 <div class="container">
-  <br>
-  <ngb-pagination class="d-flex justify-content-center" [collectionSize]="(((peliculas).length/6)*10)" [(page)]="page" [maxSize]="5" [boundaryLinks]="true"></ngb-pagination>
-  <div class="card-columns scale-in-center" id="up">
-      <!-- *ngFor="let heroe of heroes; let i = index" -->
-      <app-tarjeta-peliculas (peliculaSeleccionado)="verPelicula( $event )" [pelicula]="foo" [index]="i" *ngFor="let foo of peliculas | invertir | slice: (page-1) * pageSize : (page-1) * pageSize + pageSize ; let i = index"></app-tarjeta-peliculas>
+  <br />
+  <div class="row row-cols-1 row-cols-md-3" id="up">
+    <div class="col mb-4" *ngFor="let pelicula of sortData; let i = index">
+      <div
+      class="card animated fadeIn fast"
+      style="background-color: black; margin-top: 20px"
+    >
+      <img
+        loading="lazy"
+        [routerLink]="['/pelicula', pelicula.key]"
+        class="card-img-top img-fluid"
+        style="position: absolute; z-index: 1"
+        [src]="pelicula.calidad"
+        alt="Calidad"
+      />
+      <img
+        loading="lazy"
+        [routerLink]="['/pelicula', pelicula.key]"
+        class="card-img-top img-fluid"
+        [src]="pelicula.img"
+        [alt]="pelicula.titulo"
+        [title]="pelicula.titulo"
+      />
+      <div class="card-body text-center">
+        <hr style="border: solid 0.8px orangered" />
+        <h4
+          class="card-title text-uppercase"
+          style="color: orangered"
+          tooltipClass="my-custom-class"
+          ngbTooltip="{{ pelicula.tituloResumido }}"
+        >
+          {{ pelicula.titulo }}
+        </h4>
+        <h5 class="card-text text-uppercase" style="color: yellow">
+          <i class="far fa-calendar-alt"></i>
+          {{ pelicula.fecha | date: "dd/MM/yyyy" }}
+        </h5>
+        <hr style="border: solid 0.8px white" />
+        <ng-template #content let-modal>
+          <div class="modal-header" style="background-color: #283747">
+            <h4 class="modal-title text-white text-uppercase">
+              <i class="fas fa-film"></i> Trailer -
+              {{ pelicula.tituloResumido }}
+              <i class="fas fa-film"></i>
+            </h4>
+            <button
+              class="btn botonTrailer"
+              aria-label="Close"
+              (click)="modal.dismiss('Cross click')"
+            >
+              <i class="far fa-times-circle"></i>
+            </button>
+          </div>
+          <div class="modal-body" style="background-color: black;">
+            <iframe
+              width="100%"
+              height="350px"
+              [src]="
+                pelicula.trailer | domseguro: 'https://www.youtube.com/embed/'
+              "
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe
+            ><br /><br />
+          </div>
+        </ng-template>
+        <h6 style="color: white" class="text-uppercase">
+          <i class="fas fa-film"></i> Trailer
+        </h6>
+        <button
+          class="botonTrailer"
+          style="outline: none; border: 0"
+          (click)="openLg(content)"
+        >
+          <i class="fab fa-youtube fa-6x"></i>
+        </button>
+        <hr style="border: solid 0.8px white" />
+        <ngb-rating [(rate)]="pelicula.puntuacion" [readonly]="true">
+          <ng-template
+            let-fill="fill"
+            let-index="index"
+          >
+            <span class="star" [class.filled]="fill === 100"
+              >&#9733;</span
+            >
+          </ng-template>
+        </ngb-rating>
+        <hr style="border: solid 0.8px white" />
+        <button
+          [routerLink]="['/pelicula', pelicula.key]"
+          type="button"
+          class="btn btn-primary btn-block"
+        >
+          <i class="fas fa-ticket-alt"></i> Ver pelíucla...
+        </button>
+      </div>
+    </div>
+    </div>
   </div>
-  <ngb-pagination class="d-flex justify-content-center" [collectionSize]="(((peliculas).length/6)*10)" [(page)]="page" [maxSize]="5" [boundaryLinks]="true"></ngb-pagination>
-  <button *ngIf="auth.user | async" class="btn btn-danger">Editar</button>
+  <br />
+  <!--<ngb-pagination
+    class="d-flex justify-content-center"
+    [collectionSize]="(peliculas.length / 6) * 10"
+    [(page)]="page"
+    [maxSize]="5"
+    [boundaryLinks]="true"
+  ></ngb-pagination>
+  <div class="card-columns scale-in-center" id="up">
+    *ngFor="let heroe of heroes; let i = index"
+    <app-tarjeta-peliculas
+      (peliculaSeleccionado)="verPelicula($event)"
+      [pelicula]="foo"
+      [index]="i"
+      *ngFor="
+        let foo of peliculas
+          | invertir
+          | slice: (page - 1) * pageSize:(page - 1) * pageSize + pageSize;
+        let i = index
+      "
+    ></app-tarjeta-peliculas>
+  </div>
+  <ngb-pagination
+    class="d-flex justify-content-center"
+    [collectionSize]="(peliculas.length / 6) * 10"
+    [(page)]="page"
+    [maxSize]="5"
+    [boundaryLinks]="true"
+  ></ngb-pagination>-->
 </div>

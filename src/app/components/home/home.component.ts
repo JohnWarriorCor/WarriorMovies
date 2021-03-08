@@ -6,6 +6,11 @@ import { auth } from 'firebase/app';
 import 'firebase/auth';
 import firebase from '@firebase/app';
 import { NavbarService } from '../../services/navbar.service';
+import { PeliculaService } from '../../services/pelicula.service';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import 'firebase/auth';
+import { ToastrService } from 'ngx-toastr';
+import { map } from 'rxjs/operators';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -14,15 +19,33 @@ import { NavbarService } from '../../services/navbar.service';
 export class HomeComponent implements OnInit {
   page = 1;
   pageSize = 6;
-  peliculas: Peliculas[] = [];
+  peliculas: any;
 
   // tslint:disable-next-line:max-line-length
-  // tslint:disable-next-line:no-shadowed-variable
-  constructor( public auth: AngularFireAuth, public nav: NavbarService, private peliculaService: PeliculaBdService, private router: Router) {}
-
+  constructor( private toastr: ToastrService, private modalService: NgbModal, private peliculaService: PeliculaService, private router: Router) {}
+  get sortData() {
+    return this.peliculas.sort((a, b) => {
+      // tslint:disable-next-line:whitespace
+      // tslint:disable-next-line:no-angle-bracket-type-assertion
+      return <any> new Date(b.fecha) - <any> new Date(a.fecha);
+    });
+  }
+  obtenerPeliculas(): void {
+    this.peliculaService.getAll().snapshotChanges().pipe(
+      map(changes =>
+        changes.map(c =>
+          ({ key: c.payload.key, ...c.payload.val() })
+        )
+      )
+    ).subscribe(data => {
+      this.peliculas = data;
+    });
+  }
   ngOnInit() {
-    this.peliculas = this.peliculaService.getPeliculas();
-    this.nav.show();
+    this.obtenerPeliculas();
+  }
+  openLg(content) {
+    this.modalService.open(content, { size: 'lg', windowClass: 'dark-modal', centered: true });
   }
 
   verPelicula( idx: number ) {

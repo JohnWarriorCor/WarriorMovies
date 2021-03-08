@@ -1,0 +1,15 @@
+.star {
+  font-size: 1.5rem;
+  color: #b0c4de;
+}
+.filled {
+  color: #ffee00;
+}
+.botonTrailer {
+  background-color: black;
+  color: rgb(224, 224, 224);
+}
+.botonTrailer:hover {
+  background-color: black;
+  color: white;
+}
