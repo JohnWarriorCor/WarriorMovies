@@ -1,7 +1,7 @@
 export interface Pelicula {
     titulo: string;
     tituloResumido: string;
-    sinopsis: string;
+    sinopsis: any;
     puntuacion: any;
     img: string;
     fecha: string;

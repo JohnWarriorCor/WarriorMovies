@@ -105,14 +105,7 @@
                 <div class="row m-2">
                   <div class="col">
                     <h6 class="text-left">Sinopsis:</h6>
-                    <textarea
-                      maxlength="6500"
-                      name="sinopsis"
-                      [(ngModel)]="pelicula.sinopsis"
-                      class="form-control shadow p-3"
-                      placeholder="Síntesis o información relavante del evento ..."
-                      rows="5"
-                    ></textarea>
+                    <angular-editor [placeholder]="'Enter text here...'" [config]="config" name="sinopsis" [(ngModel)]="pelicula.sinopsis" imageEndPoint="https://firebasestorage.googleapis.com/v0/b/johnwarriormovies.appspot.com/o/"></angular-editor>
                   </div>
                 </div>
                 <div class="row m-2">

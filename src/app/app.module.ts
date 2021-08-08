@@ -26,7 +26,6 @@ import { TablaRegistrosComponent } from './components/pages/registro/tabla-regis
 import { NavbarService } from './services/navbar.service';
 import { FormsModule } from '@angular/forms';
 
-import { HttpClientModule } from '@angular/common/http';
 import { HttpModule } from '@angular/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { InicioComponent } from './components/pages/registro/inicio.component';
@@ -55,6 +54,9 @@ import { registerLocaleData } from '@angular/common';
 import { PeliculaeditComponent } from './components/admin/peliculaedit/peliculaedit.component';
 // registrar los locales con el nombre que quieras utilizar a la hora de proveer
 registerLocaleData(localeEsCO, 'es-CO');
+
+import { HttpClientModule} from '@angular/common/http';
+import { AngularEditorModule } from '@kolkov/angular-editor';
 
 
 @NgModule({
@@ -87,6 +89,8 @@ registerLocaleData(localeEsCO, 'es-CO');
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
+    AngularEditorModule,
     AppRoutes,
     NgbModule,
     RouterModule,

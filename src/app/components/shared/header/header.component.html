@@ -1,4 +1,16 @@
-<header class="all header" style="background-color: black">
+<div>
+  <section id="sp-top-bar" style="background-color: #36498f">
+    <div class="container">
+      <div class="row" style="color: aliceblue">
+        <div class="col">{{ today | date: "fullDate" | titlecase }}</div>
+        <div class="col text-right">
+          <h6><i class="far fa-envelope"></i> John Warrior Movies</h6>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<div id="sp-logo-wrap" style="background-color: black">
   <div class="container">
     <div class="row align-items-center">
       <div class="col text-center">
@@ -12,69 +24,75 @@
       </div>
     </div>
   </div>
-</header>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <button
-    class="navbar-toggler"
-    type="button"
-    data-toggle="collapse"
-    data-target="#navbarSupportedContent"
-    aria-controls="navbarSupportedContent"
-    aria-expanded="false"
-    aria-label="Toggle navigation"
-  >
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto text-uppercase">
-      <li class="nav-item">
-        <a
-          class="nav-link text-uppercase"
-          [routerLink]="['/home']"
-          routerLinkActive="router-link-active"
-          >Películas</a
-        >
-      </li>
-      <li class="nav-item">
-        <a
-          class="nav-link text-uppercase"
-          [routerLink]="['/dvdHome']"
-          routerLinkActive="router-link-active"
-          >SERIES</a
-        >
-      </li>
-      <li class="nav-item" *ngIf="auth.user | async">
-        <a
-          class="nav-link text-uppercase"
-          [routerLink]="['/admi_peliculaedit', 'nuevo']"
-          routerLinkActive="router-link-active"
-          >Publicar Película</a
-        >
-      </li>
-      <li class="menu__group">
-        <ng-template #showLogin>
+</div>
+<header class="header">
+  <nav class="navbar navbar-expand-lg menu" style="background-color: #283747">
+    <button
+      class="navbar-toggler navlinkin"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto menu__list text-uppercase">
+        <li class="menu__group">
           <a
             style="padding: 10px"
-            routerLinkActive="router-link-active"
             class="nav-link menu__link"
-            (click)="openSm(formAdmin)"
-            ><i class="fas fa-lock"></i> Ingresar</a
+            [routerLink]="['/inicio']"
+            routerLinkActive="router-link-active"
+            ><i class="fas fa-home"></i> Inicio</a
           >
-        </ng-template>
-        <a
-          *ngIf="auth.user | async; else showLogin"
-          style="padding: 10px"
-          routerLinkActive="router-link-active"
-          class="nav-link menu__link cursorSelect"
-          (click)="logout()"
-          ><i class="fas fa-door-open"></i> Salir</a
-        >
-      </li>
-    </ul>
-  </div>
-</nav>
+        </li>
+        <li class="menu__group">
+          <a
+            style="padding: 10px"
+            class="nav-link menu__link"
+            [routerLink]="['/dvdHome']"
+            routerLinkActive="router-link-active"
+            >SERIES</a
+          >
+        </li>
+        <li class="menu__group" *ngIf="auth.user | async">
+          <a
+            style="padding: 10px"
+            class="nav-link menu__link"
+            [routerLink]="['/admi_peliculaedit', 'nuevo']"
+            routerLinkActive="router-link-active"
+            >Publicar Película</a
+          >
+        </li>
+        <li class="menu__group">
+          <ng-template #showLogin>
+            <a
+              style="padding: 10px"
+              routerLinkActive="router-link-active"
+              class="nav-link menu__link"
+              (click)="openSm(formAdmin)"
+              ><i class="fas fa-lock"></i> Ingresar</a
+            >
+          </ng-template>
+          <a
+            *ngIf="auth.user | async; else showLogin"
+            style="padding: 10px"
+            routerLinkActive="router-link-active"
+            class="nav-link menu__link cursorSelect"
+            (click)="logout()"
+            ><i class="fas fa-door-open"></i> Salir</a
+          >
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
 <ng-template #formAdmin let-modal>
-  <div class="modal-header" style="background-color: darkblue;">
+  <div class="modal-header" style="background-color: darkblue">
     <h4 class="modal-title text-white">
       <i class="fas fa-user-cog"></i> Administrar:
     </h4>
